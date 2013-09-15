@@ -89,6 +89,9 @@
             android:title="@string/selinux_title"
             android:defaultValue="false" />
 
+    <Preference android:key="restart_systemui"
+            android:title="@string/restart_systemui" />
+
     <PreferenceCategory android:key="debug_debugging_category"
             android:title="@string/debug_debugging_category">
 
