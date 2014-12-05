@@ -17,6 +17,7 @@
 package com.android.settings.deviceinfo;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
 import android.content.ClipboardManager;
@@ -37,6 +38,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
@@ -44,6 +46,8 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.Toast;
 
+import com.android.internal.telephony.Phone;
+import com.android.internal.telephony.PhoneFactory;
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -83,7 +87,10 @@ public class Status extends PreferenceActivity {
     private static final int EVENT_UPDATE_CONNECTIVITY = 600;
 
     private ConnectivityManager mCM;
+    private TelephonyManager mTelephonyManager;
     private WifiManager mWifiManager;
+
+    private Phone mPhone = null;
 
     private Resources mRes;
 
@@ -184,6 +191,16 @@ public class Status extends PreferenceActivity {
         mUnknown = mRes.getString(R.string.device_info_default);
         mUnavailable = mRes.getString(R.string.status_unavailable);
 
+        ActionBar actionBar = getActionBar();
+        if (actionBar != null) {
+            // android.R.id.home will be triggered in onOptionsItemSelected()
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
+        if (UserHandle.myUserId() == UserHandle.USER_OWNER &&
+                (!isMultiSimEnabled())) {
+            mPhone = PhoneFactory.getDefaultPhone();
+        }
         // Note - missing in zaku build, be careful later...
         mUptime = findPreference("up_time");
 
@@ -239,14 +256,14 @@ public class Status extends PreferenceActivity {
             });
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return false;
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        if (item.getItemId() == android.R.id.home) {
+//            finish();
+//            return true;
+//        }
+//        return false;
+//    }
 
     @Override
     protected void onResume() {
@@ -368,5 +385,28 @@ public class Status extends PreferenceActivity {
         int h = (int)((t / 3600));
 
         return h + ":" + pad(m) + ":" + pad(s);
+    }
+
+    private boolean isMultiSimEnabled() {
+        return (TelephonyManager.getDefault().getPhoneCount() > 1);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        final int itemId = item.getItemId();
+        switch (itemId) {
+            case android.R.id.home:
+                goUpToTopLevelSetting(this);
+                return true;
+            default:
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * Finish current Activity and go up to the top level Settings.
+     */
+    private static void goUpToTopLevelSetting(Activity activity) {
+        activity.finish();
     }
 }

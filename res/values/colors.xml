@@ -19,6 +19,7 @@
     <color name="red">#F00</color>
 
     <color name="material_empty_color_light">#FFCED7DB</color>
+    <color name="actionbar_icon_color">#ffffff</color>
 
     <color name="memory_used">#F00</color>
     <color name="memory_avail">@color/material_empty_color_light</color>
@@ -79,5 +80,9 @@
 
     <color name="wifi_divider">#ffe0e0e0</color>
     <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
+
+    <!-- DSLV colors -->
+    <color name="dslv_icon_dark">#ff009688</color>
+    <color name="dslv_float_cackground_color">#ffe1e1e0</color>
 
 </resources>
