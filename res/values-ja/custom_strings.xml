@@ -14,6 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom settings  -->
+    <string name="custom_settings_title">カスタマイズ</string>
+
+    <!-- Button settings  -->
+    <string name="button_settings_title">ボタン</string>
+    
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">ビルドバージョン</string>
     <string name="mod_version_default">不明</string>
@@ -25,10 +31,32 @@
     <string name="mem_info">メモリ</string>
     <!-- About phone screen, status item label -->
     
-    <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">ウェイクアップ</string>
+    <!-- Advanced category -->
+    <string name="category_advanced_options_title">詳細設定</string>
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">充電時にウェイクアップ</string>
     <string name="wakeup_when_plugged_unplugged_summary">電源の接続/切断時に画面をオンにする</string>
+    
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">サンプル</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">タスクキル遅延</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU情報を表示</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
+
+    <!--Status bar -->
+    <string name="status_bar_category">ステータスバー</string>
+    <string name="status_bar_battery_show_percent_title">電池残量をパーセント表示</string>
+    <string name="lockscreen_show_carrier_title">ロック画面キャリアラベル</string>
+
+    <!--Power menu -->
+    <string name="power_category">電源キー</string>
+    <string name="lockscreen_enable_power_menu_title">ロック画面でも電源メニューを表示</string>
+    <string name="lockscreen_enable_power_menu_summary">このオプションはセキュアなロック画面では無効です</string>
 </resources>
