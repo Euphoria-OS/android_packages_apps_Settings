@@ -16,12 +16,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
     <string name="custom_settings_title">カスタマイズ</string>
+    
+    <!-- Updater -->
+    <string name="updater_title">更新</string>
+    <string name="updater_summary">更新などを確認する</string>
 
     <!-- Button settings  -->
     <string name="button_settings_title">ボタン</string>
     
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">ビルドバージョン</string>
+    <string name="mod_version">Euphoriaバージョン</string>
     <string name="mod_version_default">不明</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">ビルド日時</string>
@@ -58,5 +62,47 @@
     <!--Power menu -->
     <string name="power_category">電源キー</string>
     <string name="lockscreen_enable_power_menu_title">ロック画面でも電源メニューを表示</string>
-    <string name="lockscreen_enable_power_menu_summary">このオプションはセキュアなロック画面では無効です</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">タッチコントロール</string>
+    <string name="touch_control_settings_summary">ダブルタップウェイクなどを含むウェイクアップオプションの管理</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock_category">ステータスバー</string>
+    <string name="status_bar_clock">時計と日付</string>
+    <string name="status_bar_clock_title">時計と日付のスタイル</string>
+    <string name="clock_title_enable">位置調整</string>
+    <string name="clock_enabled">有効</string>
+    <string name="clock_disabled">無効</string>
+    <string name="status_bar_show_clock_title">時計と日付を表示</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24時間表示が有効です</string>
+    <string name="enable_clock_weekday">曜日を表示</string>
+    <string name="enable_clock_weekday_summary">時刻の前に曜日を表示する</string>
+    <string name="right_clock">右側に表示</string>
+    <string name="center_clock">中央に表示</string>
+    <string name="dont_show">表示しない</string>
+    <string name="clock_date_display">日付</string>
+    <string name="clock_date_display_summary">時刻の前に日付を表示</string>
+    <string name="clock_date_style">日付の表示スタイル</string>
+    <string name="clock_date_format">日付フォーマット</string>
+    <string name="clock_date_string_edittext_title">MM/dd/yyの形式でないといけません</string>
+    <string name="clock_date_string_edittext_summary">文字列を入力してください</string>
+    <string name="am_pm_clock_normal">標準文字サイズ</string>
+    <string name="am_pm_clock_small">小さい文字サイズ</string>
+    <string name="am_pm_clock_none">表示しない</string>
+    <string name="clock_date_display_none">表示しない</string>
+    <string name="clock_date_display_small">小さい文字サイズ</string>
+    <string name="clock_date_display_normal">標準文字サイズ</string>
+    <string name="clock_date_style_normal">標準</string>
+    <string name="clock_date_style_lowercase">小文字</string>
+    <string name="clock_date_style_uppercase">大文字</string>
+    <string name="clock_date_format_custom">カスタムjavaフォーマット</string>
+    <string name="status_bar_ticker_title">通知ティッカー</string>
+    <string name="status_bar_ticker_summary">ステータスバーで通知テキストをアニメーション表示する</string>
+
+    <!-- Quick settings -->
+    <string name="quick_settings_category">クイック設定</string>
+    <string name="block_on_secure_keyguard_title">ロック画面では無効</string>
+    <string name="block_on_secure_keyguard_summary">セキュアなロック画面ではクイック設定を無効にする</string>
 </resources>
