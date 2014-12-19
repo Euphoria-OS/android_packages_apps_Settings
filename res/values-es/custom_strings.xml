@@ -139,7 +139,7 @@
     
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Color de advertencia</string>
-    <string name="battery_saver_color_summary">Habilitar barras de estado y de navegación naranja cuando se activa de ahorro de batería</string>
+    <string name="battery_saver_color_summary">Habilitar barra de estado y de navegación naranja cuando se activa ahorro de batería</string>
 
     <!--- Lock clock -->
     <string name="lock_clock_title">Widget de reloj</string>
