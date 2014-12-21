@@ -770,4 +770,8 @@
     <string name="menu_hidden_apps_reset_lock">Restablecer patrón de bloqueo</string>
     <string name="protected_apps">Aplicaciones protegidas</string>
     <string name="saving_protected_components">Guardando el estado del componente</string>
+    
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Mostrar tiempo</string>
+    <string name="status_bar_show_weather_summary">Mostrar tiempo en el encabezado de la barra de estado</string>
 </resources>
