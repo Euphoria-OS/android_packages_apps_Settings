@@ -136,4 +136,21 @@
     <string name="less_notification_sounds_1m">1 min</string>
     <string name="less_notification_sounds_2m">2 min</string>
     <string name="less_notification_sounds_5m">5 min</string>
+    
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Color de advertencia</string>
+    <string name="battery_saver_color_summary">Habilitar barras de estado y de navegación naranja cuando se activa de ahorro de batería</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Widget de reloj</string>
+    <string name="lock_clock_summary">Ver o cambiar como aparecerá \'cLock\' widget</string>
+    
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Panel de recientes</string>
+    <string name="show_clear_all_recents_button_title">Botón de limpieza</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botón de limpieza</string>
+    <string name="recents_clear_all_location_title">Posición de botón</string>
+    <string name="recents_clear_all_location_right">Arriba derecha</string>
+    <string name="recents_clear_all_location_left">Arriba izquierda</string>
+    <string name="recents_searchbar_title">Barra de búsqueda</string>
 </resources>
