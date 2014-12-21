@@ -44,7 +44,7 @@
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Risveglia quando messo in carica</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Accendi lo schermo quando connetti o disconnetti dall'alimentazione</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Accendi lo schermo quando connetti o disconnetti dall/'alimentazione</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
     multiple font sizes in a limited amount of space. -->
@@ -56,7 +56,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Mostra le info sulla CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Overlay schermo mostra le informazioni della CPU</string>
 
     <!--Status bar -->
     <string name="status_bar_category">Status bar</string>
@@ -68,12 +68,12 @@
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Touch control</string>
-    <string name="touch_control_settings_summary">Gestisci le impostazioni avanzate inclusom il double tap to wake e altro</string>
+    <string name="touch_control_settings_summary">Gestisci le impostazioni avanzate incluso il double tap to wake e altro</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_clock_category">Status bar</string>
     <string name="status_bar_clock">Orologio e data</string>
-    <string name="status_bar_clock_title">Stile orologio e dataa</string>
+    <string name="status_bar_clock_title">Stile orologio e data</string>
     <string name="clock_title_enable">Allineamento</string>
     <string name="clock_enabled">Abilita</string>
     <string name="clock_disabled">Disabilita</string>
@@ -81,26 +81,26 @@
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Orologio 24-ore abilitato</string>
     <string name="enable_clock_weekday">Giorno della settimana</string>
-    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell'ora</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell/'ora</string>
     <string name="right_clock">Orologio a destra</string>
     <string name="center_clock">Orologio al centro</string>
     <string name="dont_show">Non mostrare</string>
     <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Mostra una data personalizzata prima dell'orologio</string>
+    <string name="clock_date_display_summary">Mostra una data personalizzata prima dell/'orologio</string>
     <string name="clock_date_style">Stile della data</string>
     <string name="clock_date_format">Formato della data</string>
     <string name="clock_date_string_edittext_title">Formato della data es. MM/GG/AA</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="am_pm_clock_normal">Normal font size</string>
-    <string name="am_pm_clock_small">Small font size</string>
+    <string name="clock_date_string_edittext_summary">Inserisci valore</string>
+    <string name="am_pm_clock_normal">Font normale</string>
+    <string name="am_pm_clock_small">Font piccolo</string>
     <string name="am_pm_clock_none">Non mostrare</string>
     <string name="clock_date_display_none">Non mostrare</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_display_small">Font piccolo</string>
+    <string name="clock_date_display_normal">Font normale</string>
     <string name="clock_date_style_normal">Normale</string>
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format_custom">Formato java personale</string>
     <string name="status_bar_ticker_title">Notification Ticker</string>
     <string name="status_bar_ticker_summary">Animazione testuale nella statusbar</string>
 
@@ -138,7 +138,7 @@
     <string name="less_notification_sounds_5m">5 minuti</string>
 
     <!-- Battery saver color -->
-    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_title">Colori allerta</string>
     <string name="battery_saver_color_summary">Abilita la status bar e la navigation bar arancione quando la modalità risparmio energetico è attiva</string>
 
     <!--- Lock clock -->
