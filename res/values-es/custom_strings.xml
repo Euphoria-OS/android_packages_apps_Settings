@@ -153,4 +153,57 @@
     <string name="recents_clear_all_location_right">Arriba derecha</string>
     <string name="recents_clear_all_location_left">Arriba izquierda</string>
     <string name="recents_searchbar_title">Barra de búsqueda</string>
+    
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Teclado a pantalla completa</string>
+    <string name="fullscreen_keyboard_summary">Mostrar teclado a pantalla completa en modo horizontal</string>
+    
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Barra de navegación</string>
+    <string name="navbar_enable_bar">Habilitar</string>
+    <string name="navigation_bar_left_title">Modo zurdo</string>
+    <string name="navigation_bar_left_summary">Coloca la barra de navegación en el lado izquierdo de la pantalla en modo horizontal</string>
+    <string name="navbar_dimen_title">Dimensiones</string>
+    <string name="navbar_dimensions_reset_message">¿Restablecer dimensiones por defecto?</string>
+    <string name="navigation_bar_height_title">Altura de barra de navegación</string>
+    <string name="navigation_bar_height_landscape_title">Altura de barra de navegación en modo horizontal</string>
+    <string name="navigation_bar_width_title">Ancho de la barra de navegación</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (por defecto)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (por defecto)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (off)</string>
+    
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">Notificación conexión Wi\u2011Fi</string>
+    <string name="notify_changed_networks_default">Off (por defecto)</string>
+    <string name="notify_changed_networks_toast">Toast</string>
+    <string name="notify_changed_networks_notification">Notificación</string>
+    <string name="notify_changed_networks_notification_sound">Notificación con sonido</string>
+    
+    <!-- Heads Up -->
+    <string name="category_heads_up">Notificaciones Heads up</string>
+    <string name="summary_heads_up_enabled">Notificaciones Pop-up están habilitadas</string>
+    <string name="summary_heads_up_disabled">Notificaciones Pop-up están deshabilitadas</string>
+    <string name="add_heads_up_package">Añadir app</string>
+    <string name="add_heads_up_dnd_summary">No mostrar heads up en estas apps</string>
+    <string name="add_heads_up_blacklist_summary">No mostrar heads up desde estas apps</string>
+    <string name="heads_up_dnd_title">No molestar</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="heads_up_disabled_notice">Para permitir que las aplicaciones muestren notificaciones interactivas en una ventana pop-up, habilite Heads up.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Tiempo de espera</string>
+    <string name="heads_up_time_out_summary">La notificación aparecerá <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_never_summary">La notificación aparecerá hasta que se descarte</string>
+    <string name="heads_up_time_out_2sec">2 seg</string>
+    <string name="heads_up_time_out_4sec">4 seg</string>
+    <string name="heads_up_time_out_6sec">6 seg</string>
+    <string name="heads_up_time_out_8sec">8 seg</string>
+    <string name="heads_up_time_out_10sec">10 seg</string>
+    <string name="heads_up_time_out_never">Nunca</string>
 </resources>
