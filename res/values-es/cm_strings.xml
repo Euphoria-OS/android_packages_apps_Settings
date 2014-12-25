@@ -173,6 +173,8 @@
     <string name="hardware_keys_action_launch_camera">Lanzar cámara</string>
     <string name="hardware_keys_action_sleep">Apagar pantala</string>
     <string name="hardware_keys_action_last_app">Última app</string>
+    <string name="volbtn_music_controls_title">Control de reproducción</string>
+    <string name="volbtn_music_controls_summary">Cuando la pantalla esté apagada, la pulsación prolongada de teclas de volumen buscará pistas de música</string>
     <string name="volbtn_cursor_control_title">Control cursor de teclado</string>
     <string name="volbtn_cursor_control_off">Deshabilitado</string>
     <string name="volbtn_cursor_control_on">Volumen arriba/abajo mueve el cursor izquierda/derecha</string>
