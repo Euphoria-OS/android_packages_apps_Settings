@@ -96,7 +96,7 @@
     <string name="connection_state_disabled">Deaktivieren</string>
     <string name="connection_state_enabled">Aktivieren</string>
     <string name="volume_override_summary">Gesetzt auf</string>
-	<string name="volume_override_summary_no_override">Nicht überschreiben</string>
+    <string name="volume_override_summary_no_override">Nicht überschreiben</string>
     <string name="profile_volume_override_checkbox_label">Lautstärke überschreiben</string>
 
     <!-- Menu item for managing profiles -->
@@ -174,6 +174,8 @@
     <string name="hardware_keys_action_launch_camera">Kamera</string>
     <string name="hardware_keys_action_sleep">Bildschirm aus</string>
     <string name="hardware_keys_action_last_app">Letzte App</string>
+    <string name="volbtn_music_controls_title">Musiksteuerung</string>
+    <string name="volbtn_music_controls_summary">Bei abgeschaltetem Bildschirm durch langen Druck auf die Lautstärketasten zum nächsten / vorherigen Titel springen</string>
     <string name="volbtn_cursor_control_title">Cursorsteuerung mit Lautstärketasten</string>
     <string name="volbtn_cursor_control_off">Deaktiviert</string>
     <string name="volbtn_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
@@ -199,7 +201,7 @@
     <string name="color_enhancement_title">Farbverbesserung</string>
     <string name="color_enhancement_summary">Dynamische Verbesserung der Farbdarstellung</string>
 
-	<string name="show_battery_percent_title">Akkustatus in Prozent</string>
+    <string name="app_security_title">Anwendungssicherheit</string>
 
     <!-- Blacklist preferences -->
     <string name="blacklist_title">Sperrliste</string>
@@ -372,6 +374,14 @@
     <string name="status_bar_quick_qs_pulldown_summary">Herunterziehen der Statusleiste am rechten Rand öffnet die Schnelleinstellungen</string>
     <string name="status_bar_notif_count_title">Benachrichtigungszähler</string>
     <string name="status_bar_notif_count_summary">Zeigt die Anzahl der verbleibenden Benachrichtigungen an</string>
+    
+     <!-- Status bar - Battery -->
+     <string name="status_bar_battery_style_title">Akkustatusstil</string>
+     <string name="status_bar_battery_style_icon_portrait">Symbol (stehend)</string>
+     <string name="status_bar_battery_style_icon_landscape">Symbol (liegend)</string>
+     <string name="status_bar_battery_style_circle">Kreis</string>
+     <string name="status_bar_battery_style_text">Text</string>
+     <string name="status_bar_battery_style_hidden">Versteckt</string>
     
     <!-- Battery percentage -->
     <string name="status_bar_battery_percentage_title">Akku-Prozentanzeige</string>
@@ -600,6 +610,9 @@
     multiple font sizes in a limited amount of space. -->
     <string name="font_size_sample">Beispiel</string>
     
+     <!-- Volume settings - Volume adjustment sound -->
+     <string name="volume_adjust_sounds_title">Änderungston</string>    
+    
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Vibrationsstärke</string>
     <string name="vibrator_warning">Werte über %1$d werden nicht empfohlen</string>
@@ -719,6 +732,7 @@
     <string name="uicc_media_format_final_desc" product="default">UICC-Speicher löschen? Du kannst diese Aktion<b>nicht</b> rückgängig machen!</string>
     <string name="usb_media_format_gesture_explanation" product="default">Zeichne dein Entsperrmuster um den Löschvorgang des USB-Speichers zu Bestätigen.</string>
     <string name="uicc_media_format_gesture_explanation" product="default">Zeichne dein Entsperrmuster um den Löschvorgang des UICC-Speichers zu Bestätigen.</string>
+    
     <!-- [CHAR LIMIT=130] Location mode screen, sub category for IZat Location -->
     <string name="location_category_enhanced_location">Verbesserter Standort</string>
 
@@ -735,7 +749,7 @@
 
     <string name="data_usage_tab_slot">SIM </string>
     
-        <!-- MultiSim Settings changes-->
+    <!-- MultiSim Settings changes-->
     <string name="close_dialog">OK</string>
     <string name="sim_enabler_title">SIM Aktivierung</string>
     <string name="sim_enabler_summary">SIM ist %1$s</string>
@@ -771,5 +785,9 @@
     <string name="menu_hidden_apps_reset_lock">Muster zurücksetzen</string>
     <string name="protected_apps">Gesicherte Anwendungen</string>
     <string name="saving_protected_components">Speichern von Komponentenstatus</string>
+    
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Wetter anzeigen</string>
+    <string name="status_bar_show_weather_summary">Zeigt das aktuelle Wetter im Benachrichtigungsheader an</string>
     
 </resources>
