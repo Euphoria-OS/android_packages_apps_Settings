@@ -115,4 +115,42 @@
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Zeige Tatsächlicher/Berechneter Akkuverbrauch</string>
     <string name="show_unac_and_overcounted_stats_summary">Zeigt Statistiken zum Tatsächlichen und Berechneten Akkuverbrauch unter Sonstiges an</string>
+
+    <!-- Keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Auf dem Sperrbildschirm anzeigen</string>
+    <string name="app_notification_show_on_keyguard_summary">Zeigt Benachrichtigungen dieser Anwendung auf dem Sperrbildschirm</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Laufende auf dem Sperrbildschirm deaktivieren</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Laufende Benachrichtigungen dieser Anwendung nie auf dem Sperrbildschirm anzeigen</string>
+    
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Benachrichtigungen</string>
+    <string name="less_notification_sounds_title">Benachrichtigungstonbeschränkung</string>
+    <string name="less_notification_sounds_summary">Beschränkt den Benachrichtigungston, so dass dieser jeweils nur einmal innerhalb der Zeitvorgabe abgespielt wird</string>
+    <string name="less_notification_sounds_default">Standard</string>
+    <string name="less_notification_sounds_3s">3 Sekunden</string>
+    <string name="less_notification_sounds_5s">5 Sekunden</string>
+    <string name="less_notification_sounds_10s">10 Sekunden</string>
+    <string name="less_notification_sounds_15s">15 Sekunden</string>
+    <string name="less_notification_sounds_30s">30 Sekunden</string>
+    <string name="less_notification_sounds_45s">45 Sekunden</string>
+    <string name="less_notification_sounds_1m">1 Minute</string>
+    <string name="less_notification_sounds_2m">2 Minuten</string>
+    <string name="less_notification_sounds_5m">5 Minuten</string>
+    
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warnfarbe</string>
+    <string name="battery_saver_color_summary">Aktiviert die orangefarbene Status- und Navigationsleiste wenn der Energiesparmodus aktiviert ist</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">cLock-Widget</string>
+    <string name="lock_clock_summary">Optionen des cLock-Widgets ändern oder anzeigen</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Anwendungsverlauf</string>
+    <string name="show_clear_all_recents_button_title">Löschtaste</string>
+    <string name="show_clear_all_recents_button_summary">Ermöglicht das Beenden aller Anwendungen auf einmal</string>
+    <string name="recents_clear_all_location_title">Position der Löschtaste</string>
+    <string name="recents_clear_all_location_right">Oben rechts</string>
+    <string name="recents_clear_all_location_left">Oben links</string>
+    <string name="recents_searchbar_title">Suchleiste</string>
 </resources>
