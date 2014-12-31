@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Euphoria-OS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom settings  -->
+    <string name="custom_settings_title">Custom</string>
+
+    <!-- Updater -->
+    <string name="updater_title">Aggiornamenti</string>
+    <string name="updater_summary">Controlla se ci sono aggiornamenti e altro</string>
+
+    <!-- Button settings  -->
+    <string name="button_settings_title">Pulsanti</string>
+
+    <!-- About phone screen,  Mod Version -->
+    <string name="mod_version">Versione Euphoria</string>
+    <string name="mod_version_default">Sconosciuta</string>
+    <!-- About phone screen, Build date of ROM -->
+    <string name="build_date">Data della build</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Memoria</string>
+    <!-- About phone screen, status item label -->
+
+    <!-- Advanced category -->
+    <string name="advanced_options_title">Avanzate</string>
+
+    <!-- General category -->
+    <string name="general_options_title">Generali</string>
+
+    <!--Wakeup when plugged/unplugged -->
+    <string name="wakeup_when_plugged_unplugged_title">Accendi se sotto carica</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Accende lo schermo al collegamento/scollegamento di una fonte di energia</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Esempio</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">Ritardo chiusura app</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostra info CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Visualizza in sovrapposizione info CPU </string>
+
+    <!--Status bar -->
+    <string name="status_bar_category">Barra di stato</string>
+    <string name="status_bar_show_carrier_title">Mostra nome operatore</string>
+
+    <!--Power menu -->
+    <string name="power_category">Pulsante di spegnimento</string>
+    <string name="lockscreen_enable_power_menu_title">Mostra il menu di spegnimento nel blocco schermo</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Controllo touch</string>
+    <string name="touch_control_settings_summary">Gestisci opzioni avanzate di accensione come il doppio tap per accendere e altro</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock_category">Barra di stato</string>
+    <string name="status_bar_clock">Orologio e data</string>
+    <string name="status_bar_clock_title">Stile dell\'orologio e della data</string>
+    <string name="clock_title_enable">Allineamento</string>
+    <string name="clock_enabled">Abilitato</string>
+    <string name="clock_disabled">Disabilitato</string>
+    <string name="status_bar_show_clock_title">Mostra orologio e data</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">L'orologio 24-ore è abilitato</string>
+    <string name="enable_clock_weekday">Giorno della settimana</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'orario</string>
+    <string name="right_clock">Orologio a destra</string>
+    <string name="center_clock">Orologio centrale</string>
+    <string name="dont_show">Non mostrare</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Mostra data personalizzata prima dell\'orologio</string>
+    <string name="clock_date_style">Stile della data</string>
+    <string name="clock_date_format">Formato della data</string>
+    <string name="clock_date_string_edittext_title">Deve essere nel formato della data es. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
+    <string name="am_pm_clock_normal">Dimensione del carattere normale</string>
+    <string name="am_pm_clock_small">Dimensione del carattere piccola</string>
+    <string name="am_pm_clock_none">Non mostrare</string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Dimensione del carattere piccola</string>
+    <string name="clock_date_display_normal">Dimensione del carattere normale</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Allineato in basso</string>
+    <string name="clock_date_style_uppercase">Allineato in alto</string>
+    <string name="clock_date_format_custom">Formato java personalizzato</string>
+    <string name="status_bar_ticker_title">Ticker delle notifiche</string>
+    <string name="status_bar_ticker_summary">Animazione del testo di notifica nella barra di stato</string>
+
+    <!-- Quick settings -->
+    <string name="quick_settings_category">Quick settings</string>
+    <string name="block_on_secure_keyguard_title">Disabilita nel blocco schermo</string>
+    <string name="block_on_secure_keyguard_summary">Disabilita i quick settings nel blocco schermo protetto</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Mostra statistiche non considerate/sovrastimate</string>
+    <string name="show_unac_and_overcounted_stats_summary">Mostra le statistiche della batteria per l\'utilizzo non considerato/sovrastimato</string>
+
+    <!-- Keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Mostra nella schermata di blocco</string>
+    <string name="app_notification_show_on_keyguard_summary">Mostra le notifiche da questa app nella schermata di blocco</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita notifiche in corso nella schermata di blocco</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai le notifiche in corso da questa app nella schermata di blocco</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Notifiche</string>
+    <string name="less_notification_sounds_title">Avvisi di notifica meno frequenti</string>
+    <string name="less_notification_sounds_summary">Limita gli avvisi di notifica di ciascuna app a solo uno per il periodo di tempo selezionato</string>
+    <string name="less_notification_sounds_default">Comportamento di default</string>
+    <string name="less_notification_sounds_3s">3 secondi</string>
+    <string name="less_notification_sounds_5s">5 secondi</string>
+    <string name="less_notification_sounds_10s">10 secondi</string>
+    <string name="less_notification_sounds_15s">15 secondi</string>
+    <string name="less_notification_sounds_30s">30 secondi</string>
+    <string name="less_notification_sounds_45s">45 secondi</string>
+    <string name="less_notification_sounds_1m">1 minuto</string>
+    <string name="less_notification_sounds_2m">2 minuti</string>
+    <string name="less_notification_sounds_5m">5 minuti</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Colore di avviso</string>
+    <string name="battery_saver_color_summary">Abilita colore arancione della barra di navigazione e di stato quando il risparmio batteria è attivo</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Widget Clock</string>
+    <string name="lock_clock_summary">Vedi o cambia come il widget \'cLock\' sarà mostrato</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Pannello app recenti</string>
+    <string name="show_clear_all_recents_button_title">Pulsante chiudi tutte</string>
+    <string name="show_clear_all_recents_button_summary">Mostra pulsante chiudi tutte</string>
+    <string name="recents_clear_all_location_title">Posizione chiudi tutte</string>
+    <string name="recents_clear_all_location_right">In alto a destra</string>
+    <string name="recents_clear_all_location_left">In alto a sinistra</string>
+    <string name="recents_searchbar_title">Barra di ricerca</string>
+
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Tastiera a schermo intero</string>
+    <string name="fullscreen_keyboard_summary">Mostra la tastiera a schermo intero in orizzontale</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Barra di navigazione</string>
+    <string name="navbar_enable_bar">Abilita</string>
+    <string name="navigation_bar_left_title">Modalità mancino</string>
+    <string name="navigation_bar_left_summary">Posiziona la barra di navigazione a sinistra quando il dispositivo è in orizzontale</string>
+    <string name="navbar_dimen_title">Dimensioni</string>
+    <string name="navbar_dimensions_reset_message">Ripristinare tutti i valori delle dimensioni al default?</string>
+    <string name="navigation_bar_height_title">Altezza barra di navigazione</string>
+    <string name="navigation_bar_height_landscape_title">Altezza barra di navigazione in orizzontale</string>
+    <string name="navigation_bar_width_title">Larghezza barra di navigazione</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (spenta)</string>
+
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">Wi\u2011Fi notifica di connessione</string>
+    <string name="notify_changed_networks_default">Spenta (default)</string>
+    <string name="notify_changed_networks_toast">Notifica toast</string>
+    <string name="notify_changed_networks_notification">Notifica</string>
+    <string name="notify_changed_networks_notification_sound">Notifica e suono</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Notifiche Heads up</string>
+    <string name="summary_heads_up_enabled">Le notifiche pop-up sono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche pop-up sono disabilitate</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
+    <string name="add_heads_up_dnd_summary">Non mostrare notifiche heads-up in queste app</string>
+    <string name="add_heads_up_blacklist_summary">Non mostrare notifiche heads-up da queste app</string>
+    <string name="heads_up_dnd_title">Non disturbare</string>
+    <string name="heads_up_blacklist_title">Lista nera</string>
+    <string name="heads_up_disabled_notice">Per permettere alle applicazioni di mostare notifiche interattive in una finestra pop-up sul tuo schermo, abilita Heads up.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Intervallo</string>
+    <string name="heads_up_time_out_summary">Le notifiche saranno mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_never_summary">La notifica sarà mostrata finchè scartata</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
+    <string name="heads_up_time_out_never">Mai</string>
+</resources>
