@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Euphoria-OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom settings  -->
+    <string name="custom_settings_title">Aangepast</string>
+
+    <!-- Updater -->
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Controleren op updates en meer</string>
+
+    <!-- Button settings  -->
+    <string name="button_settings_title">Knoppen</string>
+
+    <!-- About phone screen,  Mod Version -->
+    <string name="mod_version">Euphoria versie</string>
+    <string name="mod_version_default">Onbekend</string>
+    <!-- About phone screen, Build date of ROM -->
+    <string name="build_date">Build datum</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Geheugen</string>
+    <!-- About phone screen, status item label -->
+
+    <!-- Advanced category -->
+    <string name="advanced_options_title">Geavanceerd</string>
+
+    <!-- General category -->
+    <string name="general_options_title">Algemeen</string>
+
+    <!--Wakeup when plugged/unplugged -->
+    <string name="wakeup_when_plugged_unplugged_title">Ontwaken bij opladen</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Ontwaken bij het aansluiten of loskoppelen van een stroombron</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Voorbeeld</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">App kill delay</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU info weergeven</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Scherm met de huidige CPU info</string>
+
+    <!--Status bar -->
+    <string name="status_bar_category">Statusbalk</string>
+    <string name="status_bar_show_carrier_title">Toon info-label</string>
+
+    <!--Power menu -->
+    <string name="power_category">Aan/uit-knop</string>
+    <string name="lockscreen_enable_power_menu_title">Het vergrendel menu weergeven</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Aanraak controle</string>
+    <string name="touch_control_settings_summary">Beheer geavanceerde ontwaakopties, waaronder dubbele tik om te onwaken en meer</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock_category">Statusbalk</string>
+    <string name="status_bar_clock">Tijd en datum</string>
+    <string name="status_bar_clock_title">Tijd en datum stijl</string>
+    <string name="clock_title_enable">Uitlijning</string>
+    <string name="clock_enabled">Ingeschakeld</string>
+    <string name="clock_disabled">Uitgeschakeld</string>
+    <string name="status_bar_show_clock_title">Tijd en datum weergeven</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-uurs klok ingeschakeld</string>
+    <string name="enable_clock_weekday">Dag van de week</string>
+    <string name="enable_clock_weekday_summary">Afgekorte dag van de week voor het tijdstip</string>
+    <string name="right_clock">Tijd rechts</string>
+    <string name="center_clock">Tijd gecentreerd</string>
+    <string name="dont_show">Niet weergeven</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Aangepaste datum voor de tijd weergeven</string>
+    <string name="clock_date_style">Datum stijl</string>
+    <string name="clock_date_format">Date formatering</string>
+    <string name="clock_date_string_edittext_title">Moet in DateFormat bv. dd/MM/yy</string>
+    <string name="clock_date_string_edittext_summary">Voer tekst in</string>
+    <string name="am_pm_clock_normal">Normale lettergrootte</string>
+    <string name="am_pm_clock_small">Kleine lettergrootte</string>
+    <string name="am_pm_clock_none">Niet weergeven</string>
+    <string name="clock_date_display_none">Niet weergeven</string>
+    <string name="clock_date_display_small">Kleine lettergrootte</string>
+    <string name="clock_date_display_normal">Normale lettergrootte</string>
+    <string name="clock_date_style_normal">Normaal</string>
+    <string name="clock_date_style_lowercase">Kleine letters</string>
+    <string name="clock_date_style_uppercase">Hoofdletters</string>
+    <string name="clock_date_format_custom">Aangepast java-formaat</string>
+    <string name="status_bar_ticker_title">Melding Ticker</string>
+    <string name="status_bar_ticker_summary">Animatie van de meldingstekst in de statusbalk</string>
+
+    <!-- Quick settings -->
+    <string name="quick_settings_category">Snelle instellingen</string>
+    <string name="block_on_secure_keyguard_title">Uitschakelen bij schermvergrendeling</string>
+    <string name="block_on_secure_keyguard_summary">Snelle instellingen uitschakelen bij schermvergrendeling</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Batterij statistieken</string>
+    <string name="show_unac_and_overcounted_stats_summary">Batterij gebruiksstatistieken weergeven</string>
+
+    <!-- Keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Weergeven bij schermvergrendeling</string>
+    <string name="app_notification_show_on_keyguard_summary">Meldingen van deze app weergeven bij schermvergrendeling</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Uitschakelen bij schermvergrendeling</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Meldingen van deze app nooit weergeven bij schermvergrendeling</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Meldingen</string>
+    <string name="less_notification_sounds_title">Minder frequente meldingsgeluiden</string>
+    <string name="less_notification_sounds_summary">Beperk de meldingsgeluiden van elke app tot slechts één keer te spelen binnen een bepaald tijdspanne</string>
+    <string name="less_notification_sounds_default">Standaard gedrag</string>
+    <string name="less_notification_sounds_3s">3 seconden</string>
+    <string name="less_notification_sounds_5s">5 seconden</string>
+    <string name="less_notification_sounds_10s">10 seconden</string>
+    <string name="less_notification_sounds_15s">15 seconden</string>
+    <string name="less_notification_sounds_30s">30 seconden</string>
+    <string name="less_notification_sounds_45s">45 seconden</string>
+    <string name="less_notification_sounds_1m">1 minuut</string>
+    <string name="less_notification_sounds_2m">2 minuten</string>
+    <string name="less_notification_sounds_5m">5 minuten</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Waarschuwingskleur</string>
+    <string name="battery_saver_color_summary">Oranje status en navigatiebalken wanneer de batterij saver wordt geactiveerd</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Klok widget</string>
+    <string name="lock_clock_summary">Weergeven of wijzigen hoe de \'clock \' widget verschijnt</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Recente panel</string>
+    <string name="show_clear_all_recents_button_title">\'Alles wissen \'-knop</string>
+    <string name="show_clear_all_recents_button_summary">\'Alles wissen \'-knop weergeven</string>
+    <string name="recents_clear_all_location_title">Wis alle locaties</string>
+    <string name="recents_clear_all_location_right">Rechtsboven</string>
+    <string name="recents_clear_all_location_left">Linksboven</string>
+    <string name="recents_searchbar_title">Zoekbalk</string>
+
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Fullscreen toetsenbord</string>
+    <string name="fullscreen_keyboard_summary">Een fullscreen toetsenbord (landscape) weergeven</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Navigatiebalk</string>
+    <string name="navbar_enable_bar">Inschakelen</string>
+    <string name="navigation_bar_left_title">Linkshandige modus</string>
+    <string name="navigation_bar_left_summary">Plaats de navigatiebalk links op het scherm</string>
+    <string name="navbar_dimen_title">Afmetingen</string>
+    <string name="navbar_dimensions_reset_message">Zet alle afmetings-waarden terug naar de standaard?</string>
+    <string name="navigation_bar_height_title">Hoogte navigatiebalk</string>
+    <string name="navigation_bar_height_landscape_title">Hoogte navigatiebalk(landscape)</string>
+    <string name="navigation_bar_width_title">Breedte navigatiebalk</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (standaard)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (standaard)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (uit)</string>
+
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">Wi\u2011Fi meldingen</string>
+    <string name="notify_changed_networks_default">Uit (standaard)</string>
+    <string name="notify_changed_networks_toast">Toast</string>
+    <string name="notify_changed_networks_notification">Meldingen</string>
+    <string name="notify_changed_networks_notification_sound">Meldingen met geluid</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Info meldingen</string>
+    <string name="summary_heads_up_enabled">Pop-up meldingen zijn ingeschakeld</string>
+    <string name="summary_heads_up_disabled">Pop-up meldingen zijn uitgeschakeld</string>
+    <string name="add_heads_up_package">App toevoegen</string>
+    <string name="add_heads_up_dnd_summary">Info meldingen niet weergeven in deze toepassingen</string>
+    <string name="add_heads_up_blacklist_summary">Info meldingen van deze toepassingen niet weergeven</string>
+    <string name="heads_up_dnd_title">Niet storen</string>
+    <string name="heads_up_blacklist_title">Zwarte lijst</string>
+    <string name="heads_up_disabled_notice">Schakel Info meldingen in om toepassingen interactieve meldingen in een pop-up venster te laten weergeven.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Meldingen verdwijnen automatisch na <xliff:g id="number">%d</xliff:g> seconden</string>
+    <string name="heads_up_time_out_never_summary">Meldingen verdwijnen niet automatisch</string>
+    <string name="heads_up_time_out_2sec">2 seconden</string>
+    <string name="heads_up_time_out_4sec">4 seconden</string>
+    <string name="heads_up_time_out_6sec">6 seconden</string>
+    <string name="heads_up_time_out_8sec">8 seconden</string>
+    <string name="heads_up_time_out_10sec">10 seconden</string>
+    <string name="heads_up_time_out_never">Nooit</string>
+</resources>
