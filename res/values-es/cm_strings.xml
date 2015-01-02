@@ -179,6 +179,8 @@
     <string name="volbtn_cursor_control_off">Deshabilitado</string>
     <string name="volbtn_cursor_control_on">Volumen arriba/abajo mueve el cursor izquierda/derecha</string>
     <string name="volbtn_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor derecha/izquierda</string>
+    <string name="swap_volume_buttons_title">Reorientar</string>
+    <string name="swap_volume_buttons_summary">Intercambiar botones de volumen cuando se gira la pantalla</string>
     <string name="power_end_call_title">Terminar llamada</string>
     <string name="power_end_call_summary">Si se pulsa el botón de encendido, finalizará la llamada actual</string>
     <string name="button_wake_title">Despertar</string>
@@ -242,7 +244,7 @@
     <string name="menu_hidden_apps_reset_lock">Restablecer patrón de bloqueo</string>
     <string name="protected_apps">Aplicaciones protegidas</string>
     <string name="saving_protected_components">Guardando el estado del componente</string>
-	<string name="launch_app">Lanzar app</string>
+    <string name="launch_app">Lanzar app</string>
 
     <string name="pa_login_username_hint">Nombre de usuario (correo electrónico)</string>
     <string name="pa_login_password_hint">Contraseña</string>
@@ -786,4 +788,23 @@
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Mostrar tiempo</string>
     <string name="status_bar_show_weather_summary">Mostrar tiempo en el encabezado de la barra de estado</string>
+    
+     <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Sonidos de carga</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Habilitar</string>
+    <string name="power_notifications_enable_summary">Reproducir sonido al conectar o desconectar el cargador</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrar</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Sonido de notificación</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silencio</string>
+    
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Bloquear gestos</string>
+    <string name="edge_gesture_service_summary">No utilizar acciones de gestos para navegación y barra de estado</string>
+    
 </resources>
