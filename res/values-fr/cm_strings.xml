@@ -14,76 +14,76 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des options de développeur.</item>
+        <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des options de développeur.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Vous avez activé les options de développeur !</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Inutile, vous avez déjà activé les options de développeur.</string>
 
     <!-- Launch Dev Tools -->
-    <string name="development_tools_title">Development tools</string>
+    <string name="development_tools_title">Outils de développement</string>
 
     <!-- Setting checkbox title for root access -->
-    <string name="root_access">Root access</string>
-    <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing applications to request root access is very dangerous and could compromise the security of your system!</string>
-    <string name="root_access_none">Disabled</string>
-    <string name="root_access_apps">Apps only</string>
-    <string name="root_access_adb">ADB only</string>
-    <string name="root_access_all">Apps and ADB</string>
+    <string name="root_access">Accès root</string>
+    <string name="root_access_warning_title">Autoriser un accès root ?</string>
+    <string name="root_access_warning_message">Permettre aux applications de demander l\'accès Root est très dangereux et pourrait compromettre la sécurité de votre système !</string>
+    <string name="root_access_none">Désactivé</string>
+    <string name="root_access_apps">Applications seulement</string>
+    <string name="root_access_adb">ADB seulement</string>
+    <string name="root_access_all">Applications et ADB</string>
 
     <!-- Sound settings screen -->
-    <string name="ring_mode_title">Ring mode</string>
+    <string name="ring_mode_title">Mode sonnerie</string>
     <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibrate</string>
-    <string name="ring_mode_mute">Mute</string>
+    <string name="ring_mode_vibrate">Vibreur</string>
+    <string name="ring_mode_mute">Muet</string>
 
-    <string name="ring_mode_unchanged">Unchanged</string>
+    <string name="ring_mode_unchanged">Inchangé</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">System profiles</string>
-    <string name="profiles_add">Add</string>
-    <string name="profile_menu_delete">Delete</string>
-    <string name="profile_settings_title">Profile</string>
-    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+    <string name="profiles_settings_title">profils système</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_menu_delete">Supprimer</string>
+    <string name="profile_settings_title">Profil</string>
+    <string name="profile_empty_list_profiles_off">Pour configurer et utiliser les profils système, activer les profils</string>
     <string name="profile_trigger_configure">Configure trigger</string>
-    <string name="profile_triggers">Triggers</string>
-    <string name="profile_trigger_filter_all">All triggers</string>
-    <string name="profile_trigger_filter_wifi">Wi-Fi triggers</string>
-    <string name="profile_trigger_filter_bluetooth">Bluetooth triggers</string>
-    <string name="profile_write_nfc_tag">Write to NFC tag</string>
-    <string name="profile_write_touch_tag">Touch tag to write</string>
-    <string name="profile_write_success">Tag successfully written</string>
-    <string name="profile_write_failed">Tag writing failed!</string>
-    <string name="profile_selected">Profile selected: %1$s</string>
-    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
-    <string name="profile_unknown_nfc_tag">Unknown profile</string>
-    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
-    <string name="profile_select">Select profile</string>
+    <string name="profile_triggers">Activation</string>
+    <string name="profile_trigger_filter_all">Toutes les activations</string>
+    <string name="profile_trigger_filter_wifi">Activation par Wi-Fi</string>
+    <string name="profile_trigger_filter_bluetooth">Activation par bluetooth</string>
+    <string name="profile_write_nfc_tag">Écrire sur le tag NFC</string>
+    <string name="profile_write_touch_tag">Toucher le tag pour écrire</string>
+    <string name="profile_write_success">Tag écrit avec succès</string>
+    <string name="profile_write_failed">L\'écriture du Tag a échoué !</string>
+    <string name="profile_selected">Profil sélectionné : %1$s</string>
+    <string name="profile_nfc_text">Écrire un profil sur un Tag NFC permet de le sélectionner. Un deuxième contact restaure le profil précédent.</string>
+    <string name="profile_unknown_nfc_tag">Profil inconnu</string>
+    <string name="profile_add_nfc_text">Ce Tag NFC ne se réfère à aucun profil. Le relier à un profil existant permettra à l\'avenir de le sélectionner.</string>
+    <string name="profile_select">Sélectionner un profil</string>
 
     <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Create new profile</string>
-    <string name="profile_name_title">Name</string>
-    <string name="profile_profile_name_prompt">Enter a name for the new profile</string>
-    <string name="menu_new_profile">New profile</string>
-    <string name="new_profile_name">&lt;new profile&gt;</string>
+    <string name="add_profile_dialog_title">Créer un nouveau profil</string>
+    <string name="profile_name_title">Nom</string>
+    <string name="profile_profile_name_prompt">Entrer un nom pour le nouveau profil</string>
+    <string name="menu_new_profile">Nouveau profil</string>
+    <string name="new_profile_name">&lt;Nouveau profil&gt;</string>
 
     <!-- Rename Dialog  -->
-    <string name="rename_dialog_title">Rename</string>
-    <string name="rename_dialog_message">Enter a new name</string>
-    <string name="duplicate_profile_name">Duplicate profile name!</string>
-    <string name="duplicate_appgroup_name">Duplicate app group name!</string>
+    <string name="rename_dialog_title">Renommer</string>
+    <string name="rename_dialog_message">Entrer un nouveau nom</string>
+    <string name="duplicate_profile_name">Dupliquer le nom du profil !</string>
+    <string name="duplicate_appgroup_name">Dupliquer le nom du groupe d\'application !</string>
 
     <!-- Reset Profiles -->
-    <string name="profile_reset_title">Reset</string>
-    <string name="profile_reset_message">Delete all user created profiles and app groups and restore them to default?</string>
+    <string name="profile_reset_title">Réinitialiser</string>
+    <string name="profile_reset_message">Supprimer tous les profils et groupes d\'applications et revenir à la configuration par défaut ?</string>
 
     <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Delete this profile?</string>
-    <string name="profile_app_delete_confirm">Remove this app?</string>
-    <string name="profile_cannot_delete">An active profile cannot be deleted</string>
+    <string name="profile_delete_confirm">Supprimer ce profil ?</string>
+    <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
+    <string name="profile_cannot_delete">le profil actif ne peut être supprimer</string>
 
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
@@ -91,25 +91,25 @@
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Connection overrides</string>
-    <string name="profile_volumeoverrides_title">Volume overrides</string>
-    <string name="connection_state_disabled">Disable</string>
-    <string name="connection_state_enabled">Enable</string>
-    <string name="volume_override_summary">Set to %1$s/%2$s</string>
-    <string name="volume_override_summary_no_override">Do not override</string>
-    <string name="profile_volume_override_checkbox_label">Override volume</string>
+    <string name="profile_connectionoverrides_title">Connexion de remplacement</string>
+    <string name="profile_volumeoverrides_title">Volume de remplacement</string>
+    <string name="connection_state_disabled">Désactivé</string>
+    <string name="connection_state_enabled">Activé</string>
+    <string name="volume_override_summary">Régler sur %1$s/%2$s</string>
+    <string name="volume_override_summary_no_override">Ne pas remplacer</string>
+    <string name="profile_volume_override_checkbox_label">Remplacer le volume</string>
 
     <!-- Menu item for managing profiles -->
-    <string name="profile_profiles_manage">Profiles</string>
-    <string name="profile_profile_manage">Manage profile</string>
-    <string name="profile_appgroups_manage">App groups</string>
-    <string name="profile_appgroup_manage">Manage app group</string>
+    <string name="profile_profiles_manage">Profils</string>
+    <string name="profile_profile_manage">Gérer le profil</string>
+    <string name="profile_appgroups_manage">Groupes d\'applications</string>
+    <string name="profile_appgroup_manage">Gérer le groupe d\'application</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <string name="profile_settings">Profile settings</string>
-    <string name="profile_trigger_connect">On connect</string>
-    <string name="profile_trigger_disconnect">On disconnect</string>
-    <string name="profile_trigger_notrigger">No trigger</string>
+    <string name="profile_settings">Réglages du profil</string>
+    <string name="profile_trigger_connect">A la connexion</string>
+    <string name="profile_trigger_disconnect">A la déconnexion</string>
+    <string name="profile_trigger_notrigger">Pas d\'activation</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Notification mode</string>
