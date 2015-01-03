@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 The Euphoria-OS Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -57,8 +60,14 @@
 
     <!--Status bar -->
     <string name="status_bar_category">Barre de statut</string>
-    <string name="status_bar_show_carrier_title">Montrer l\'opérateur</string>
 
+    <!--Status bar carrier -->
+    <string name="show_carrier_title">Nom de l\'opérateur</string>
+    <string name="show_carrier_disabled">Désactivé</string>
+    <string name="show_carrier_keyguard">Opérateur sur le verrouillage</string>
+    <string name="show_carrier_statusbar">Opérateur sur la barre de statut</string>
+    <string name="show_carrier_enabled">Activé</string>
+	
     <!--Power menu -->
     <string name="power_category">Bouton d\'alimentation</string>
     <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation sur l\'écran de verrouillage</string>
@@ -106,6 +115,14 @@
     <string name="block_on_secure_keyguard_title">Désactiver sur l\'écran de verrouillage</string>
     <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de verrouillage sécurisé</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
+    <string name="quick_settings_vibrate_summary">Vibrer en touchant les tuiles</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
+    <string name="quick_settings_collapse_summary">Fermez le panneau de paramètres rapides lors du basculement</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -149,8 +166,11 @@
     <string name="recents_clear_all_location_title">Emplacement du bouton</string>
     <string name="recents_clear_all_location_right">En haut à droite</string>
     <string name="recents_clear_all_location_left">En haut à gauche</string>
+    <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+    <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
     <string name="recents_searchbar_title">Barre de recherche</string>
-
+    <string name="recents_searchbar_summary">Afficher la barre de recherche Google dans l\'écran des applications récentes</string>
+	
     <!-- Full screen keyboard -->
     <string name="fullscreen_keyboard_title">Clavier plein écran</string>
     <string name="fullscreen_keyboard_summary">Afficher un clavier plein écran en mode paysage</string>
@@ -186,6 +206,8 @@
     <string name="category_heads_up">Notifications flottantes</string>
     <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
     <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
+    <string name="show_headsup_button_title">Afficher le bouton d\'accès rapide</string>
+    <string name="show_headsup_button_summary">Afficher un bouton d\'accès rapide dans le haut de la barre de statut</string>
     <string name="add_heads_up_package">Ajouter une application</string>
     <string name="add_heads_up_dnd_summary">Ne pas montrer les notifications flottantes dans ces applications</string>
     <string name="add_heads_up_blacklist_summary">Ne pas montrer les notifications flottantes à partir de ces applications</string>
