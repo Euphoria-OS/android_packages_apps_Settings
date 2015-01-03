@@ -112,84 +112,84 @@
     <string name="profile_trigger_notrigger">Pas d\'activation</string>
 
     <!-- Profile Settings sound modes labels -->
-    <string name="sound_mode">Notification mode</string>
-    <string name="ringer_mode">Ring mode</string>
-    <string name="lights_mode">Lights mode</string>
-    <string name="vibrate_mode">Vibrate mode</string>
-    <string name="choose_soundtone">Choose notification tone</string>
-    <string name="choose_ringtone">Choose ringtone</string>
+    <string name="sound_mode">Mode de notification</string>
+    <string name="ringer_mode">Mode sonnerie</string>
+    <string name="lights_mode">Mode voyant</string>
+    <string name="vibrate_mode">Mode vibreur</string>
+    <string name="choose_soundtone">Choisir le son de notification</string>
+    <string name="choose_ringtone">Choisir la sonnerie</string>
 
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-    <string name="soundtone_title">Notification tone</string>
+    <string name="soundtone_title">Tonalité de notification</string>
     <string name="soundtone_summary" translatable="false">""</string>
 
     <!-- Title for application group setting screen -->
-    <string name="profile_appgroups_title">App groups</string>
-    <string name="profile_applist_title">Apps</string>
-    <string name="profile_new_appgroup">New app group</string>
-    <string name="profile_delete_appgroup">Delete this app group?</string>
-    <string name="profile_appgroup_name_prompt">Enter a name for the new app group</string>
-    <string name="profile_appgroup_name_title">Name</string>
+    <string name="profile_appgroups_title">Groupes d\'applications</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="profile_new_appgroup">Nouveau groupe d\'application</string>
+    <string name="profile_delete_appgroup">Supprimer ce groupe d\'application ?</string>
+    <string name="profile_appgroup_name_prompt">Entrer le nom du nouveau groupe d\'application</string>
+    <string name="profile_appgroup_name_title">Nom</string>
 
     <!-- Add application dialog box title -->
-    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_choose_app">Choisir l\'application</string>
 
     <!-- Profiles - system settings -->
-    <string name="profile_system_settings_title">System settings</string>
-    <string name="profile_lockmode_title">Lock screen mode</string>
-    <string name="profile_lockmode_default">Default</string>
-    <string name="profile_lockmode_insecure">Insecure</string>
-    <string name="profile_lockmode_disabled">Disabled</string>
-    <string name="profile_lockmode_default_summary">Use system default</string>
-    <string name="profile_lockmode_insecure_summary">Use insecure lock screen</string>
-    <string name="profile_lockmode_disabled_summary">Lock screen is disabled</string>
-    <string name="profile_airplanemode_title">Airplane mode</string>
+    <string name="profile_system_settings_title">Paramètres système</string>
+    <string name="profile_lockmode_title">Mode de l\'écran de verrouillage </string>
+    <string name="profile_lockmode_default">Défaut</string>
+    <string name="profile_lockmode_insecure">Non sécurisé</string>
+    <string name="profile_lockmode_disabled">Désactivé</string>
+    <string name="profile_lockmode_default_summary">Utilisation du système par défaut</string>
+    <string name="profile_lockmode_insecure_summary">Utilisation de l\'écran de verrouillage non sécurisé</string>
+    <string name="profile_lockmode_disabled_summary">L\'écran de verrouillage est désactivé</string>
+    <string name="profile_airplanemode_title">Mode avion</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleWifi">Wi-Fi</string>
-    <string name="toggleWifiAp">Portable Wi-Fi hotspot</string>
+    <string name="toggleWifiAp">Partage Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
-    <string name="toggleData">Mobile Data</string>
-    <string name="toggleSync">Data Sync</string>
+    <string name="toggleData">Données mobile</string>
+    <string name="toggleSync">Synchronisation des données</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
     <!-- Hardware keys -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_volume_keys_title">Volume buttons</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="hardware_keys_action_last_app">Last app</string>
-    <string name="volbtn_music_controls_title">Playback control</string>
-    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
-    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
-    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-    <string name="power_end_call_title">End call</string>
-    <string name="power_end_call_summary">Pressing the power button will end the current call</string>
-    <string name="button_wake_title">Wake up</string>
-    <string name="home_wake_summary">Pressing the home button will wake your device</string>
-    <string name="home_answer_call_title">Answer call</string>
-    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
-    <string name="volbtn_wake_device_title">Wake up device</string>
-    <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
+    <string name="button_pref_title">Boutons</string>
+    <string name="hardware_keys_power_key_title">Bouton d\'alimentation</string>
+    <string name="hardware_keys_home_key_title">Bouton accueil</string>
+    <string name="hardware_keys_menu_key_title">Bouton Menu</string>
+    <string name="hardware_keys_volume_keys_title">Boutons volume</string>
+    <string name="hardware_keys_short_press_title">Action appui court</string>
+    <string name="hardware_keys_long_press_title">Action appui long</string>
+    <string name="hardware_keys_double_tap_title">Action double appuis</string>
+    <string name="hardware_keys_action_nothing">Pas d\'action</string>
+    <string name="hardware_keys_action_menu">Ouvrir / fermer le menu</string>
+    <string name="hardware_keys_action_app_switch">Sélecteur applications récentes</string>
+    <string name="hardware_keys_action_search">Assistant de recherche</string>
+    <string name="hardware_keys_action_voice_search">Recherche vocale</string>
+    <string name="hardware_keys_action_in_app_search">Recherche dans l\'application</string>
+    <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
+    <string name="hardware_keys_action_sleep">Eteindre l\'écran</string>
+    <string name="hardware_keys_action_last_app">Dernière application</string>
+    <string name="volbtn_music_controls_title">Contrôle de la lecture</string>
+    <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre musical</string>
+    <string name="volbtn_cursor_control_title">Contrôle du curseur clavier</string>
+    <string name="volbtn_cursor_control_off">Désactivé</string>
+    <string name="volbtn_cursor_control_on">Volume haut / bas Déplace le curseur a gauche / droite</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume haut / bas déplace le curseur a droite / gauche</string>
+    <string name="swap_volume_buttons_title">réorienter</string>
+    <string name="swap_volume_buttons_summary">Permuter les boutons de volume lorsque l\'écran est tourné</string>
+    <string name="power_end_call_title">Fin d\'appel</string>
+    <string name="power_end_call_summary">Appuyer sur le bouton d\'alimentation terminera l\'appel en cours</string>
+    <string name="button_wake_title">Réveiller</string>
+    <string name="home_wake_summary">Appuyer sur le bouton d\'accueil réveillera l\'appareil</string>
+    <string name="home_answer_call_title">répondre à l\'appel</string>
+    <string name="home_answer_call_summary">Appuyer sur le bouton d\'accueil permettra de répondre à l\'appel en cours</string>
+    <string name="volbtn_wake_device_title">réveiller l\'appareil</string>
+    <string name="volbtn_wake_device_summary">Appuyez sur le bouton volume réveillera l\'appareil</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Adaptive backlight</string>
