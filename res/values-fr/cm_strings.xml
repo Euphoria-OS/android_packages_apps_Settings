@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des options de développeur.</item>
+        <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des options de développeur.</item>
+    </plurals>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Vous avez activé les options de développeur !</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Inutile, vous avez déjà activé les options de développeur.</string>
+
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Outils de développement</string>
+
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Accès root</string>
+    <string name="root_access_warning_title">Autoriser un accès root ?</string>
+    <string name="root_access_warning_message">Permettre aux applications de demander l\'accès Root est très dangereux et pourrait compromettre la sécurité de votre système !</string>
+    <string name="root_access_none">Désactivé</string>
+    <string name="root_access_apps">Applications seulement</string>
+    <string name="root_access_adb">ADB seulement</string>
+    <string name="root_access_all">Applications et ADB</string>
+
+    <!-- Sound settings screen -->
+    <string name="ring_mode_title">Mode sonnerie</string>
+    <string name="ring_mode_normal">Normal</string>
+    <string name="ring_mode_vibrate">Vibreur</string>
+    <string name="ring_mode_mute">Muet</string>
+
+    <string name="ring_mode_unchanged">Inchangé</string>
+
+    <!-- Profiles settings  -->
+    <string name="profiles_settings_title">profils système</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_menu_delete">Supprimer</string>
+    <string name="profile_settings_title">Profil</string>
+    <string name="profile_empty_list_profiles_off">Pour configurer et utiliser les profils système, activer les profils</string>
+    <string name="profile_trigger_configure">Configure trigger</string>
+    <string name="profile_triggers">Activation</string>
+    <string name="profile_trigger_filter_all">Toutes les activations</string>
+    <string name="profile_trigger_filter_wifi">Activation par Wi-Fi</string>
+    <string name="profile_trigger_filter_bluetooth">Activation par bluetooth</string>
+    <string name="profile_write_nfc_tag">Écrire sur le tag NFC</string>
+    <string name="profile_write_touch_tag">Toucher le tag pour écrire</string>
+    <string name="profile_write_success">Tag écrit avec succès</string>
+    <string name="profile_write_failed">L\'écriture du Tag a échoué !</string>
+    <string name="profile_selected">Profil sélectionné : %1$s</string>
+    <string name="profile_nfc_text">Écrire un profil sur un Tag NFC permet de le sélectionner. Un deuxième contact restaure le profil précédent.</string>
+    <string name="profile_unknown_nfc_tag">Profil inconnu</string>
+    <string name="profile_add_nfc_text">Ce Tag NFC ne se réfère à aucun profil. Le relier à un profil existant permettra à l\'avenir de le sélectionner.</string>
+    <string name="profile_select">Sélectionner un profil</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">Créer un nouveau profil</string>
+    <string name="profile_name_title">Nom</string>
+    <string name="profile_profile_name_prompt">Entrer un nom pour le nouveau profil</string>
+    <string name="menu_new_profile">Nouveau profil</string>
+    <string name="new_profile_name">&lt;Nouveau profil&gt;</string>
+
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">Renommer</string>
+    <string name="rename_dialog_message">Entrer un nouveau nom</string>
+    <string name="duplicate_profile_name">Dupliquer le nom du profil !</string>
+    <string name="duplicate_appgroup_name">Dupliquer le nom du groupe d\'application !</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Réinitialiser</string>
+    <string name="profile_reset_message">Supprimer tous les profils et groupes d\'applications et revenir à la configuration par défaut ?</string>
+
+    <!-- Delete confimation messages -->
+    <string name="profile_delete_confirm">Supprimer ce profil ?</string>
+    <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
+    <string name="profile_cannot_delete">le profil actif ne peut être supprimer</string>
+
+    <!-- Profile network mode -->
+    <string name="profile_networkmode_2g">2G</string>
+    <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_2g3g">2G/3G</string>
+
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="profile_connectionoverrides_title">Connexion de remplacement</string>
+    <string name="profile_volumeoverrides_title">Volume de remplacement</string>
+    <string name="connection_state_disabled">Désactivé</string>
+    <string name="connection_state_enabled">Activé</string>
+    <string name="volume_override_summary">Régler sur %1$s/%2$s</string>
+    <string name="volume_override_summary_no_override">Ne pas remplacer</string>
+    <string name="profile_volume_override_checkbox_label">Remplacer le volume</string>
+
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">Profils</string>
+    <string name="profile_profile_manage">Gérer le profil</string>
+    <string name="profile_appgroups_manage">Groupes d\'applications</string>
+    <string name="profile_appgroup_manage">Gérer le groupe d\'application</string>
+
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <string name="profile_settings">Réglages du profil</string>
+    <string name="profile_trigger_connect">A la connexion</string>
+    <string name="profile_trigger_disconnect">A la déconnexion</string>
+    <string name="profile_trigger_notrigger">Pas d\'activation</string>
+
+    <!-- Profile Settings sound modes labels -->
+    <string name="sound_mode">Mode de notification</string>
+    <string name="ringer_mode">Mode sonnerie</string>
+    <string name="lights_mode">Mode voyant</string>
+    <string name="vibrate_mode">Mode vibreur</string>
+    <string name="choose_soundtone">Choisir le son de notification</string>
+    <string name="choose_ringtone">Choisir la sonnerie</string>
+
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="soundtone_title">Tonalité de notification</string>
+    <string name="soundtone_summary" translatable="false">""</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">Groupes d\'applications</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="profile_new_appgroup">Nouveau groupe d\'application</string>
+    <string name="profile_delete_appgroup">Supprimer ce groupe d\'application ?</string>
+    <string name="profile_appgroup_name_prompt">Entrer le nom du nouveau groupe d\'application</string>
+    <string name="profile_appgroup_name_title">Nom</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">Choisir l\'application</string>
+
+    <!-- Profiles - system settings -->
+    <string name="profile_system_settings_title">Paramètres système</string>
+    <string name="profile_lockmode_title">Mode de l\'écran de verrouillage </string>
+    <string name="profile_lockmode_default">Défaut</string>
+    <string name="profile_lockmode_insecure">Non sécurisé</string>
+    <string name="profile_lockmode_disabled">Désactivé</string>
+    <string name="profile_lockmode_default_summary">Utilisation du système par défaut</string>
+    <string name="profile_lockmode_insecure_summary">Utilisation de l\'écran de verrouillage non sécurisé</string>
+    <string name="profile_lockmode_disabled_summary">L\'écran de verrouillage est désactivé</string>
+    <string name="profile_airplanemode_title">Mode avion</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">Partage Wi-Fi</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">Données mobile</string>
+    <string name="toggleSync">Synchronisation des données</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleWimax">WiMAX</string>
+    <string name="toggleNfc">NFC</string>
+
+    <!-- Hardware keys -->
+    <string name="button_pref_title">Boutons</string>
+    <string name="hardware_keys_power_key_title">Bouton d\'alimentation</string>
+    <string name="hardware_keys_home_key_title">Bouton accueil</string>
+    <string name="hardware_keys_menu_key_title">Bouton Menu</string>
+    <string name="hardware_keys_volume_keys_title">Boutons volume</string>
+    <string name="hardware_keys_short_press_title">Action appui court</string>
+    <string name="hardware_keys_long_press_title">Action appui long</string>
+    <string name="hardware_keys_double_tap_title">Action double appuis</string>
+    <string name="hardware_keys_action_nothing">Pas d\'action</string>
+    <string name="hardware_keys_action_menu">Ouvrir / fermer le menu</string>
+    <string name="hardware_keys_action_app_switch">Sélecteur applications récentes</string>
+    <string name="hardware_keys_action_search">Assistant de recherche</string>
+    <string name="hardware_keys_action_voice_search">Recherche vocale</string>
+    <string name="hardware_keys_action_in_app_search">Recherche dans l\'application</string>
+    <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
+    <string name="hardware_keys_action_sleep">Eteindre l\'écran</string>
+    <string name="hardware_keys_action_last_app">Dernière application</string>
+    <string name="volbtn_music_controls_title">Contrôle de la lecture</string>
+    <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre musical</string>
+    <string name="volbtn_cursor_control_title">Contrôle du curseur clavier</string>
+    <string name="volbtn_cursor_control_off">Désactivé</string>
+    <string name="volbtn_cursor_control_on">Volume haut / bas Déplace le curseur a gauche / droite</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume haut / bas déplace le curseur a droite / gauche</string>
+    <string name="swap_volume_buttons_title">réorienter</string>
+    <string name="swap_volume_buttons_summary">Permuter les boutons de volume lorsque l\'écran est tourné</string>
+    <string name="power_end_call_title">Fin d\'appel</string>
+    <string name="power_end_call_summary">Appuyer sur le bouton d\'alimentation terminera l\'appel en cours</string>
+    <string name="button_wake_title">Réveiller</string>
+    <string name="home_wake_summary">Appuyer sur le bouton d\'accueil réveillera l\'appareil</string>
+    <string name="home_answer_call_title">répondre à l\'appel</string>
+    <string name="home_answer_call_summary">Appuyer sur le bouton d\'accueil permettra de répondre à l\'appel en cours</string>
+    <string name="volbtn_wake_device_title">réveiller l\'appareil</string>
+    <string name="volbtn_wake_device_summary">Appuyez sur le bouton volume réveillera l\'appareil</string>
+
+    <!-- Backlight brightness settings screen -->
+    <string name="adaptive_backlight_title">Rétro éclairage adaptatif</string>
+    <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétro éclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
+
+    <!-- Sunlight readability enhancement screen -->
+    <string name="sunlight_enhancement_title">Amélioration à lumière du soleil</string>
+    <string name="sunlight_enhancement_summary">Améliorer la luminosité de l\'affichage et la lisibilité en plein soleil</string>
+
+    <!-- Color enhancement settings screen -->
+    <string name="color_enhancement_title">Amélioration des couleurs</string>
+    <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
+
+    <string name="app_security_title">Sécurité d\'application</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Liste noire</string>
+    <string name="blacklist_edit_dialog_title">Éditer les entrées de la liste noir</string>
+    <string name="blacklist_prefs">Paramètres</string>
+    <string name="blacklist_button_delete">Supprimer</string>
+    <string name="blacklist_empty_text">Aucun numéro dans votre liste noire. Ajouter une entrée en appuyant sur le bouton Ajouter (+).</string>
+    <string name="blacklist_disabled_empty_text">Pour bloquer les appels et/ou messages de certains numéros, activez la liste noire.</string>
+    <string name="blacklist_summary_disabled">Désactiver</string>
+    <string name="blacklist_summary">Les appels et messages de numéros de téléphone sur la liste noire seront bloqués</string>
+    <string name="blacklist_notify">Afficher les notifications</string>
+    <string name="blacklist_private_numbers_title">Numéros privés</string>
+    <string name="blacklist_private_numbers_summary_disabled">Ne pas bloquer les appels des numéros privés</string>
+    <string name="blacklist_private_numbers_summary">Bloquer l\'entrée <xliff:g id="type">%s</xliff:g> des numéros privés</string>
+    <string name="blacklist_unknown_numbers_title">Numéros inconnus</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Ne pas bloquer les appels ou les messages provenant de numéros non répertoriés dans la liste des contacts</string>
+    <string name="blacklist_unknown_numbers_summary">Bloquer l\'entrée <xliff:g id="type">%s</xliff:g> des numéros non répertoriés dans la liste des contacts</string>
+    <string name="blacklist_summary_type_calls_only">appels</string>
+    <string name="blacklist_summary_type_messages_only">messages</string>
+    <string name="blacklist_summary_type_calls_and_messages">appels et messages</string>
+    <string name="blacklist_regex_title">Utiliser des caractères génériques</string>
+    <string name="blacklist_regex_summary">Utiliser un point comme caractère générique et une astérisque pour la répétition. Exemple, 123.* si le numéro de téléphone commence par 123 et .*123.* si le numéro de téléphone contient 123</string>
+    <string name="blacklist_policy_block_calls">Bloquer les appels entrants</string>
+    <string name="blacklist_policy_block_messages">Bloquer les messages entrants</string>
+    <string name="blacklist_bad_number_add">Impossible d\'ajouter un numéro invalide à la liste noire</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">Ajouter un numéro</string>
+    <string name="remove_blacklist_number_title">Supprimer le numéro</string>
+    <string name="remove_blacklist_entry">Voulez-vous supprimer cette entrée de la liste noire ?</string>
+    <string name="select_contact">Sélectionner un contact</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
+    <string name="lockpattern_settings_reset_summary">Entrez l\'adresse mail du compte principal et son mot de passe pour réinitialiser le schéma de déverrouillage</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Réinitialiser</string>
+    <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
+    <string name="protected_apps">Applications protégées</string>
+    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
+    <string name="launch_app">Lancer l\'application</string>
+
+    <string name="pa_login_username_hint">Nom d\'utilisateur (email)</string>
+    <string name="pa_login_password_hint">Mot de passe</string>
+    <string name="pa_login_submit_button">Connexion</string>
+    <string name="pa_login_checking_password">Vérification du compte\u2026</string>
+    <string name="pa_login_incorrect_login">Le nom d\'utilisateur ou le mot de passe est incorrect</string>
+
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Désactivé</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_lockscreen_rotation_title">Rotation de l\'écran de verrouillage</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+
+    <!--- Sms security limit -->
+    <string name="app_security_title">Sécurité des applications</string>
+    <string name="sms_security_check_limit_title">Limite des messages SMS</string>
+    <string name="sms_security_check_limit_summary">Affiche un message d\'alerte pour empêcher des applications d\'envoyer des messages SMS trop souvent. Limite actuelle: %d messages en 15 minutes</string>
+    <string name="sms_security_check_limit_default">30 (défaut)</string>
+
+    <string name="spam_added_title">Ajouté %1$s</string>
+    <string name="spam_last_blocked_title">Dernier bloqué %1$s</string>
+    <string name="block_notifications_title">Filtre des notifications</string>
+    <string name="block_notifications_summary">Gérer les notifications ignorées et les filtres</string>
+    <string name="no_filters_title">Pas de filtres définis</string>
+
+    <!-- CM Updater -->
+    <string name="cmupdate_settings_title">Mises à jour CyanogenMod</string>
+
+    <!-- About phone screen, CyanogenMod version -->
+    <string name="mod_version">Version de CyanogenMod</string>
+    <string name="mod_version_default">Inconnu</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Date de compilation</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+
+    <!--- Advanced Settings -->
+    <string name="advanced_settings">Paramètres avancés</string>
+    <string name="advanced_settings_summary">Permettre d\'avoir davantage d\'options de configuration</string>
+
+    <!--- Tap To Wake -->
+    <string name="double_tap_to_wake_title">Double appui pour réveiller</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prévention du risque de réveil</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant de réveiller l\'écran</string>
+
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_cyanogenmod_title">Vie privée</string>
+    <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
+
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_switch_label">Activer la protection de la vie privée</string>
+    <string name="privacy_guard_dlg_title">Activer la protection de la vie privée ?</string>
+    <string name="privacy_guard_dlg_text">Lorsque la protection de la vie privée est activée, les applications n\'ont pas accès à vos données personnelles telles que les contacts, les messages ou le journal d\'appels.</string>
+    <string name="privacy_guard_dlg_system_app_text">Lorsque la protection de la vie privée est activée pour une application système, cette application ne sera pas en mesure d\'accéder ou de fournir des données personnelles. Cela peut provoquer des dysfonctionnements avec d\'autres applications.</string>
+    <string name="privacy_guard_default_title">Activé par défaut</string>
+    <string name="privacy_guard_default_summary">Activé par défaut pour les applications nouvellement installées</string>
+    <string name="privacy_guard_manager_title">Vie privée</string>
+    <string name="privacy_guard_manager_summary">Gérer les applications qui ont accès à vos données personnelles</string>
+    <string name="privacy_guard_no_user_apps">Aucune application installées</string>
+    <string name="privacy_guard_help_title">Aide</string>
+    <string name="privacy_guard_reset_title">Réinitialiser</string>
+    <string name="privacy_guard_reset_text">Réinitialiser les permissions ?</string>
+    <string name="privacy_guard_help_text">Dans cet écran, vous pouvez sélectionner pour quelles applications la protection de la vie privée est activée. Les applications sélectionnées ne seront pas en mesure d\'accéder à vos données personnelles telles que les contacts, les messages ou le journal d\'appels. Obtenez les détails de l\'application par un appui long sur celle-ci.\n\nPar défaut, les applications du système ne sont pas affichées. Si vous voulez les afficher ou ne filtrer que les applications qui demandent une autorisation d\'accès à des données personnelles, sélectionnez les options respectives dans le menu.</string>
+    <string name="privacy_guard_manager_show_system_apps">Afficher les applications système</string>
+    <string name="privacy_guard_advanced_settings_title">Avancé</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_ramp_up_time_title">Temps de progression</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Redémarrage avancé</string>
+    <string name="advanced_reboot_summary">Lorsque déverrouillé, inclure des options dans le menu d\'alimentation pour redémarrer en recovery, bootloader ou d\'effectuer un redémarrage doux</string>
+
+    <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
+    <string name="enable_adb_cm">Débogage Android</string>
+    <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
+    <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">Notification débogage USB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB par le réseau</string>
+    <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi\u2011Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez vous vraiment activer cette fonction ?</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
+
+    <!-- Development shortcut -->
+    <string name="development_shortcut_title">Raccourci de développement</string>
+    <string name="development_shortcut_summary">Activer l\'option \'wipe data\' et \'arrêt forcé\' dans la zone de notification et dans la liste des applications récentes</string>
+
+    <!-- tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Taper deux fois dans la barre de statut pour mettre l\'appareil en veille</string>
+
+    <!-- Turn on display when power connected; turn off display when power disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Réveil par le chargeur</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Réveil l\'appareil si le chargeur et branché / débranché</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Tuer l\'application par la touche retour</string>
+    <string name="kill_app_longpress_back_summary">Tuer l\'application au premier plan par un long appui sur la touche retour</string>
+
+    <!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">Activer la barre de navigation sur l\'écran</string>
+    <string name="disable_navkeys_summary">Active la barre de navigation à l\'écran et désactive les boutons matériels</string>
+
+    <string name="header_category_personalization">Personnalisation</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">Barre de statut</string>
+    <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+    <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser le doigt sur la barre de statut</string>
+    <string name="status_bar_quick_qs_pulldown_title">Paramètre rapide</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Glisser sur le coté droit de la barre de statut affiche les paramètres rapides</string>
+    <string name="status_bar_notif_count_title">Compteur de notifications</string>
+    <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Style du niveau de batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Cacher</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Afficher le pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Ne pas afficher (par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">A l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Modifier les paramètres lumineux</string>
+    <string name="pulse_speed_title">Durée et vitesse du clignotement</string>
+    <string name="default_time">Normale</string>
+    <string name="custom_time">Personnalisée</string>
+    <string name="dialog_delete_title">supprimer</string>
+    <string name="dialog_delete_message">Supprimer l\'élément sélectionné ?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Toujours allumée</string>
+    <string name="pulse_length_very_short">Très courte</string>
+    <string name="pulse_length_short">Courte</string>
+    <string name="pulse_length_normal">Normale</string>
+    <string name="pulse_length_long">Longue</string>
+    <string name="pulse_length_very_long">Très longue</string>
+    <string name="pulse_speed_very_fast">Très rapide</string>
+    <string name="pulse_speed_fast">Rapide</string>
+    <string name="pulse_speed_normal">Normale</string>
+    <string name="pulse_speed_slow">Lente</string>
+    <string name="pulse_speed_very_slow">Très lente</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Voyant batterie</string>
+    <string name="battery_low_pulse_title">Clignoter si la batterie est faible</string>
+    <string name="battery_light_list_title">Couleurs</string>
+    <string name="battery_light_low_color_title">Batterie faible</string>
+    <string name="battery_light_medium_color_title">En charge</string>
+    <string name="battery_light_full_color_title">Complètement chargée</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Voyant de notification</string>
+    <string name="notification_light_general_title">Général</string>
+    <string name="notification_light_applist_title">Applications</string>
+    <string name="notification_light_phonelist_title">Téléphone</string>
+    <string name="notification_light_use_custom">Utiliser des valeurs personnalisées</string>
+    <string name="notification_light_default_value">Défaut</string>
+    <string name="notification_light_missed_call_title">Appel manqué</string>
+    <string name="notification_light_voicemail_title">Messagerie vocale</string>
+
+    <!-- Sound & notification > Sound section: Title for the option defining the default notification ringtone. [CHAR LIMIT=30] -->
+    <string name="notification_ringtone_title_cm">Tonalité de notification</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Notification du sélecteur de clavier</string>
+    <string name="ime_switcher_notify_summary">Afficher la notification du sélecteur de clavier</string>
+
+    <!-- App ops -->
+    <string name="app_ops_summaries_coarse_location">localisation approximative</string>
+    <string name="app_ops_summaries_fine_location">localisation précise</string>
+    <string name="app_ops_summaries_gps">GPS</string>
+    <string name="app_ops_summaries_vibrate">vibreur</string>
+    <string name="app_ops_summaries_read_contacts">lire les contacts</string>
+    <string name="app_ops_summaries_modify_contacts">modifier les contacts</string>
+    <string name="app_ops_summaries_read_call_log">lire le journal d\'appel</string>
+    <string name="app_ops_summaries_modify_call_log">modifier le journal des appels</string>
+    <string name="app_ops_summaries_read_calendar">lire le calendrier</string>
+    <string name="app_ops_summaries_modify_calendar">modifier le calendrier</string>
+    <string name="app_ops_summaries_wifi_scan">scanner le wi-fi</string>
+    <string name="app_ops_summaries_notification">notification</string>
+    <string name="app_ops_summaries_cell_scan">scanner le réseau cellulaire</string>
+    <string name="app_ops_summaries_call_phone">appel téléphonique</string>
+    <string name="app_ops_summaries_read_sms">lire les SMS</string>
+    <string name="app_ops_summaries_write_sms">écrire les SMS</string>
+    <string name="app_ops_summaries_receive_sms">recevoir des SMS</string>
+    <string name="app_ops_summaries_receive_emergency_sms">recevoir des SMS d\'urgence</string>
+    <string name="app_ops_summaries_receive_mms">recevoir des MMS</string>
+    <string name="app_ops_summaries_receive_wap_push">recevoir les push WAP</string>
+    <string name="app_ops_summaries_send_sms">envoyer des SMS</string>
+    <string name="app_ops_summaries_read_icc_sms">lire les SMS ICC</string>
+    <string name="app_ops_summaries_write_icc_sms">écrire des SMS ICC</string>
+    <string name="app_ops_summaries_modify_settings">modifier les paramètres</string>
+    <string name="app_ops_summaries_draw_on_top">déplacer au-dessus</string>
+    <string name="app_ops_summaries_access_notifications">accéder aux notifications</string>
+    <string name="app_ops_summaries_camera">appareil photo</string>
+    <string name="app_ops_summaries_record_audio">enregistrement audio</string>
+    <string name="app_ops_summaries_play_audio">lire des fichiers audio</string>
+    <string name="app_ops_summaries_read_clipboard">lire le presse-papiers</string>
+    <string name="app_ops_summaries_modify_clipboard">modifier le presse-papiers</string>
+    <string name="app_ops_summaries_media_buttons">boutons médias</string>
+    <string name="app_ops_summaries_audio_focus">Mise au point audio</string>
+    <string name="app_ops_summaries_master_volume">volume principal</string>
+    <string name="app_ops_summaries_voice_volume">volume de la voix</string>
+    <string name="app_ops_summaries_ring_volume">volume de la sonnerie</string>
+    <string name="app_ops_summaries_media_volume">volume des médias</string>
+    <string name="app_ops_summaries_alarm_volume">volume de l\'alarme</string>
+    <string name="app_ops_summaries_notification_volume">volume de notification</string>
+    <string name="app_ops_summaries_bluetooth_volume">volume bluetooth</string>
+    <string name="app_ops_summaries_keep_awake">maintenir activé</string>
+    <string name="app_ops_summaries_monitor_location">emplacement du moniteur</string>
+    <string name="app_ops_summaries_monitor_high_power_location">surveiller l\'emplacement de forte puissance</string>
+    <string name="app_ops_summaries_get_usage_stats">obtenir des statistiques d\'utilisation de l\'application</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">activer / désactiver le microphone</string>
+    <string name="app_ops_summaries_toast_window">affichage toasts</string>
+    <string name="app_ops_summaries_project_media">projection média</string>
+    <string name="app_ops_summaries_activate_vpn">activation du vpn</string>
+    <string name="app_ops_summaries_wifi_change">changer le wi-fi</string>
+    <string name="app_ops_summaries_bluetooth_change">changer bluetooth</string>
+    <string name="app_ops_summaries_send_mms">envoyer des MMS</string>
+    <string name="app_ops_summaries_read_mms">lire des MMS</string>
+    <string name="app_ops_summaries_write_mms">écrire des MMS</string>
+    <string name="app_ops_summaries_auto_start">démarrage automatique</string>
+    <string name="app_ops_summaries_nfc_change">changer le nfc</string>
+    <string name="app_ops_summaries_delete_sms">supprimer des SMS</string>
+    <string name="app_ops_summaries_delete_mms">supprimer des MMS</string>
+    <string name="app_ops_summaries_delete_contacts">supprimer des contacts</string>
+    <string name="app_ops_summaries_delete_call_log">supprimer le journal d\'appel</string>
+    <string name="app_ops_summaries_data_change">changer la connexion data</string>
+    <string name="app_ops_summaries_wake_up">réveil</string>
+
+    <string name="app_ops_labels_location">Emplacement</string>
+    <string name="app_ops_labels_vibrate">Vibreur</string>
+    <string name="app_ops_labels_read_contacts">Lire les contacts</string>
+    <string name="app_ops_labels_modify_contacts">Modifier les contacts</string>
+    <string name="app_ops_labels_read_call_log">Lire le journal d\'appel</string>
+    <string name="app_ops_labels_modify_call_log">Modifier le journal des appels</string>
+    <string name="app_ops_labels_read_calendar">Lire le calendrier</string>
+    <string name="app_ops_labels_modify_calendar">Modifier le calendrier</string>
+    <string name="app_ops_labels_notification_toast">Notification / Toast</string>
+    <string name="app_ops_labels_call_phone">Appel téléphonique</string>
+    <string name="app_ops_labels_read_sms_db">lire des SMS DB</string>
+    <string name="app_ops_labels_write_sms_db">Ecrire des SMS DB</string>
+    <string name="app_ops_labels_receive_sms">Recevoir des SMS</string>
+    <string name="app_ops_labels_receive_mms">Recevoir des MMS</string>
+    <string name="app_ops_labels_send_sms">Envoyer des SMS</string>
+    <string name="app_ops_labels_modify_settings">Modifier les paramètres</string>
+    <string name="app_ops_labels_draw_on_top">Déplacer au-dessus</string>
+    <string name="app_ops_labels_access_notifications">Accéder aux notifications</string>
+    <string name="app_ops_labels_camera">Appareil photo</string>
+    <string name="app_ops_labels_record_audio">Enregistrement audio</string>
+    <string name="app_ops_labels_play_audio">Lire des fichiers audio</string>
+    <string name="app_ops_labels_read_clipboard">Lire le presse-papiers</string>
+    <string name="app_ops_labels_modify_clipboard">Modifier le presse-papiers</string>
+    <string name="app_ops_labels_media_buttons">Boutons médias</string>
+    <string name="app_ops_labels_audio_focus">Mise au point audio</string>
+    <string name="app_ops_labels_master_volume">Volume principal</string>
+    <string name="app_ops_labels_voice_volume">Volume de la voix</string>
+    <string name="app_ops_labels_ring_volume">Volume de la sonnerie</string>
+    <string name="app_ops_labels_media_volume">Volume des médias</string>
+    <string name="app_ops_labels_alarm_volume">Volume de l\'alarme</string>
+    <string name="app_ops_labels_notification_volume">Volume de notification</string>
+    <string name="app_ops_labels_bluetooth_volume">Volume du Bluetooth</string>
+    <string name="app_ops_labels_keep_awake">Maintenir activé</string>
+    <string name="app_ops_labels_get_usage_stats">Obtenir des statistiques d\'utilisation de l\'application</string>
+    <string name="app_ops_labels_mute_unmute_microphone">Activer / désactiver le microphone</string>
+    <string name="app_ops_labels_toast_window">Affichage toasts</string>
+    <string name="app_ops_labels_project_media">Projection média</string>
+    <string name="app_ops_labels_activate_vpn">Activer le VPN</string>
+    <string name="app_ops_labels_wifi_change">Changer le Wi-Fi</string>
+    <string name="app_ops_labels_bluetooth_change">Changer le bluetooth</string>
+    <string name="app_ops_labels_send_mms">Envoyer des MMS</string>
+    <string name="app_ops_labels_read_mms">Lire des MMS</string>
+    <string name="app_ops_labels_write_mms">Ecrire des MMS</string>
+    <string name="app_ops_labels_auto_start">Démarrage automatique</string>
+    <string name="app_ops_labels_nfc_change">Changer le NFC</string>
+    <string name="app_ops_labels_delete_sms">Supprimer des SMS</string>
+    <string name="app_ops_labels_delete_mms">Supprimer des MMS</string>
+    <string name="app_ops_labels_delete_contacts">Supprimer des contacts</string>
+    <string name="app_ops_labels_delete_call_log">Supprimer le journal d\'appel</string>
+    <string name="app_ops_labels_data_change">Changer la connexion data</string>
+    <string name="app_ops_labels_wake_up">Réveil</string>
+
+    <!-- App ops categories -->
+    <string name="app_ops_categories_location">Emplacement</string>
+    <string name="app_ops_categories_personal">Personnel</string>
+    <string name="app_ops_categories_messaging">Messagerie</string>
+    <string name="app_ops_categories_media">Média</string>
+    <string name="app_ops_categories_device">Appareil</string>
+    <string name="app_ops_categories_bootup">Démarrage</string>
+
+    <!-- App ops permissions -->
+    <string name="app_ops_permissions_allowed">Autorisée</string>
+    <string name="app_ops_permissions_ignored">Ignorée</string>
+    <string name="app_ops_permissions_always_ask">Toujours demander</string>
+
+    <string name="ok">OK</string>
+
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">Supprimer</string>
+    <string name="profile_menu_triggers_title">Modifier les déclencheurs</string>
+
+    <string name="profile_action_none">Aucune action</string>
+    <string name="profile_action_disabled">Désactiver</string>
+    <string name="profile_action_enable">Activer</string>
+
+    <string name="profile_trigger_a2dp_connect">À la connexion A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">À la déconnexion A2DP</string>
+
+    <string name="profile_tabs_wifi">Wi-Fi</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_nfc">NFC</string>
+
+    <string name="profile_setup_setup_triggers_title">Etape 1 : Ajouter les déclencheurs</string>
+    <string name="profile_setup_setup_triggers_title_config">Modifier les déclencheurs : <xliff:g id="profile_name">%1$s</xliff:g></string>
+
+    <string name="profile_setup_actions_title">Etape 2 : Configurer les actions</string>
+    <string name="profile_setup_actions_title_config">Reconfigurer les actions</string>
+
+    <string name="no_bluetooth_triggers">Pas de déclencheurs Bluetooth disponibles</string>
+    <string name="no_wifi_triggers">Pas de déclencheurs Wi-Fi disponibles</string>
+
+    <string name="profile_setup_setup_triggers_description">Veuillez sélectionner le déclencheur qui activera ce profil</string>
+    <string name="profile_setup_actions_description">Maintenant configurer ce qui se passe lorsque le profil est activé</string>
+
+    <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (Utilisés <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Autorisé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Refusé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Autorisé <xliff:g id="count">%1$s</xliff:g>, refusé <xliff:g id="count">%2$s</xliff:g></string>
+
+    <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Voir les applications utilisateur</string>
+    <string name="app_ops_show_system_apps">Afficher les applications système</string>
+    <string name="app_ops_reset_counters">Réinitialiser le compteur autorisés / refusés</string>
+    <string name="app_ops_reset_confirm_title">Confirmer la réinitialisation des compteurs</string>
+    <string name="app_ops_reset_confirm_mesg">Êtes-vous sûr de vouloir réinitialiser les compteurs ?</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Exemple</string>
+
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Sons de réglage du volume</string>
+
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Intensité des vibrations</string>
+    <string name="vibrator_warning">Des valeurs supérieures à %1$d ne sont pas recommandées</string>
+
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Calibrage des couleurs</string>
+    <string name="color_calibration_summary">Calibrer les couleurs à l\'écran</string>
+    <string name="color_red_title">Rouge</string>
+    <string name="color_green_title">Vert</string>
+    <string name="color_blue_title">Bleu</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">Calibrage du gamma</string>
+    <string name="gamma_tuning_summary_head">Personnaliser les valeurs du gamma</string>
+    <string name="gamma_tuning_control_set_header">Groupe <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <string name="gamma_tuning_contrast">Contraste</string>
+    <string name="gamma_tuning_brightness">Luminosité</string>
+    <string name="gamma_tuning_saturation">Saturation</string>
+
+    <string name="settings_reset_button">Réinitialiser</string>
+
+    <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
+    <string name="bluetooth_enter_pin_msg_hs">L\'appareil requiert un mot de passe haute sécurité de 16 caractères</string>
+
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the DUN profile. -->
+    <string name="bluetooth_profile_dun">Accès au réseau à distance</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the SAP profile. -->
+    <string name="bluetooth_profile_sap">Accès SIM</string>
+
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
+    <string name="bluetooth_dun_profile_summary_connected">Connecté à un serveur DUN</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference when SAP is connected. -->
+    <string name="bluetooth_sap_profile_summary_connected">Connecté à un serveur d\'accès SIM</string>
+
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference that describes how checking it will set the DUN profile as preferred. -->
+    <string name="bluetooth_dun_profile_summary_use_for">Utiliser pour l\'accès réseau à distance</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
+    <string name="bluetooth_sap_profile_summary_use_for">Utiliser pour l\'accès SIM</string>
+
+    <!-- Checkbox title for option to toggle wifi RSSI threshold check -->
+    <string name="wifi_rssi_threshold_check">Activer le seuil RSSI</string>
+    <!-- Checkbox summary for option to toggle poor network detection -->
+    <string name="wifi_rssi_threshold_check_summary">Ne pas se connecter à un point d\'accès si le RSSI est faible</string>
+
+    <!-- SIM lock settings title  [CHAR LIMIT=40] -->
+    <string name="sim_lock_settings_cm">Paramètres de verrouillage SIM / RUIM</string>
+    <!-- Security & location settings screen, setting option name  [CHAR LIMIT=40] -->
+    <string name="sim_lock_settings_category_cm">Configurer le verrouillage SIM / RUIM</string>
+    <!-- Security & location settings screen, section heading for settings related to sim card locking  [CHAR LIMIT=40] -->
+    <string name="sim_lock_settings_title_cm">Verrouillage de la carte SIM / RUIM</string>
+
+    <!-- SIM card lock settings screen, SIM PIN dialog message when SIM card is absent-->
+    <string name="sim_absent">Aucune SIM / RUIM</string>
+
+    <!-- SIM card lock settings screen, SIM PIN dialog message when PIN disable fails-->
+    <string name="sim_pin_disable_failed">Vous ne pouvez pas désactiver le PIN.</string>
+    <!-- SIM card lock settings screen, SIM PIN dialog message when PIN enable fails-->
+    <string name="sim_pin_enable_failed">Vous ne pouvez pas activer le PIN.</string>
+
+    <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
+    <string name="sim_pin_change_failed_enable_sim_lock">Impossible de modifier le PIN SIM / RUIM.\n Activer le verrouillage SIM / RUIM.</string>
+    <!-- SIM lock can't be changed - not supported -->
+    <string name="sim_enable_disable_lock_not_supported">Impossible de modifier le verrouillage SIM / RUIM.\n ne supporte pas SIM / RUIM.</string>
+    <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
+    <string name="sim_pin_attempts">\nTentatives restantes :</string>
+    <!-- SIM card lock settings screen, toast displayed on PIN1 enable: -->
+    <string name="sim_pin_enabled">PIN1 Activé !</string>
+    <!-- SIM card lock settings screen, toast displayed on PIN1 disable: -->
+    <string name="sim_pin_disabled">PIN1 Désactivé !</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary_cm" product="tablet">Etat de la batterie, réseau, et les autres informations</string>
+    <!-- About phone screen, summary of the item to go into the phone status screen -->
+    <string name="device_status_summary_cm" product="default">Etat de la batterie, niveau de la batterie, etc...</string>
+    <string name="subs_settings">Statut SUBS</string>
+    <!-- About phone screen, summary of the item to go into the phone status screen -->
+    <string name="device_additional_status_summary">Numéro de téléphone, Signal, IMEI, etc...</string>
+    <!-- In About phone->Status screen, title of the item to go into the subscription status screen -->
+    <string name="device_additional_status">Informations supplémentaires du statut</string>
+
+    <!-- string resources for USB OTG & UICC features -->
+    <string name="storage_usb">Stockage USB</string>
+    <string name="storage_uicc">Stockage UICC</string>
+    <string name="usb_eject" product="default">Désactiver le stockage USB</string>
+    <string name="usb_eject_summary" product="default">Désactiver le stockage USB de sorte que vous puissiez le retirer en toute sécurité</string>
+    <string name="usb_format" product="default">Effacer le stockage USB</string>
+    <string name="usb_format_summary" product="default">Efface toutes les données sur le stockage USB, comme la musique et les photos</string>
+    <string name="usb_mount" product="default">Monter le stockage USB</string>
+    <string name="usb_mount_summary" product="default"></string>
+    <string name="usb_insert_summary" product="default">Insérez un stockage USB pour le montage</string>
+    <string name="uicc_eject" product="default">Désactiver le stockage UICC</string>
+    <string name="uicc_eject_summary" product="default">Désactiver le stockage UICC de sorte que vous puissiez le retirer en toute sécurité</string>
+    <string name="uicc_format" product="default">Effacer le stockage UICC</string>
+    <string name="uicc_format_summary" product="default">Efface toutes les données sur le stockage UICC, comme la musique et les photos</string>
+    <string name="uicc_mount" product="default">Monter le stockage UICC</string>
+    <string name="uicc_mount_summary" product="default"></string>
+    <string name="uicc_insert_summary" product="default">Insérez un stockage UICC pour le montage</string>
+
+    <string name="dlg_confirm_usb_unmount_title" product="default">Désactiver le stockage USB ?</string>
+    <string name="dlg_confirm_uicc_unmount_title" product="default">Désactiver le stockage UICC ?</string>
+    <string name="dlg_confirm_usb_unmount_text" product="default">Si vous démontez le stockage USB, certaines applications que vous utilisez s\'arrêteront et peuvent être indisponibles jusqu\'à ce que vous remontiez le stockage USB.</string>
+    <string name="dlg_confirm_uicc_unmount_text" product="default">Si vous démontez le stockage UICC, certaines applications que vous utilisez s\'arrêteront et peuvent être indisponibles jusqu\'à ce que vous remontiez le stockage UICC.</string>
+    <string name="dlg_error_usb_unmount_text" product="default">Impossible de démonter le stockage USB. Réessayez plus tard.</string>
+    <string name="dlg_error_uicc_unmount_text" product="default">Impossible de démonter le stockage UICC. Réessayez plus tard.</string>
+    <string name="usb_unmount_inform_text" product="default">stockage USB sera déconnecté.</string>
+    <string name="uicc_unmount_inform_text" product="default">stockage UICC sera déconnecté.</string>
+
+    <string name="usb_media_format_title" product="default">Effacer le stockage USB</string>
+    <string name="uicc_media_format_title" product="default">Effacer le stockage UICC</string>
+    <string name="usb_media_format_summary" product="default">Supprime toutes les données sur le stockage USB</string>
+    <string name="uicc_media_format_summary" product="default">Supprime toutes les données sur le stockage UICC</string>
+    <string name="usb_media_format_desc" product="default">Effacer le stockage USB ? Vous allez perdre <b>toutes</b> les données du stockage !</string>
+    <string name="uicc_media_format_desc" product="default">Effacer le stockage UICC ? Vous allez perdre <b>toutes</b> les données du stockage !</string>
+    <string name="usb_media_format_button_text" product="default">Effacer le stockage USB</string>
+    <string name="uicc_media_format_button_text" product="default">Effacer le stockage UICC</string>
+    <string name="usb_media_format_final_desc" product="default">Effacer le stockage USB, supprimer tous les fichiers qui y sont stockés ? Vous ne pouvez pas inverser cette action !</string>
+    <string name="uicc_media_format_final_desc" product="default">Effacer le stockage UICC, supprimer tous les fichiers qui y sont stockés ? Vous ne pouvez pas inverser cette action !</string>
+    <string name="usb_media_format_gesture_explanation" product="default">Vous devez dessiner votre schéma de déverrouillage pour confirmer que vous souhaitez effacer le stockage USB.</string>
+    <string name="uicc_media_format_gesture_explanation" product="default">Vous devez dessiner votre schéma de déverrouillage pour confirmer que vous souhaitez effacer le stockage UICC.</string>
+
+    <!-- [CHAR LIMIT=130] Location mode screen, sub category for IZat Location -->
+    <string name="location_category_enhanced_location">Améliorée la localisation</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Afficher ou modifier les autorisations des applications</string>
+
+    <!-- Setting checkbox summary when device is in Charging mode -->
+    <string name="enable_adb_summary_charging">L\'appareil est en mode charge, le débogage USB est désactivé</string>
+
+    <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
+    <string name="enable_quickboot_title">Activer le mode démarrage rapide</string>
+    <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
+    <string name="enable_quickboot_summary">Mettre l\'appareil en mode démarrage rapide au lieu de la mise hors tension normale</string>
+
+    <string name="data_usage_tab_slot">SIM </string>
+
+    <!-- MultiSim Settings changes-->
+    <string name="close_dialog">OK</string>
+    <string name="sim_enabler_title">Activation SIM</string>
+    <string name="sim_enabler_summary">La carte SIM est %1$s</string>
+    <string name="sim_enabled">activée</string>
+    <string name="sim_disabled">désactivée</string>
+    <string name="sim_missing">manquante ou erreur</string>
+    <string name="sim_enabler_need_enable_sim">Activation de la carte SIM, êtes vous sûr ?</string>
+    <string name="sim_enabler_need_disable_sim">Désactivation de la carte SIM, êtes vous sûr ?</string>
+    <string name="sim_enabler_airplane_on">ERREUR, le mode avion est actif !</string>
+    <string name="sim_enabler_in_call">ERREUR, en appel !</string>
+    <string name="sim_enabler_both_inactive">"Erreur, ne peut pas désactiver toutes les cartes SIM"</string>
+    <string name="sim_enabler_enabling">Activation...</string>
+    <string name="sim_enabler_disabling">Désactivation...</string>
+    <string name="sub_activate_success">Activée avec succès.</string>
+    <string name="sub_activate_failed">Echec de l\'activation.</string>
+    <string name="sub_deactivate_success">Désactivée avec succès.</string>
+    <string name="sub_deactivate_failed">Echec de la désactivation.</string>
+    <string name="sub_deactivate_not_supported">Désactivation non pris en charge</string>
+    <string name="sub_activate_not_supported">Activation non pris en charge</string>
+    <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
+
+    <string name="usb_charging_title">Charge</string>
+    <string name="usb_charging_summary">Vous permet de désactiver toutes les connexions de données et de transfert de fichiers avec l\'ordinateur et mettre l\'appareil en mode chargement seulement.</string>
+    <string name="primary_sub_select_title">Abonnement 3G / 4G par défaut</string>
+
+    <string name="usb_sdcard_summary">Vous permet de transférer des fichiers multimédias de la carte SD sur l\'ordinateur</string>
+    <string name="usb_sdcard_title">Monter la carte SD</string>
+    <string name="external_storage_turn_on">Le stockage externe a été activé</string>
+    <string name="external_storage_turn_off">Le stockage externe a été désactivé</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Réinitialiser</string>
+    <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
+    <string name="protected_apps">Applications protégées</string>
+    <string name="saving_protected_components">Sauvegarde de l\'état du composant</string>
+
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Afficher la météo</string>
+    <string name="status_bar_show_weather_summary">Afficher la météo dans la barre de statut</string>
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Sons de chargement</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Activer</string>
+    <string name="power_notifications_enable_summary">Jouer un son lors de la connexion ou la déconnexion du chargeur</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibreur</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Son de notification</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silencieux</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gestureBlock_gesture_touch_events_service_title">Bloquer le gestuel des événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+</resources>
