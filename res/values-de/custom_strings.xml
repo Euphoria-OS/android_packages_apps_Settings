@@ -60,9 +60,14 @@
 
     <!--Status bar -->
     <string name="status_bar_category">Statusleiste</string>
-    <string name="status_bar_battery_show_percent_title">Akkustatus in Prozent</string>
-    <string name="lockscreen_show_carrier_title">Anbietername auf dem Sperrbildschirm</string>
 
+    <!--Status bar carrier -->
+    <string name="show_carrier_title">Anbietername</string>
+    <string name="show_carrier_disabled">Deaktiviert</string>
+    <string name="show_carrier_keyguard">Auf dem Sperrbildschirm</string>
+    <string name="show_carrier_statusbar">In der Statusleiste</string>
+    <string name="show_carrier_enabled">Aktiviert</string>
+    
     <!--Power menu -->
     <string name="power_category">Ein/Aus-Taste</string>
     <string name="lockscreen_enable_power_menu_title">Ein/Aus-Menü bei Bildschirmsperre</string>
@@ -72,6 +77,7 @@
     <string name="touch_control_settings_summary">Erweiterte Option zum Einschalten des Bildschirms durch doppeltes tippen und mehr</string>
 
     <!-- Status bar | Clock -->
+    <string name="status_bar_clock_category">Statusleiste</string>
     <string name="status_bar_clock">Datum und Uhrzeit</string>
     <string name="status_bar_clock_title">Datum und Uhrzeitstil</string>
     <string name="clock_title_enable">Ausrichtung</string>
@@ -108,6 +114,14 @@
     <string name="quick_settings_category">Schnelleinstellungen</string>
     <string name="block_on_secure_keyguard_title">Auf dem Sperrbildschirm deaktivieren</string>
     <string name="block_on_secure_keyguard_summary">Auf sicherem Sperrbildschirm deaktivieren</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
+    <string name="quick_settings_vibrate_summary">Vibriert beim Berühren der Kacheln</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Automatisches Schließen<</string>
+    <string name="quick_settings_collapse_summary">Schnelleinstellungen nach Auswahl automatisch schließen</string>
     
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
@@ -150,7 +164,65 @@
     <string name="show_clear_all_recents_button_title">Löschtaste</string>
     <string name="show_clear_all_recents_button_summary">Ermöglicht das Beenden aller Anwendungen auf einmal</string>
     <string name="recents_clear_all_location_title">Position der Löschtaste</string>
-    <string name="recents_clear_all_location_right">Oben rechts</string>
-    <string name="recents_clear_all_location_left">Oben links</string>
+    <string name="recents_clear_all_location_top_right">Oben rechts</string>
+    <string name="recents_clear_all_location_top_left">Oben links</string>
+    <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
+    <string name="recents_clear_all_location_bottom_left">Unten links</string>
     <string name="recents_searchbar_title">Suchleiste</string>
+    <string name="recents_searchbar_summary">Zeigt die Google-Suchleiste in Anwendungsverlauf an</string>
+
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Vollbildtastatur</string>
+    <string name="fullscreen_keyboard_summary">Zeigt eine Vollbildtastatur im Querformat an</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Navigationsleiste</string>
+    <string name="navbar_enable_bar">Aktivieren</string>
+    <string name="navigation_bar_left_title">Links-Händermodus</string>
+    <string name="navigation_bar_left_summary">Platziert im Querformat die Navigationsleiste auf der linken Seite</string>
+    <string name="navbar_dimen_title">Abmessungen</string>
+    <string name="navbar_dimensions_reset_message">Alle Abmessungen auf die Standardeinstellungen zurücksetzen?</string>
+    <string name="navigation_bar_height_title">Höhe der Navigationsleiste</string>
+    <string name="navigation_bar_height_landscape_title">Höhe der Navigationsleiste im Querformat</string>
+    <string name="navigation_bar_width_title">Breite der Navigationsleiste</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (Standard)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (Standard)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (aus)</string>
+
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">WLAN Verbindungsbenachrichtigung</string>
+    <string name="notify_changed_networks_default">Aus (Standard)</string>
+    <string name="notify_changed_networks_toast">Toast</string>
+    <string name="notify_changed_networks_notification">Benachrichtigung</string>
+    <string name="notify_changed_networks_notification_sound">Benachrichtigung mit Ton</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads-Up Benachrichtigungen</string>
+    <string name="summary_heads_up_enabled">Pop-Up Benachrichtigungen sind aktiviert</string>
+    <string name="summary_heads_up_disabled">Popp-Up Benachrichtigungen sind deaktiviert</string>
+    <string name="show_headsup_button_title">Schnellzugriff</string>
+    <string name="show_headsup_button_summary">Zeigt eine Schnellzugriffstaste im Benachrichtigungsheader an</string>
+    <string name="add_heads_up_package">Anwendung hinzufügen</string>
+    <string name="add_heads_up_dnd_summary">In diesen Anwendungen werden keine Heads-Up Benachrichtigungen angezeigt</string>
+    <string name="add_heads_up_blacklist_summary">Von diesen Anwendungen werden keine Heads-Up Benachrichtigungen angezeigt</string>
+    <string name="heads_up_dnd_title">Nicht stören</string>
+    <string name="heads_up_blacklist_title">Schwarze Liste</string>
+    <string name="heads_up_disabled_notice">Um Anwendungen das Anzeigen interaktiver Benachrichtigungen in einem Pop-Up zu erlauben, aktiviere Heads-Up</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Anzeigedauer</string>
+    <string name="heads_up_time_out_summary">Heads-Up Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
+    <string name="heads_up_time_out_never_summary">Heads-Up Benachrichtigungen werden bis zum Löschen angezeigt</string>
+    <string name="heads_up_time_out_2sec">2 Sekunden</string>
+    <string name="heads_up_time_out_4sec">4 Sekunden</string>
+    <string name="heads_up_time_out_6sec">6 Sekunden</string>
+    <string name="heads_up_time_out_8sec">8 Sekunden</string>
+    <string name="heads_up_time_out_10sec">10 Sekunden</string>
+    <string name="heads_up_time_out_never">Immer anzeigen</string>
 </resources>
