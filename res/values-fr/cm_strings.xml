@@ -572,128 +572,128 @@
     <string name="profile_menu_delete_title">Supprimer</string>
     <string name="profile_menu_triggers_title">Modifier les déclencheurs</string>
 
-    <string name="profile_action_none">No action</string>
-    <string name="profile_action_disabled">Disable</string>
-    <string name="profile_action_enable">Enable</string>
+    <string name="profile_action_none">Aucune action</string>
+    <string name="profile_action_disabled">Désactiver</string>
+    <string name="profile_action_enable">Activer</string>
 
-    <string name="profile_trigger_a2dp_connect">On A2DP connect</string>
-    <string name="profile_trigger_a2dp_disconnect">On A2DP disconnect</string>
+    <string name="profile_trigger_a2dp_connect">À la connexion A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">À la déconnexion A2DP</string>
 
     <string name="profile_tabs_wifi">Wi-Fi</string>
     <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_tabs_nfc">NFC</string>
 
-    <string name="profile_setup_setup_triggers_title">Step 1: Add triggers</string>
-    <string name="profile_setup_setup_triggers_title_config">Modify triggers: <xliff:g id="profile_name">%1$s</xliff:g></string>
+    <string name="profile_setup_setup_triggers_title">Etape 1 : Ajouter les déclencheurs</string>
+    <string name="profile_setup_setup_triggers_title_config">Modifier les déclencheurs : <xliff:g id="profile_name">%1$s</xliff:g></string>
 
-    <string name="profile_setup_actions_title">Step 2: Setup actions</string>
-    <string name="profile_setup_actions_title_config">Reconfigure actions</string>
+    <string name="profile_setup_actions_title">Etape 2 : Configurer les actions</string>
+    <string name="profile_setup_actions_title_config">Reconfigurer les actions</string>
 
-    <string name="no_bluetooth_triggers">No Bluetooth triggers available</string>
-    <string name="no_wifi_triggers">No Wi-Fi triggers available</string>
+    <string name="no_bluetooth_triggers">Pas de déclencheurs Bluetooth disponibles</string>
+    <string name="no_wifi_triggers">Pas de déclencheurs Wi-Fi disponibles</string>
 
-    <string name="profile_setup_setup_triggers_description">Please select triggers which will activate this profile</string>
-    <string name="profile_setup_actions_description">Now configure what happens when the profile is activated</string>
+    <string name="profile_setup_setup_triggers_description">Veuillez sélectionner le déclencheur qui activera ce profil</string>
+    <string name="profile_setup_actions_description">Maintenant configurer ce qui se passe lorsque le profil est activé</string>
 
     <!-- App ops detail -->
-    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
-    <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (Utilisés <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Autorisé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Refusé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Autorisé <xliff:g id="count">%1$s</xliff:g>, refusé <xliff:g id="count">%2$s</xliff:g></string>
 
     <!-- App ops menu options -->
-    <string name="app_ops_show_user_apps">Show user apps</string>
-    <string name="app_ops_show_system_apps">Show built-in apps</string>
-    <string name="app_ops_reset_counters">Reset allow/deny counters</string>
-    <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
-    <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
+    <string name="app_ops_show_user_apps">Voir les applications utilisateur</string>
+    <string name="app_ops_show_system_apps">Afficher les applications système</string>
+    <string name="app_ops_reset_counters">Réinitialiser le compteur autorisés / refusés</string>
+    <string name="app_ops_reset_confirm_title">Confirmer la réinitialisation des compteurs</string>
+    <string name="app_ops_reset_confirm_mesg">Êtes-vous sûr de vouloir réinitialiser les compteurs ?</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
     multiple font sizes in a limited amount of space. -->
-    <string name="font_size_sample">Sample</string>
+    <string name="font_size_sample">Exemple</string>
 
     <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+    <string name="volume_adjust_sounds_title">Sons de réglage du volume</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
-    <string name="vibrator_intensity_title">Vibrator intensity</string>
-    <string name="vibrator_warning">Values higher than %1$d are not recommended</string>
+    <string name="vibrator_intensity_title">Intensité des vibrations</string>
+    <string name="vibrator_warning">Des valeurs supérieures à %1$d ne sont pas recommandées</string>
 
     <!-- Hardware tunables - Color calibration -->
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="color_calibration_title">Calibrage des couleurs</string>
+    <string name="color_calibration_summary">Calibrer les couleurs à l\'écran</string>
+    <string name="color_red_title">Rouge</string>
+    <string name="color_green_title">Vert</string>
+    <string name="color_blue_title">Bleu</string>
 
     <!-- Hardware tunables - Gamma calibration -->
-    <string name="gamma_tuning_title_head">Gamma calibration</string>
-    <string name="gamma_tuning_summary_head">Tweak gamma values</string>
-    <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
-    <string name="gamma_tuning_contrast">Contrast</string>
-    <string name="gamma_tuning_brightness">Brightness</string>
+    <string name="gamma_tuning_title_head">Calibrage du gamma</string>
+    <string name="gamma_tuning_summary_head">Personnaliser les valeurs du gamma</string>
+    <string name="gamma_tuning_control_set_header">Groupe <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <string name="gamma_tuning_contrast">Contraste</string>
+    <string name="gamma_tuning_brightness">Luminosité</string>
     <string name="gamma_tuning_saturation">Saturation</string>
 
-    <string name="settings_reset_button">Reset</string>
+    <string name="settings_reset_button">Réinitialiser</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
-    <string name="bluetooth_enter_pin_msg_hs">Device requires High Security 16 character passkey</string>
+    <string name="bluetooth_enter_pin_msg_hs">L\'appareil requiert un mot de passe haute sécurité de 16 caractères</string>
 
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the DUN profile. -->
-    <string name="bluetooth_profile_dun">Dial-up Network Access</string>
+    <string name="bluetooth_profile_dun">Accès au réseau à distance</string>
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the SAP profile. -->
-    <string name="bluetooth_profile_sap">SIM Access</string>
+    <string name="bluetooth_profile_sap">Accès SIM</string>
 
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
-    <string name="bluetooth_dun_profile_summary_connected">Connected to DUN Server</string>
+    <string name="bluetooth_dun_profile_summary_connected">Connecté à un serveur DUN</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference when SAP is connected. -->
-    <string name="bluetooth_sap_profile_summary_connected">Connected to SIM Access Server</string>
+    <string name="bluetooth_sap_profile_summary_connected">Connecté à un serveur d\'accès SIM</string>
 
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference that describes how checking it will set the DUN profile as preferred. -->
-    <string name="bluetooth_dun_profile_summary_use_for">Use for Dial-up Network Access</string>
+    <string name="bluetooth_dun_profile_summary_use_for">Utiliser pour l\'accès réseau à distance</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
-    <string name="bluetooth_sap_profile_summary_use_for">Use for SIM Access</string>
+    <string name="bluetooth_sap_profile_summary_use_for">Utiliser pour l\'accès SIM</string>
 
     <!-- Checkbox title for option to toggle wifi RSSI threshold check -->
-    <string name="wifi_rssi_threshold_check">Enable RSSI threshold</string>
+    <string name="wifi_rssi_threshold_check">Activer le seuil RSSI</string>
     <!-- Checkbox summary for option to toggle poor network detection -->
-    <string name="wifi_rssi_threshold_check_summary">Do not connect to an AP if RSSI is poor</string>
+    <string name="wifi_rssi_threshold_check_summary">Ne pas se connecter à un point d\'accès si le RSSI est faible</string>
 
     <!-- SIM lock settings title  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_cm">SIM/RUIM card lock settings</string>
+    <string name="sim_lock_settings_cm">Paramètres de verrouillage SIM / RUIM</string>
     <!-- Security & location settings screen, setting option name  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_category_cm">Set up SIM/RUIM card lock</string>
+    <string name="sim_lock_settings_category_cm">Configurer le verrouillage SIM / RUIM</string>
     <!-- Security & location settings screen, section heading for settings related to sim card locking  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_title_cm">SIM/RUIM card lock</string>
+    <string name="sim_lock_settings_title_cm">Verrouillage de la carte SIM / RUIM</string>
 
     <!-- SIM card lock settings screen, SIM PIN dialog message when SIM card is absent-->
-    <string name="sim_absent">No SIM/RUIM</string>
+    <string name="sim_absent">Aucune SIM / RUIM</string>
 
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN disable fails-->
-    <string name="sim_pin_disable_failed">Can\'t disable PIN.</string>
+    <string name="sim_pin_disable_failed">Vous ne pouvez pas désactiver le PIN.</string>
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN enable fails-->
-    <string name="sim_pin_enable_failed">Can\'t enable PIN.</string>
+    <string name="sim_pin_enable_failed">Vous ne pouvez pas activer le PIN.</string>
 
     <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
-    <string name="sim_pin_change_failed_enable_sim_lock">Unable to Change SIM/RUIM PIN.\n Enable SIM/RUIM Lock.</string>
+    <string name="sim_pin_change_failed_enable_sim_lock">Impossible de modifier le PIN SIM / RUIM.\n Activer le verrouillage SIM / RUIM.</string>
     <!-- SIM lock can't be changed - not supported -->
-    <string name="sim_enable_disable_lock_not_supported">Unable to Change SIM/RUIM Lock.\n SIM/RUIM doesn\'t support it.</string>
+    <string name="sim_enable_disable_lock_not_supported">Impossible de modifier le verrouillage SIM / RUIM.\n ne supporte pas SIM / RUIM.</string>
     <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
-    <string name="sim_pin_attempts">\nAttempts Remaining :</string>
+    <string name="sim_pin_attempts">\nTentatives restantes :</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 enable: -->
-    <string name="sim_pin_enabled">PIN1 Enabled!</string>
+    <string name="sim_pin_enabled">PIN1 Activé !</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 disable: -->
-    <string name="sim_pin_disabled">PIN1 Disabled!</string>
+    <string name="sim_pin_disabled">PIN1 Désactivé !</string>
 
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
-    <string name="device_status_summary_cm" product="tablet">Status of the battery, network, and other information</string>
+    <string name="device_status_summary_cm" product="tablet">Etat de la batterie, réseau, et les autres informations</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_status_summary_cm" product="default">Battery Status, battery level, etc.</string>
-    <string name="subs_settings">SUBS Status</string>
+    <string name="device_status_summary_cm" product="default">Etat de la batterie, niveau de la batterie, etc...</string>
+    <string name="subs_settings">Statut SUBS</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_additional_status_summary">Phone number, Signal, IMEI, etc.</string>
+    <string name="device_additional_status_summary">Numéro de téléphone, Signal, IMEI, etc...</string>
     <!-- In About phone->Status screen, title of the item to go into the subscription status screen -->
-    <string name="device_additional_status">Additional Status Info</string>
+    <string name="device_additional_status">Informations supplémentaires du statut</string>
 
     <!-- string resources for USB OTG & UICC features -->
     <string name="storage_usb">USB storage</string>
