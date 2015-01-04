@@ -789,5 +789,22 @@
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Wetter anzeigen</string>
     <string name="status_bar_show_weather_summary">Zeigt das aktuelle Wetter im Benachrichtigungsheader an</string>
-    
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Ladeton</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Aktiviert</string>
+    <string name="power_notifications_enable_summary">Spielt einen Ton beim verbinden oder trennen des Ladegeräts ab</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrieren</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Benachrichtigungston</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Lautlos</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Berührungen bei Gestensteuerung blockieren</string>
+    <string name="edge_gesture_service_summary">Berührungen der Navigations- und Statusleiste bei Gestensteuerung vor Apps verbergen</string>
 </resources>
