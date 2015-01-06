@@ -151,7 +151,7 @@
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Données mobile</string>
-    <string name="toggleSync">Synchronisation des données</string>
+    <string name="toggleSync">Synchronisation des données automatique</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
@@ -449,7 +449,7 @@
     <string name="app_ops_summaries_modify_call_log">modifier le journal des appels</string>
     <string name="app_ops_summaries_read_calendar">lire le calendrier</string>
     <string name="app_ops_summaries_modify_calendar">modifier le calendrier</string>
-    <string name="app_ops_summaries_wifi_scan">scanner le wi-fi</string>
+    <string name="app_ops_summaries_wifi_scan">scanner le Wi-fi</string>
     <string name="app_ops_summaries_notification">notification</string>
     <string name="app_ops_summaries_cell_scan">scanner le réseau cellulaire</string>
     <string name="app_ops_summaries_call_phone">appel téléphonique</string>
@@ -500,6 +500,7 @@
     <string name="app_ops_summaries_delete_call_log">supprimer le journal d\'appel</string>
     <string name="app_ops_summaries_data_change">changer la connexion data</string>
     <string name="app_ops_summaries_wake_up">réveil</string>
+	<string name="app_ops_summaries_su">Superuser</string>
 
     <string name="app_ops_labels_location">Emplacement</string>
     <string name="app_ops_labels_vibrate">Vibreur</string>
@@ -552,6 +553,7 @@
     <string name="app_ops_labels_delete_call_log">Supprimer le journal d\'appel</string>
     <string name="app_ops_labels_data_change">Changer la connexion data</string>
     <string name="app_ops_labels_wake_up">Réveil</string>
+	<string name="app_ops_labels_su">Accès root</string>
 
     <!-- App ops categories -->
     <string name="app_ops_categories_location">Emplacement</string>
@@ -560,6 +562,7 @@
     <string name="app_ops_categories_media">Média</string>
     <string name="app_ops_categories_device">Appareil</string>
     <string name="app_ops_categories_bootup">Démarrage</string>
+	<string name="app_ops_categories_su">Superuser</string>
 
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Autorisée</string>
@@ -637,7 +640,7 @@
     <string name="settings_reset_button">Réinitialiser</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
-    <string name="bluetooth_enter_pin_msg_hs">L\'appareil requiert un mot de passe haute sécurité de 16 caractères</string>
+	<string name="bluetooth_enter_pin_msg_hs">Pour associer :<xliff:g id="bold">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b>&lt;br>&lt;br></xliff:g>Tapez le code PIN de l\'appareil souhaité (16 chiffres ou plus) :</string>
 
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the DUN profile. -->
     <string name="bluetooth_profile_dun">Accès au réseau à distance</string>
@@ -675,9 +678,9 @@
     <string name="sim_pin_enable_failed">Vous ne pouvez pas activer le PIN.</string>
 
     <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
-    <string name="sim_pin_change_failed_enable_sim_lock">Impossible de modifier le PIN SIM / RUIM.\n Activer le verrouillage SIM / RUIM.</string>
+    <string name="sim_pin_change_failed_enable_sim_lock">Pour changer le code PIN SIM / RUIM.\n Activer le verrouillage SIM / RUIM en premier.</string>
     <!-- SIM lock can't be changed - not supported -->
-    <string name="sim_enable_disable_lock_not_supported">Impossible de modifier le verrouillage SIM / RUIM.\n ne supporte pas SIM / RUIM.</string>
+    <string name="sim_enable_disable_lock_not_supported">Le verrouillage SIM / RUIM n\'est pas pris en charge par la carte.</string>
     <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
     <string name="sim_pin_attempts">\nTentatives restantes :</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 enable: -->
@@ -753,18 +756,18 @@
 
     <!-- MultiSim Settings changes-->
     <string name="close_dialog">OK</string>
-    <string name="sim_enabler_title">Activation SIM</string>
+    <string name="sim_enabler_title">Statut SIM</string>
     <string name="sim_enabler_summary">La carte SIM est %1$s</string>
     <string name="sim_enabled">activée</string>
     <string name="sim_disabled">désactivée</string>
-    <string name="sim_missing">manquante ou erreur</string>
-    <string name="sim_enabler_need_enable_sim">Activation de la carte SIM, êtes vous sûr ?</string>
-    <string name="sim_enabler_need_disable_sim">Désactivation de la carte SIM, êtes vous sûr ?</string>
-    <string name="sim_enabler_airplane_on">ERREUR, le mode avion est actif !</string>
-    <string name="sim_enabler_in_call">ERREUR, en appel !</string>
+    <string name="sim_missing">manquante ou défectueuse</string>
+    <string name="sim_enabler_need_enable_sim">La carte SIM sera activée. Voulez-vous continuer ?</string>
+    <string name="sim_enabler_need_disable_sim">La carte SIM sera désactivée. Voulez-vous continuer ?</string>
+    <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération en mode avion.</string>
+    <string name="sim_enabler_in_call">Impossible d\'effectuer l\'opération en mode appel.</string>
     <string name="sim_enabler_both_inactive">"Erreur, ne peut pas désactiver toutes les cartes SIM"</string>
-    <string name="sim_enabler_enabling">Activation...</string>
-    <string name="sim_enabler_disabling">Désactivation...</string>
+    <string name="sim_enabler_enabling">Activation\2026</string>
+    <string name="sim_enabler_disabling">Désactivation\2026</string>
     <string name="sub_activate_success">Activée avec succès.</string>
     <string name="sub_activate_failed">Echec de l\'activation.</string>
     <string name="sub_deactivate_success">Désactivée avec succès.</string>
@@ -773,12 +776,12 @@
     <string name="sub_activate_not_supported">Activation non pris en charge</string>
     <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
 
-    <string name="usb_charging_title">Charge</string>
-    <string name="usb_charging_summary">Vous permet de désactiver toutes les connexions de données et de transfert de fichiers avec l\'ordinateur et mettre l\'appareil en mode chargement seulement.</string>
+    <string name="usb_charging_title">Charge seulement</string>
+    <string name="usb_charging_summary">Désactive tous les transferts de données avec l\'ordinateur et charges l\'appareil sur le port USB</string>
     <string name="primary_sub_select_title">Abonnement 3G / 4G par défaut</string>
 
     <string name="usb_sdcard_summary">Vous permet de transférer des fichiers multimédias de la carte SD sur l\'ordinateur</string>
-    <string name="usb_sdcard_title">Monter la carte SD</string>
+    <string name="usb_sdcard_title">Stockage USB</string>
     <string name="external_storage_turn_on">Le stockage externe a été activé</string>
     <string name="external_storage_turn_off">Le stockage externe a été désactivé</string>
 
