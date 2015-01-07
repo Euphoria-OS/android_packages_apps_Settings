@@ -812,4 +812,7 @@
     <!-- EdgeGesture service -->
     <string name="edge_gestureBlock_gesture_touch_events_service_title">Bloquer le gestuel des événements tactiles</string>
     <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
