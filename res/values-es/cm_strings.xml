@@ -498,6 +498,7 @@
     <string name="app_ops_summaries_delete_call_log">borrar historial de llamada</string>
     <string name="app_ops_summaries_data_change">cambiar datos</string>
     <string name="app_ops_summaries_wake_up">despertar</string>
+    <string name="app_ops_summaries_su">Superusuario</string>
 
     <string name="app_ops_labels_location">Ubicación</string>
     <string name="app_ops_labels_vibrate">Vibrar</string>
@@ -550,6 +551,7 @@
     <string name="app_ops_labels_delete_call_log">Borrar historial llamada</string>
     <string name="app_ops_labels_data_change">Cambiar Datos</string>
     <string name="app_ops_labels_wake_up">Despertar</string>
+    <string name="app_ops_labels_su">Acceso root</string>
 
     <!-- App ops categories -->
     <string name="app_ops_categories_location">Ubicación</string>
@@ -558,6 +560,7 @@
     <string name="app_ops_categories_media">Media</string>
     <string name="app_ops_categories_device">Dispositivo</string>
     <string name="app_ops_categories_bootup">Arranque</string>
+    <string name="app_ops_categories_su">Superusuario</string>
 
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Permitido</string>
