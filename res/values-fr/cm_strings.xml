@@ -43,7 +43,7 @@
     <string name="ring_mode_unchanged">Inchangé</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">profils système</string>
+    <string name="profiles_settings_title">Profils système</string>
     <string name="profiles_add">Ajouter</string>
     <string name="profile_menu_delete">Supprimer</string>
     <string name="profile_settings_title">Profil</string>
