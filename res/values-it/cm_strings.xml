@@ -59,9 +59,13 @@
     <string name="profile_write_failed">Memorizzazione sul tag fallita!</string>
     <string name="profile_selected">Profilo selezionato: %1$s</string>
     <string name="profile_nfc_text">Memorizzare un profilo su un tag NFC permette di appoggiare il tag per selezionare il profilo. Appoggiarlo una seconda volta selezionerà il profilo precedentemente selezionato.</string>
-    <string name="profile_unknown_nfc_tag">Unknown profile</string>
+    <string name="profile_unknown_nfc_tag">Profilo sconosciuto</string>
     <string name="profile_add_nfc_text">Questo tag NFC fa riferimento a un profilo sconosciuto. Associare questo tag NFC a un profilo esistente permetterà di selezionare il profilo in futuro.</string>
     <string name="profile_select">Seleziona profilo</string>
+    <string name="profile_remove_dialog_message">Rimuovere profilo %1$s?</string>
+    <string name="profile_populate_profile_from_state">Configurare il profilo utilizzando le impostazioni correnti del dispositivo?</string>
+    <string name="profile_menu_fill_from_state">Importa impostazioni correnti del dispositivo</string>
+    
 
     <!-- Add Profile -->
     <string name="add_profile_dialog_title">Crea nuovo profilo</string>
@@ -179,6 +183,8 @@
     <string name="volbtn_cursor_control_off">Disabilitato</string>
     <string name="volbtn_cursor_control_on">Volume su/giù muove a sinistra/destra</string>
     <string name="volbtn_cursor_control_on_reverse">Volume su/giù muove a destra/sinistra</string>
+    <string name="swap_volume_buttons_title">Riorienta</string>
+    <string name="swap_volume_buttons_summary">Scambia i pulsanti del volume quando lo schermo è ruotato</string>
     <string name="power_end_call_title">Conclusione chiamata</string>
     <string name="power_end_call_summary">Premere il pulsante di spegnimento terminerà la chiamata corrente</string>
     <string name="button_wake_title">Risveglia</string>
@@ -187,6 +193,21 @@
     <string name="home_answer_call_summary">Premere il pulsante casa risponderà alla corrente chiamata in entrata</string>
     <string name="volbtn_wake_device_title">Risveglia il dispositivo</string>
     <string name="volbtn_wake_device_summary">Premere un pulsante del volume risveglierà il tuo dispositivo</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Menu di spegnimento</string>
+    <string name="power_menu_power_title">Spegnimento</string>
+    <string name="power_menu_reboot_title">Menu di riavvio</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_profiles_title">Cambia profilo</string>
+    <string name="power_menu_airplane_title">Modalità aereo</string>
+    <string name="power_menu_users_title">Cambia utente</string>
+    <string name="power_menu_settings_title">Scorciatoia impostazioni</string>
+    <string name="power_menu_lockdown_title">Blocco del dispositivo</string>
+    <string name="power_menu_bug_report_title">Segnalazione bug</string></string>
+    <string name="power_menu_sound_title">Pannello volume</string>
+    <string name="power_menu_bug_report_disabled">La segnalazione dei bug è disabilitata nelle opzioni sviluppatore</string>
+    <string name="power_menu_profiles_disabled">I profili di sistema sono disabilitati</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Retroilluminazione adattiva</string>
@@ -253,7 +274,7 @@
     <!-- Display : Rotation  -->
     <string name="display_rotation_title">Rotazione</string>
     <string name="display_rotation_disabled">Disabilitata</string>
-    <string name="display_rotation_unit">gardi</string>
+    <string name="display_rotation_unit">gradi</string>
     <string name="display_lockscreen_rotation_title">Ruota schermata di blocco</string>
     <string name="display_rotation_category_title">Modalità di rotazione</string>
     <string name="display_rotation_0_title">0 gradi</string>
@@ -287,6 +308,8 @@
     <!--- Advanced Settings -->
     <string name="advanced_settings">Impostazioni avanzate</string>
     <string name="advanced_settings_summary">Abilita più opzioni</string>
+    
+    <string name="contributor_cloud_title">Collaboratori</string>
 
     <!--- Tap To Wake -->
     <string name="double_tap_to_wake_title">Doppio tocco per risvegliare</string>
@@ -496,6 +519,7 @@
     <string name="app_ops_summaries_delete_call_log">eliminazione registro chiamate</string>
     <string name="app_ops_summaries_data_change">cambiamento stato rete dati</string>
     <string name="app_ops_summaries_wake_up">risveglio</string>
+    <string name="app_ops_summaries_su">Superuser</string>
 
     <string name="app_ops_labels_location">Localizzazione</string>
     <string name="app_ops_labels_vibrate">Vibrazione</string>
@@ -548,6 +572,7 @@
     <string name="app_ops_labels_delete_call_log">Eliminazione registro chiamate</string>
     <string name="app_ops_labels_data_change">Cambiamento stato rete dati</string>
     <string name="app_ops_labels_wake_up">Risveglio</string>
+    <string name="app_ops_labels_su">Accesso di root</string>
 
     <!-- App ops categories -->
     <string name="app_ops_categories_location">Localizzazione</string>
@@ -556,10 +581,11 @@
     <string name="app_ops_categories_media">Media</string>
     <string name="app_ops_categories_device">Dispositivo</string>
     <string name="app_ops_categories_bootup">Avvio</string>
+    <string name="app_ops_categories_su">Superuser</string>
 
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Permesso</string>
-    <string name="app_ops_permissions_ignored">Ignorato</string>
+    <string name="app_ops_permissions_ignored">Negato</string>
     <string name="app_ops_permissions_always_ask">Chiedi sempre</string>
 
     <string name="ok">OK</string>
@@ -579,6 +605,8 @@
     <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_tabs_nfc">NFC</string>
 
+    <string name="profile_triggers_header">Attivatori che attiveranno questo profilo</string>
+
     <string name="profile_setup_setup_triggers_title">Passo 1: aggiungi attivatore</string>
     <string name="profile_setup_setup_triggers_title_config">Modifica attivatori: <xliff:g id="profile_name">%1$s</xliff:g></string>
 
@@ -587,6 +615,8 @@
 
     <string name="no_bluetooth_triggers">Nessun attivatore Bluetooth disponibile</string>
     <string name="no_wifi_triggers">Nessun attivatore Wi-Fi disponibile</string>
+      <string name="no_triggers_configured">Nessun attivatore configurato. Tocca per aggiungere.</string>
+    <string name="no_triggers_configured_nfc">Tocca per configurare un nuovo attivatore NFC.</string>
 
     <string name="profile_setup_setup_triggers_description">Per favore seleziona gli attivatori che attiveranno questo profilo</string>
     <string name="profile_setup_actions_description">Ora configura cosa succede quando il profilo è attivato</string>
@@ -629,7 +659,6 @@
     <string name="gamma_tuning_contrast">Contrasto</string>
     <string name="gamma_tuning_brightness">Luminosità</string>
     <string name="gamma_tuning_saturation">Saturazione</string>
-
     <string name="settings_reset_button">Ripristina</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
@@ -787,5 +816,28 @@
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Mostra meteo</string>
     <string name="status_bar_show_weather_summary">Mostra il meteo nella testata della barra di stato</string>
+   
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Suoni di ricarica</string>
 
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Abilita</string>
+    <string name="power_notifications_enable_summary">Riproduci un suono al collegamento/scollegamento del caricabatterie</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibra</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Suono di notifica</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silenzioso</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Blocca i tocchi delle gesture</string>
+    <string name="edge_gesture_service_summary">Non far rilevare alle app i tocchi delle gesture di barra di navigazione e di stato</string>
+
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il PIN/la password corretto/a è inserito/a</string>
+    <string name="unlock_scramble_pin_layout_title">Cambia disposizione</string>
+    <string name="unlock_scramble_pin_layout_summary">Cambia disposizione del PIN mentre si sblocca il dispositivo</string>
 </resources>
