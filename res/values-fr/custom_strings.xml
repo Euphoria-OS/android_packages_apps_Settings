@@ -13,10 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
-    <string name="custom_settings_title">personnalisation</string>
+    <string name="custom_settings_title">Personnalisation</string>
 
     <!-- Updater -->
-    <string name="updater_title">mises à jour</string>
+    <string name="updater_title">Mises à jour</string>
     <string name="updater_summary">Vérifier les mises à jour et plus</string>
 
     <!-- Button settings  -->
@@ -166,6 +166,8 @@
     <string name="recents_clear_all_location_left">En haut à gauche</string>
     <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
     <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choisir s\'il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
     <string name="recents_searchbar_title">Barre de recherche</string>
     <string name="recents_searchbar_summary">Afficher la barre de recherche Google dans l\'écran des applications récentes</string>
 	
