@@ -191,6 +191,21 @@
     <string name="volbtn_wake_device_title">réveiller l\'appareil</string>
     <string name="volbtn_wake_device_summary">Appuyez sur le bouton volume réveillera l\'appareil</string>
 
+    <!-- Power menu -->
+    <string name="power_menu_title">Menu d\'alimentation</string>
+    <string name="power_menu_power_title">Eteindre</string>
+    <string name="power_menu_reboot_title">Menu de redémarrage</string>
+    <string name="power_menu_screenshot_title">Capture d\'écran</string>
+    <string name="power_menu_profiles_title">Sélécteur de profil</string>
+    <string name="power_menu_airplane_title">Mode avion</string>
+    <string name="power_menu_users_title">Sélecteur d\'utilisateur</string>
+    <string name="power_menu_settings_title">paramètres de raccourci</string>
+    <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
+    <string name="power_menu_bug_report_title">Rapport de Bug</string>
+    <string name="power_menu_sound_title">Panneau du son</string>
+    <string name="power_menu_bug_report_disabled">Le signalement de bug est désactivé dans les paramètres développeur</string>
+    <string name="power_menu_profiles_disabled">Les profils système sont désactivés</string>
+
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Rétro éclairage adaptatif</string>
     <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétro éclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
