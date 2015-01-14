@@ -17,7 +17,7 @@
 
     <!-- Updater -->
     <string name="updater_title">mises à jour</string>
-    <string name="updater_summary">Vérifier les mises à jour et plus</string>
+    <string name="updater_summary">Vérifier les mises à jour</string>
 
     <!-- Button settings  -->
     <string name="button_settings_title">Touches</string>
@@ -121,6 +121,10 @@
     <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
     <string name="quick_settings_collapse_summary">Fermez le panneau de paramètres rapides lors du basculement</string>
 
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Afficher le curseur de luminosité</string>
+    <string name="qs_brightness_slider_summary">Afficher le curseur de luminosité dans le panneau de paramètres rapide</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -166,6 +170,8 @@
     <string name="recents_clear_all_location_left">En haut à gauche</string>
     <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
     <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choisir s\'il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
     <string name="recents_searchbar_title">Barre de recherche</string>
     <string name="recents_searchbar_summary">Afficher la barre de recherche Google dans l\'écran des applications récentes</string>
 	
