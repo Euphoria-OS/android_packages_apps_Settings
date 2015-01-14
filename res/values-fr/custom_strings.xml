@@ -13,10 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
-    <string name="custom_settings_title">personnalisation</string>
+    <string name="custom_settings_title">Personnalisation</string>
 
     <!-- Updater -->
-    <string name="updater_title">mises à jour</string>
+    <string name="updater_title">Mises à jour</string>
     <string name="updater_summary">Vérifier les mises à jour et plus</string>
 
     <!-- Button settings  -->
