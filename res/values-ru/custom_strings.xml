@@ -121,6 +121,10 @@
     <string name="quick_settings_collapse_title">Скрывать при нажатии</string>
     <string name="quick_settings_collapse_summary">Скрывать панель быстрых настроек при нажатии на плитку</string>
 
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Отображать ползунок яркости</string>
+    <string name="qs_brightness_slider_summary">Отображать ползунок яркости в панели быстрых настроек</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -166,6 +170,8 @@
     <string name="recents_clear_all_location_top_left">Вверху слева</string>
     <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
     <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_dismiss_all_title">Очищать все задачи</string>
+    <string name="recents_clear_all_dismiss_all_summary">Выберите, нужно ли очищать все задачи или игнорировать приоритетные</string>
     <string name="recents_searchbar_title">Строка поиска</string>
     <string name="recents_searchbar_summary">Показывать строку поиска Google в панели \"Недавних приложений\"</string>
 
