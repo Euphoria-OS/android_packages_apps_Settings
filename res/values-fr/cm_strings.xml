@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2014 The CyanogenMod Project
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -65,7 +66,8 @@
     <string name="profile_remove_dialog_message">Supprimer le profil %1$s ?</string>
     <string name="profile_populate_profile_from_state">Configurer le profil en utilisant les paramètres actuels de l\'appareil ?</string>
     <string name="profile_menu_fill_from_state">Importer les paramètres actuels de l\'appareil</string>
-
+    <string name="profile_remove_current_profile">Impossible de supprimer le profil actuel !</string>
+    
     <!-- Add Profile -->
     <string name="add_profile_dialog_title">Créer un nouveau profil</string>
     <string name="profile_name_title">Nom</string>
@@ -91,7 +93,9 @@
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_4g">4G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
+    <string name="profile_networkmode_2g3g4g">2G / 3G / 4G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_connectionoverrides_title">Connexion de remplacement</string>
@@ -155,7 +159,8 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Données mobile</string>
     <string name="toggleSync">Synchronisation des données automatique</string>
-    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggle2g3g">2G / 3G</string>
+    <string name="toggle2g3g4g">2G / 3G / 4G</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
@@ -518,7 +523,7 @@
     <string name="app_ops_summaries_delete_call_log">supprimer le journal d\'appel</string>
     <string name="app_ops_summaries_data_change">changer la connexion data</string>
     <string name="app_ops_summaries_wake_up">réveil</string>
-	<string name="app_ops_summaries_su">Superuser</string>
+    <string name="app_ops_summaries_su">Superuser</string>
 
     <string name="app_ops_labels_location">Emplacement</string>
     <string name="app_ops_labels_vibrate">Vibreur</string>
@@ -571,7 +576,7 @@
     <string name="app_ops_labels_delete_call_log">Supprimer le journal d\'appel</string>
     <string name="app_ops_labels_data_change">Changer la connexion data</string>
     <string name="app_ops_labels_wake_up">Réveil</string>
-	<string name="app_ops_labels_su">Accès root</string>
+    <string name="app_ops_labels_su">Accès root</string>
 
     <!-- App ops categories -->
     <string name="app_ops_categories_location">Emplacement</string>
@@ -843,4 +848,27 @@
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
     <string name="unlock_scramble_pin_layout_title">Disposition type Scramble</string>
     <string name="unlock_scramble_pin_layout_summary">La disposition du code PIN Scramble déverrouillera l\'appareil</string>
+
+    <string name="link_volume_option_title">Lier le volume de la sonnerie et de notification</string>
+    <string name="notification_volume_option_title">Volume de notification</string>
+    
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Panneau de notification</string>
+    <string name="qs_category_title">Paramètres rapides</string>
+    <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
+    <string name="add_qs">Ajouter une nouvelle tuile</string>
+    <string name="cast_screen">Caster l\'écran</string>
+    <string name="hotspot">Point d\'accès</string>
+    <string name="qs_action_delete">Supprimer</string>
+    <string name="qs_action_add">Ajouter</string>
+    <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
+    <string name="qs_main_tiles_title">Agrandir la première rangée</string>
+    <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première rangée</string>
+    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
+    <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
+    <string name="qs_advanced_location_summary">Activer les paramètres avancés pour l\'emplacement dans les paramètres rapides</string>
+    
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Thèmes</string>
 </resources>
