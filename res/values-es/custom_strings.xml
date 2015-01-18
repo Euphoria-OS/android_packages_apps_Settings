@@ -67,7 +67,8 @@
 
     <!--Power menu -->
     <string name="power_category">Botón de encendido</string>
-    <string name="lockscreen_enable_power_menu_title">Mostrar menú de encendido en LockScreen</string>
+    <string name="lockscreen_enable_power_menu_title">Habilitar en pantalla de bloqueo</string>
+    <string name="actions_category">Acciones</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Touch control</string>
@@ -119,12 +120,16 @@
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Cerrar panel automáticamente</string>
     <string name="quick_settings_collapse_summary">Cerrar panel de ajustes rápidos sobre toggle</string>
+    
+     <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Regulador de brillo</string>
+    <string name="qs_brightness_slider_summary">Mostrar regulador de brillo en panel de ajustes rápidos</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
     <!-- Unaccounted and overcounted battery stats -->
-    <string name="show_unac_and_overcounted_stats_title">Mostrar estadísticas desconocidas/conocidas</string>
+    <string name="show_unac_and_overcounted_stats_title">Estadísticas desconocidas/conocidas</string>
     <string name="show_unac_and_overcounted_stats_summary">Mostrar estadísticas de batería para uso desconocido y conocido</string>
 
     <!-- Keyguard notifications -->
@@ -165,6 +170,8 @@
     <string name="recents_clear_all_location_top_left">Superior izquierda</string>
     <string name="recents_clear_all_location_bottom_right">Inferior derecha</string>
     <string name="recents_clear_all_location_bottom_left">Inferior izquierda</string>
+    <string name="recents_clear_all_dismiss_all_title">Eliminar todas las tareas</string>
+    <string name="recents_clear_all_dismiss_all_summary">Elija si desea descartar todas las tareas o ignorar la tarea en primer plano</string>
     <string name="recents_searchbar_title">Barra de búsqueda</string>
     <string name="recents_searchbar_summary">Mostrar barra de búsqueda Google en pantalla de recientes</string>
 
@@ -203,7 +210,7 @@
     <string name="category_heads_up">Notificaciones Heads up</string>
     <string name="summary_heads_up_enabled">Notificaciones Pop-up están habilitadas</string>
     <string name="summary_heads_up_disabled">Notificaciones Pop-up están deshabilitadas</string>
-    <string name="show_headsup_button_title">Mostrar botón de acceso rápido</string>
+    <string name="show_headsup_button_title">Botón de acceso rápido</string>
     <string name="show_headsup_button_summary">Muestra un botón de acceso rápido en la cabecera de la barra de estado</string>
     <string name="add_heads_up_package">Añadir app</string>
     <string name="add_heads_up_dnd_summary">No mostrar heads up en estas apps</string>
@@ -266,4 +273,8 @@
     <string name="screen_recorder_record_audio_title">Audio externo</string>
     <string name="screen_recorder_record_audio_summary">Grabar audio desde micrófono</string>
     <string name="screen_recorder_power_menu_summary">Añadir Grabadora de pantalla en menú de encendido</string>
+    
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">Notificación</string>
+    <string name="privacy_guard_notifiation_summary">Mostrar notificación si privacy guard está activo</string>
 </resources>
