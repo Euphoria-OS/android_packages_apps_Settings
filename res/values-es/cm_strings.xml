@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2014 The CyanogenMod Project
+     Copyright (C) 2012-2015 The CyanogenMod Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -62,6 +62,7 @@
     <string name="profile_unknown_nfc_tag">Perfil desconocido</string>
     <string name="profile_add_nfc_text">Esta etiqueta NFC se refiere a un perfil desconocido.Al añadir esta etiqueta NFC a un perfil existente permitirá seleccionar el perfil en el futuro.</string>
     <string name="profile_select">Seleccionar Perfil</string>
+    <string name="profile_remove_current_profile">No se puede eliminar el perfil actual!</string>
 
     <!-- Add Profile -->
     <string name="add_profile_dialog_title">Crear un perfil nuevo</string>
@@ -189,6 +190,21 @@
     <string name="home_answer_call_summary">Si se pulsa el botón de inicio responderá a la llamada entrante</string>
     <string name="volbtn_wake_device_title">Despertar dispositivo</string>
     <string name="volbtn_wake_device_summary">Al pulsar cualquiera de los botones de volumen despertará su dispositivo</string>
+    
+    <!-- Power menu -->
+    <string name="power_menu_title">Menú de encendido</string>
+    <string name="power_menu_power_title">Apagado</string>
+    <string name="power_menu_reboot_title">Menú de reinicio</string>
+    <string name="power_menu_screenshot_title">Captura de pantalla</string>
+    <string name="power_menu_profiles_title">Perfiles</string>
+    <string name="power_menu_airplane_title">Modo avión</string>
+    <string name="power_menu_users_title">Usuario</string>
+    <string name="power_menu_settings_title">Accesos directos</string>
+    <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
+    <string name="power_menu_bug_report_title">Informe de errores</string>
+    <string name="power_menu_sound_title">Panel de sonido</string>
+    <string name="power_menu_bug_report_disabled">Informe de errores está deshabilitado en la configuración de desarrollo</string>
+    <string name="power_menu_profiles_disabled">Perfiles de sistema están deshabilitados</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Retroiluminación</string>
@@ -372,7 +388,7 @@
     <string name="status_bar_toggle_brightness_summary">Ajuste el brillo deslizando a través de la barra de estado</string>
     <string name="status_bar_quick_qs_pulldown_title">Desplegable rápido</string>
     <string name="status_bar_quick_qs_pulldown_summary">Borde derecho de la barra de estado baja ajustes rápidos</string>
-    <string name="status_bar_notif_count_title">Mostrar recuento de notificaciones</string>
+    <string name="status_bar_notif_count_title">Recuento de notificaciones</string>
     <string name="status_bar_notif_count_summary">Ver el número de notificaciones pendientes</string>
 
     <!-- Status bar - Battery -->
@@ -384,7 +400,7 @@
     <string name="status_bar_battery_style_hidden">Oculto</string>
 
     <!-- Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Mostrar porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
     <string name="status_bar_battery_percentage_dialog_title">Porcentaje de batería</string>
     <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
@@ -789,7 +805,7 @@
     <string name="saving_protected_components">Guardando el estado del componente</string>
 
     <!-- Weather in status bar -->
-    <string name="status_bar_show_weather_title">Mostrar tiempo</string>
+    <string name="status_bar_show_weather_title">Tiempo</string>
     <string name="status_bar_show_weather_summary">Mostrar tiempo en el encabezado de la barra de estado</string>
 
      <!-- Category title for Charging sounds (Power state change) specific Settings.
@@ -810,4 +826,32 @@
     <string name="edge_gesture_service_title">Bloquear gestos</string>
     <string name="edge_gesture_service_summary">No utilizar acciones de gestos para navegación y barra de estado</string>
     
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduzca el PIN/contraseña correcta</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Diseño PIN revuelto al desbloquear dispositivo</string>
+    
+    <string name="link_volume_option_title">Unir volúmenes de tono y notificación</string>
+    <string name="notification_volume_option_title">Volumen de notificación</string>
+    
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Cajón de notificación</string>
+    <string name="qs_category_title">Ajsutes rápidos</string>
+    <string name="qs_order_title">Selecciona y ordena toggles</string>
+    <string name="add_qs">Añadir nuevo toggle</string>
+    <string name="cast_screen">Pantalla Cast</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Eliminar</string>
+    <string name="qs_action_add">Añadir</string>
+    <string name="qs_action_no_more_tiles">No hay más toggles disponibles</string>
+    <string name="qs_main_tiles_title">Agrandar primera fila</string>
+    <string name="qs_main_tiles_summary_on">Dos toggles principales en la primera fila</string>
+    <string name="qs_main_tiles_summary_off">Tres toggles en cada fila</string>
+    <string name="qs_advanced_location_title">Ubicación avanzada en ajustes rápidos</string>
+    <string name="qs_advanced_location_summary">Activar configuración avanzada de ubicación en ajustes rápidos</string>
+    
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Temas</string>
 </resources>
