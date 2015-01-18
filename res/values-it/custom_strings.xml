@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Euphoria-OS Project
+<!-- Copyright (C) 2014-2015 The Euphoria-OS Project
      Copyright 2013, The ChameleonOS Open Source Project
+     Copyright (C) 2012-2014 SlimRoms Project
      
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -72,6 +73,7 @@
     <!--Power menu -->
     <string name="power_category">Pulsante di spegnimento</string>
     <string name="lockscreen_enable_power_menu_title">Mostra il menu di spegnimento nel blocco schermo</string>
+    <string name="actions_category">Azioni</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Controllo touch</string>
@@ -276,5 +278,8 @@
     <string name="screen_recorder_record_audio_title">Audio esterno</string>
     <string name="screen_recorder_record_audio_summary">Registra audio dal microfono</string>
     <string name="screen_recorder_power_menu_summary">Aggiungi la voce Registra Schermo nel menu Power</string>
+    
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">Notifica</string>
+    <string name="privacy_guard_notifiation_summary">Mostra una notifica se privacy guard è attivo</string>
 </resources>
-
