@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2014 The CyanogenMod Project
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -92,7 +93,9 @@
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_4g">4G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
+    <string name="profile_networkmode_2g3g4g">2G/3G/4G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_connectionoverrides_title">Cambiamenti alla connessione</string>
@@ -125,6 +128,7 @@
 
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">Suono di notifica</string>
+    
 
     <!-- Title for application group setting screen -->
     <string name="profile_appgroups_title">Gruppi di app</string>
@@ -156,6 +160,7 @@
     <string name="toggleData">Rete dati</string>
     <string name="toggleSync">Sincronizzazione dati</string>
     <string name="toggle2g3g">2G/3G</string>
+    <string name="toggle2g3g4g">2G/3G/4G</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
@@ -840,5 +845,28 @@
     <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il PIN/la password corretto/a è inserito/a</string>
     <string name="unlock_scramble_pin_layout_title">Cambia disposizione</string>
     <string name="unlock_scramble_pin_layout_summary">Cambia disposizione del PIN mentre si sblocca il dispositivo</string>
-</resources>
 
+    <string name="link_volume_option_title">Collega volumi di suoneria &amp; notifiche</string>
+    <string name="notification_volume_option_title">Volume di notifica</string>
+
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Menu a tendina</string>
+    <string name="qs_category_title">Quick Settings</string>
+    <string name="qs_order_title">Seleziona ordine caselle</string>
+    <string name="add_qs">Aggiungi nuova casella</string>
+    <string name="cast_screen">Trasmetti schermo</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Elimina</string>
+    <string name="qs_action_add">Aggiungi</string>
+    <string name="qs_action_no_more_tiles">Nesun\'altra casella disponibile</string>
+    <string name="qs_main_tiles_title">Allarga prima riga</string>
+    <string name="qs_main_tiles_summary_on">Due caselle principali sulla prima riga</string>
+    <string name="qs_main_tiles_summary_off">Tre caselle su ogni riga</string>
+    <string name="qs_advanced_location_title">Quick setting localizzazione avanzata</string>
+    <string name="qs_advanced_location_summary">Abilita le opzioni avanzate per la localizzazione nei quick settings</string>
+
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Temi</string>
+     
+</resources>
