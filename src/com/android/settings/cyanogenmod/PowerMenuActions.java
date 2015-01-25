@@ -17,6 +17,7 @@
 package com.android.settings.cyanogenmod;
 
 import android.content.Context;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.content.res.Resources;
@@ -38,6 +39,7 @@ import com.android.settings.cyanogenmod.SystemSettingSwitchPreference;
 
 import com.android.internal.util.cm.PowerMenuConstants;
 import static com.android.internal.util.cm.PowerMenuConstants.*;
+import com.android.settings.widget.NumberPickerPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 
@@ -45,11 +47,14 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowerMenuActions extends SettingsPreferenceFragment {
+public class PowerMenuActions extends SettingsPreferenceFragment
+        implements OnPreferenceChangeListener {
+
     final static String TAG = "PowerMenuActions";
 
     private static final String ACTION_CATEGORY = "action_category";
     private static final String POWER_MENU_LOCKSCREEN = "lockscreen_enable_power_menu";
+    private static final String SCREENSHOT_DELAY = "screenshot_delay";
 
     private SystemSettingSwitchPreference mPowerMenuLockscreen;
 
@@ -68,6 +73,16 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private String[] mAvailableActions;
     private String[] mAllActions;
 
+
+    private NumberPickerPreference mScreenshotDelay;
+
+    private ContentResolver mCr;
+    private PreferenceScreen mPrefSet;
+
+    private static final int MIN_DELAY_VALUE = 1;
+    private static final int MAX_DELAY_VALUE = 30;
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +99,11 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         if (!lockPatternUtils.isSecure()) {
             prefScreen.removePreference(mPowerMenuLockscreen);
         }
+
+        mPrefSet = getPreferenceScreen();
+
+        mCr = getActivity().getContentResolver();
+
 
         mAvailableActions = getActivity().getResources().getStringArray(
                 R.array.power_menu_actions_array);
@@ -116,6 +136,15 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
                 mSilentPref = (CheckBoxPreference) findPreference(GLOBAL_ACTION_KEY_SILENT);
             }
         }
+        mScreenshotDelay = (NumberPickerPreference) mPrefSet.findPreference(
+                SCREENSHOT_DELAY);
+        mScreenshotDelay.setOnPreferenceChangeListener(this);
+        mScreenshotDelay.setMinValue(MIN_DELAY_VALUE);
+        mScreenshotDelay.setMaxValue(MAX_DELAY_VALUE);
+        int ssDelay = Settings.System.getInt(mCr,
+                Settings.System.SCREENSHOT_DELAY, 1);
+        mScreenshotDelay.setCurrentValue(ssDelay);
+
 
         getUserConfig();
     }
@@ -227,6 +256,18 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         return true;
     }
 
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mScreenshotDelay) {
+            int value = Integer.parseInt(newValue.toString());
+            Settings.System.putInt(mCr, Settings.System.SCREENSHOT_DELAY,
+                    value);
+            return true;
+        }
+        return false;
+    }
+
+
     private boolean settingsArrayContains(String preference) {
         return mLocalUserConfig.contains(preference);
     }
@@ -315,3 +356,4 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         mContext.sendBroadcastAsUser(u, UserHandle.ALL);
     }
 }
+
