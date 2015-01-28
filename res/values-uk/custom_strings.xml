@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2015 The Euphoria-OS Project
+     Copyright 2013, The ChameleonOS Open Source Project
+     Copyright (C) 2012-2014 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom settings  -->
+    <string name="custom_settings_title">Особливі</string>
+
+    <!-- Updater -->
+    <string name="updater_title">Оновлення</string>
+    <string name="updater_summary">Перевірити оновлення</string>
+
+    <!-- Button settings  -->
+    <string name="button_settings_title">Кнопки</string>
+
+    <!-- About phone screen,  Mod Version -->
+    <string name="mod_version">Версія Euphoria</string>
+    <string name="mod_version_default">Невідомо</string>
+    <!-- About phone screen, Build date of ROM -->
+    <string name="build_date">Дата збирання</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Пам`ять</string>
+    <!-- About phone screen, status item label -->
+
+    <!-- Advanced category -->
+    <string name="advanced_options_title">Розширені</string>
+
+    <!-- General category -->
+    <string name="general_options_title">Головні</string>
+
+    <!--Wakeup when plugged/unplugged -->
+    <string name="wakeup_when_plugged_unplugged_title">Пробудження при заряджанні</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Увімкнути екран на при підключенні або відключенні джерела живлення</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Приклад</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">Затримка закривання додатку</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показати інформацію CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Екран накладення, що показує поточні дані CPU</string>
+
+    <!--Status bar -->
+    <string name="status_bar_category">Панель статусу</string>
+
+    <!--Status bar carrier -->
+    <string name="show_carrier_title">Назва мобільної мережі</string>
+    <string name="show_carrier_disabled">Вимкнено</string>
+    <string name="show_carrier_keyguard">При блокуванні</string>
+    <string name="show_carrier_statusbar">На панелі статусу</string>
+    <string name="show_carrier_enabled">Увімкнено</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Тікер повідомлення</string>
+    <string name="status_bar_ticker_summary">Анімаційний текст повідомлення на панелі статусу</string>
+
+    <!--Power menu -->
+    <string name="power_category">Кнопка вмикання</string>
+    <string name="lockscreen_enable_power_menu_title">Увимкнено на екрані блокування</string>
+    <string name="actions_category">Дії</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Керування дотиками</string>
+    <string name="touch_control_settings_summary">Керування додатковими опціями пробудження, в тому числі подвійним натисканням, щоб розбудити, та інше</string>
+
+    <!-- Quick settings -->
+    <string name="quick_settings_category">Швидкі налаштування</string>
+    <string name="block_on_secure_keyguard_title">Вимкнути на заблоковному екрані</string>
+    <string name="block_on_secure_keyguard_summary">Вимкнути швидкі налаштування на заблокованому екрані</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вібрція при дотиках</string>
+    <string name="quick_settings_vibrate_summary">Вібрувати при натисканнях на плитки</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Автозакривання панелі</string>
+    <string name="quick_settings_collapse_summary">Закривати швидкі налаштування після вибору</string>
+
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Регулятор яскравості</string>
+    <string name="qs_brightness_slider_summary">Показати регулятор яскравості на панелі швидких налаштувнь</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Неврахована/перерахована статистика</string>
+    <string name="show_unac_and_overcounted_stats_summary">Показати статистику батареї для неврахованого та перерахованого використання</string>
+
+    <!-- Keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Показувати на екрані блокування</string>
+    <string name="app_notification_show_on_keyguard_summary">Показати повідомлення з цього додатка на екрані блокування</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Відключити триваючі на екрані блокування</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Ніколи не показувати поточні повідомлення з цього додатка на екрані блокування</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Повідомлення</string>
+    <string name="less_notification_sounds_title">Менш часті звуки повідомлення</string>
+    <string name="less_notification_sounds_summary">Обмеження звуків сповіщень для кожної програми, щоб звучали тільки один раз протягом заданого періоду часу</string>
+    <string name="less_notification_sounds_default">Поведінка за умовчанням</string>
+    <string name="less_notification_sounds_3s">3 секунди</string>
+    <string name="less_notification_sounds_5s">5 секунд</string>
+    <string name="less_notification_sounds_10s">10 секунд</string>
+    <string name="less_notification_sounds_15s">15 секунд</string>
+    <string name="less_notification_sounds_30s">30 секунд</string>
+    <string name="less_notification_sounds_45s">45 секунд</string>
+    <string name="less_notification_sounds_1m">1 хвилина</string>
+    <string name="less_notification_sounds_2m">2 хвилини</string>
+    <string name="less_notification_sounds_5m">5 хвилин</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Колір попередження</string>
+    <string name="battery_saver_color_summary">Увімкнути помаранчевий колір та навігаційні панелі, коли батарея в режимі збереження</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Віджет годинника</string>
+    <string name="lock_clock_summary">Керування відображенням \'cLock\' віджету</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Панель Недавні</string>
+    <string name="show_clear_all_recents_button_title">Кнопка Очистити всі</string>
+    <string name="show_clear_all_recents_button_summary">Показати кнопку Очистити всі</string>
+    <string name="recents_clear_all_location_title">Очистити всі розташування</string>
+    <string name="recents_clear_all_location_top_right">Зверху праворуч</string>
+    <string name="recents_clear_all_location_top_left">Зверху ліворуч</string>
+    <string name="recents_clear_all_location_bottom_right">Знизу праворуч</string>
+    <string name="recents_clear_all_location_bottom_left">Знизу ліворуч</string>
+    <string name="recents_clear_all_dismiss_all_title">Очистити всі задачі</string>
+    <string name="recents_clear_all_dismiss_all_summary">Додати поточну задачу коли очищаються всі</string>
+    <string name="recents_searchbar_title">Панель пошуку</string>
+    <string name="recents_searchbar_summary">Показати Google панель пошуку на екрані недавніх</string>
+
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Повноекранна клавіатура</string>
+    <string name="fullscreen_keyboard_summary">Показати повноекранну клавіатуру в альбомному вигляді</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Навігаційна панель</string>
+    <string name="navbar_dimen_title">Розміри</string>
+    <string name="navbar_dimensions_reset_message">Скинути всі розміри за умовчанням?</string>
+    <string name="navigation_bar_height_title">Висота навігаційної панелі</string>
+    <string name="navigation_bar_height_landscape_title">Висота навігаційної панелі альбомна</string>
+    <string name="navigation_bar_width_title">Ширина навігаційної панелі</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (за умовчанням)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (за умовчанням)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (вимкнена)</string>
+
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">Повідомлення про підключення Wi\u2011Fi</string>
+    <string name="notify_changed_networks_default">Вимкнено (за умовчанням)</string>
+    <string name="notify_changed_networks_toast">Тост повідомлення</string>
+    <string name="notify_changed_networks_notification">Повідомлення</string>
+    <string name="notify_changed_networks_notification_sound">Повідомлення зі звуком</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Спливаючі повідомлення</string>
+    <string name="summary_heads_up_enabled">Спливаючі повідомлення увімкнено</string>
+    <string name="summary_heads_up_disabled">Спливаючі повідомлення вимкнено</string>
+    <string name="show_headsup_button_title">Кнопка швидкого доступу</string>
+    <string name="show_headsup_button_summary">Показати кнопку швидкого доступу у заголовку рядка стану</string>
+    <string name="add_heads_up_package">Додати додаток</string>
+    <string name="add_heads_up_dnd_summary">Не показувати спливаючі повідомлення у цих додатках</string>
+    <string name="add_heads_up_blacklist_summary">Не показувати спливаючі повідомлення з цих додатків</string>
+    <string name="heads_up_dnd_title">Не турбувти</string>
+    <string name="heads_up_blacklist_title">Черний список</string>
+    <string name="heads_up_disabled_notice">Щоб дозволити додаткам відображення інтерактивних повідомлення у вигляді спливаючого вікна на екрані, включіть спливаючі повідомлення.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Час відображення повідомлень</string>
+    <string name="heads_up_time_out_summary">Повідомлення буде відображене <xliff:g id="number">%d</xliff:g> сек.</string>
+    <string name="heads_up_time_out_never_summary">Повідомлення буде показуватися, поки не буде закрите</string>
+    <string name="heads_up_time_out_2sec">2 секунди</string>
+    <string name="heads_up_time_out_4sec">4 секунди</string>
+    <string name="heads_up_time_out_6sec">6 секунд</string>
+    <string name="heads_up_time_out_8sec">8 секунд</string>
+    <string name="heads_up_time_out_10sec">10 секунд</string>
+    <string name="heads_up_time_out_never">Ніколи</string>
+
+    <!-- Superuser indicator-->
+    <string name="su_indicator">Індикатор суперкористувача</string>
+    <string name="su_indicator_summary">Показувати індикатор суперкористувача коли сессія активна</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Запис екрану</string>
+    <string name="screen_recorder_summary">Налаштування параметрів запису екрана</string>
+    <string name="screen_recorder_video_dimensions_title">Відео розмір</string>
+    <string name="screen_recorder_video_bitrate_title">Потік</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+
+    <string name="power_menu_screenrecord_title">Запис екрану</string>
+    <string name="screen_recorder_record_audio_title">Зовнішнє аудіо</string>
+    <string name="screen_recorder_record_audio_summary">Запис аудіо з мікрофону</string>
+    <string name="screen_recorder_power_menu_summary">Додати запис екрану в меню вимикання</string>
+
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">Повідомлення</string>
+    <string name="privacy_guard_notifiation_summary">Показувти повідомлення, якщо охорону приватності увімкнено</string>
+</resources>
