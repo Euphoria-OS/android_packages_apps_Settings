@@ -5592,6 +5592,7 @@
     <!--Dashboard strings-->
     <!-- Text to describe the dashboard fragment title [CHAR LIMIT=16] -->
     <string name="dashboard_title">Settings</string>
+    <string name="lock_screen_title">Lock screen</string>
 
     <!-- Search strings -->
     <!-- Text to describe the search results fragment title [CHAR LIMIT=16] -->
@@ -6052,4 +6053,13 @@
    <string name="imei_information_summary">IMEI relative information</string>
    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
 
+   <!-- Lock screen -->
+    <string name="lock_screen_weather_settings_title">Weather</string>
+    <string name="lock_screen_weather_settings_summary">Customize Weather</string>
+
+   <!-- Weather settings -->
+    <string name="weather_show_weather_title">Show weather</string>
+    <string name="weather_show_weather_summary">Enable to show weather informations</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_location_summary">Enable to show the location</string>
 </resources>
