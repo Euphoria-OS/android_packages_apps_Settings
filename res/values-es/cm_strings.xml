@@ -852,19 +852,30 @@
     <string name="notification_volume_option_title">Volumen de notificación</string>
     
     <!-- Notification drawer -->
-    <string name="notification_drawer_title">Cajón de notificación</string>
-    <string name="qs_category_title">Ajsutes rápidos</string>
+    <string name="notification_drawer_title">Cajón de notificaciones</string>
+    <string name="qs_category_title">Panel de ajustes rápidos</string>
     <string name="qs_order_title">Selecciona y ordena toggles</string>
     <string name="add_qs">Añadir nuevo toggle</string>
-    <string name="cast_screen">Pantalla Cast</string>
-    <string name="hotspot">Hotspot</string>
     <string name="qs_action_delete">Eliminar</string>
     <string name="qs_action_add">Añadir</string>
-    <string name="qs_title_profiles">Perfiles de sistema</string>
-    <string name="qs_title_performance">Rendimiento</string>
-    <string name="qs_title_nfc">NFC</string>
-    <string name="qs_title_compass">Brújula</string>
-    <string name="qs_title_lockscreen">Lockscreen</string>
+    
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Color invertido</string>
+    <string name="qs_tile_cellular_data">Datos móvil</string>
+    <string name="qs_tile_airplane_mode">Modo avión</string>
+    <string name="qs_tile_display_rotation">Rotación</string>
+    <string name="qs_tile_flashlight">Linterna</string>
+    <string name="qs_tile_location">Ubicación</string>
+    <string name="qs_tile_cast_screen">Pantalla Cast</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_tile_adb_over_network">ADB sobre network</string>
+    <string name="qs_tile_profiles">Perfiles</string>
+    <string name="qs_tile_performance">Rendimiento</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_compass">Brújula</string>
+    <string name="qs_tile_lockscreen">Lockscreen</string>
+   
     <string name="qs_action_no_more_tiles">No hay más toggles disponibles</string>
     <string name="qs_main_tiles_title">Agrandar primera fila</string>
     <string name="qs_main_tiles_summary_on">Dos toggles principales en la primera fila</string>
@@ -879,7 +890,7 @@
     <string name="power_menu_expanded_desktop">Escritorio expandido</string>
     <string name="expanded_hide_nothing">Ocultar nada</string>
     <string name="expanded_hide_status">Ocultar barra de estado</string>
-    <string name="expanded_hide_navigation">ocultar barra de navegación</string>
+    <string name="expanded_hide_navigation">Ocultar barra de navegación</string>
     <string name="expanded_hide_both">Ocultar ambas</string>
     <string name="expanded_nothing_to_show">Para agregar una configuración personalizada para estado expandido, selecciona "Habilitado para todos"</string>
     <string name="expanded_desktop_state">Estado expandido</string>
