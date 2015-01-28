@@ -124,6 +124,14 @@
                 android:icon="@drawable/ic_settings_notifications"
                 />
 
+   <!-- Lock screen -->
+        <dashboard-tile
+            android:id="@+id/lock_screen"
+            android:title="@string/lock_screen_title"
+            android:fragment="com.android.settings.darkkat.LockScreen"
+            android:icon="@drawable/ic_settings_lockscreen"
+            />
+
         <!-- Lock screen -->
         <dashboard-tile
                 android:id="@+id/lockscreen_settings"
