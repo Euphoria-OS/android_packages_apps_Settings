@@ -74,7 +74,7 @@
     <string name="show_activity_indicators_summary">Показывать индикатор сетевой активности в строке сосояния на значках сети или WiFi</string>
 
     <!--Status bar date -->
-    <string name="status_bar_clock_category">Clock</string>
+    <string name="status_bar_clock_category">Время и дата</string>
     <string name="status_bar_date_title">Стиль даты</string>
     <string name="status_bar_date_none">Не показывать</string>
     <string name="status_bar_date_small">Малый размер шрифта</string>
@@ -125,7 +125,7 @@
     <string name="quick_settings_collapse_summary">Скрывать панель быстрых настроек при нажатии на плитку</string>
     
     <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Отображать слайдер яркости</string>
+    <string name="qs_brightness_slider_title">Cлайдер яркости</string>
     <string name="qs_brightness_slider_summary">Отображать слайдер яркости в панели быстрых настроек</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
@@ -174,7 +174,7 @@
     <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
     <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
     <string name="recents_clear_all_dismiss_all_title">Очищать все задачи</string>
-    <string name="recents_clear_all_dismiss_all_summary">Выберите, нужно ли очищать все задачи или игнорировать текущие</string>
+    <string name="recents_clear_all_dismiss_all_summary">При очистке всех завершать текущую задачу</string>
     <string name="recents_searchbar_title">Строка поиска</string>
     <string name="recents_searchbar_summary">Показывать строку поиска Google в панели \"Недавних приложений\"</string>
 
@@ -213,7 +213,7 @@
     <string name="category_heads_up">Всплывающие уведомления</string>
     <string name="summary_heads_up_enabled">\"Всплывающие уведомления\" включены</string>
     <string name="summary_heads_up_disabled">\"Всплывающие уведомления\" выключены</string>
-    <string name="show_headsup_button_title">Показывать кнопку быстрого доступа</string>
+    <string name="show_headsup_button_title">Кнопка быстрого доступа</string>
     <string name="show_headsup_button_summary">Показывать кнопку быстрого доступа в заголовке строки состояния</string>
     <string name="add_heads_up_package">Добавить приложение</string>
     <string name="add_heads_up_dnd_summary">Не показывать всплывающие уведомления при работе с этими приложениями</string>
