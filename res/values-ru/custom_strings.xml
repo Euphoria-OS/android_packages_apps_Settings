@@ -65,13 +65,13 @@
     <!--Status bar carrier -->
     <string name="show_carrier_title">Значок оператора</string>
     <string name="show_carrier_disabled">Отключен</string>
-    <string name="show_carrier_keyguard">Keyguard carrier</string>
+    <string name="show_carrier_keyguard">Значок оператора на экране блокировки</string>
     <string name="show_carrier_statusbar">Значок оператора в строке состояния</string>
     <string name="show_carrier_enabled">Включен</string>
 
     <!-- Status Bar Activity Indicators -->
     <string name="show_activity_indicators_title">Индикатор сетевой активности</string>
-    <string name="show_activity_indicators_summary">Показывать индикатор сетевой активности в строке сосояния на значках сети или WiFi</string>
+    <string name="show_activity_indicators_summary">Показывать индикатор сетевой активности в строке состояния на значках сети или WiFi</string>
 
     <!--Status bar date -->
     <string name="status_bar_clock_category">Время и дата</string>
@@ -80,6 +80,12 @@
     <string name="status_bar_date_small">Малый размер шрифта</string>
     <string name="status_bar_date_normal">Обычный размер шрифта</string>
     <string name="status_bar_date_format_title">Формат даты</string>
+
+    <!-- Weather in status bar header -->
+    <string name="status_bar_show_weather_title_eos">Погода</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title_eos">Счетчик уведомлений</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Индикатор сетевого трафика</string>
@@ -107,24 +113,37 @@
     <string name="touch_control_settings_title">Сенсорное управление</string>
     <string name="touch_control_settings_summary">Управление расширенными настройками пробуждения, включая пробуждение двойным нажатием и прочее</string>
 
-    <!-- Quick settings -->
+    <!-- Quick Settings tiles -->
     <string name="quick_settings_category">Панель быстрых настроек</string>
+    <string name="qs_battery_saver_tile">Энергосбережение</string>
+    <string name="qs_brightness_tile">Яркость</string>
+    <string name="qs_expanded_desktop_tile">Расширенный экран</string>
+    <string name="qs_notifications_tile">Уведомления</string>
+    <string name="qs_screen_off_tile">Выключить экран</string>
+    <string name="qs_screenshot_tile">Скриншот</string>
+    <string name="qs_sync_tile">Синхронизация</string>
+    <string name="qs_main_tiles_summary_off_eos">Три или четыре плитки в каждом ряду</string>
+
+    <!-- Quick Settings block on keyguard -->
     <string name="block_on_secure_keyguard_title">Отключить на экране блокировки</string>
     <string name="block_on_secure_keyguard_summary">Отключить панель быстрых настроек защищенном на экране блокировки</string>
 
-    <!-- QuickSettings haptic feedback -->
+    <!-- Quick Settings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрировать при нажатии</string>
     <string name="quick_settings_vibrate_summary">Вибрация при нажатии на плитку</string>
 
-    <!-- QuickSettings collapse panel -->
+    <!-- Quick Settings collapse panel -->
     <string name="quick_settings_collapse_title">Скрывать при нажатии</string>
     <string name="quick_settings_collapse_summary">Скрывать панель быстрых настроек при нажатии на плитку</string>
     
-    <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Cлайдер яркости</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title_eos">Cлайдер яркости</string>
     <string name="qs_brightness_slider_summary">Отображать слайдер яркости в панели быстрых настроек</string>
 
-    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <!-- Quick Settings 4 columns -->
+    <string name="qs_four_columns_title">Отображать по четыре плитки в ряду</string>
+
+    <!-- SuperSU header name -->
     <string name="supersu_title">SuperSU</string>
 
     <!-- Unaccounted and overcounted battery stats -->
@@ -272,5 +291,15 @@
     <string name="screen_recorder_record_audio_title">Запись звука</string>
     <string name="screen_recorder_record_audio_summary">Записывать звук с микрофона</string>
     <string name="screen_recorder_power_menu_summary">Добавить пункт \"Запись экрана\" в меню кнопки питания</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">Плотность экрана</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">По умолчанию</string>
+    <string name="lcd_density_unsupported">Не поддерживается</string>
+    <string name="restarting_ui">Перезапуск</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Включить ярлыки кольца панели навигации</string>
 </resources>
 
