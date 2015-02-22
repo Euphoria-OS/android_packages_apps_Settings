@@ -114,6 +114,7 @@
     <string name="show_network_traffic_1500">1500 мс</string>
     <string name="show_network_traffic_2000">2000 мс</string>
     <string name="network_traffic_autohide">Скрывать автоматически</string>
+    <string name="network_traffic_autohide_summary">Скрывать индикатор сетевого трафика, когда нет сетевой активности</string>
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
 
     <!--Power menu -->
@@ -197,8 +198,10 @@
     <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
     <string name="recents_clear_all_location_top_right">Вверху справа</string>
     <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
     <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
     <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
     <string name="recents_clear_all_dismiss_all_title">Очищать все задачи</string>
     <string name="recents_clear_all_dismiss_all_summary">При очистке всех завершать текущую задачу</string>
     <string name="recents_searchbar_title">Строка поиска</string>
@@ -312,4 +315,128 @@
 
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Включить ярлыки кольца панели навигации</string>
+    
+    <!-- AOKP custom system animations -->
+    <string name="animation_title">Анимация</string>  
+    <string name="system_animation_title">Анимация системы</string>
+    <string name="activity_open_title">Анимация открытия раздела</string>
+    <string name="activity_close_title">Анимация закрытия раздела</string>
+    <string name="task_open_title">Анимация открытия задачи</string>
+    <string name="task_close_title">Анимация закрытия задачи</string>
+    <string name="task_move_to_front_title">Анимация перехода на передний план</string>
+    <string name="task_move_to_back_title">Анимация возврата на задний план</string>
+    <string name="wallpaper_open_title">Анимация открытия обоев</string>
+    <string name="wallpaper_close_title">Анимация закрытия обоев</string>
+    <string name="wallpaper_intra_open_title">Анимация открытия меню запущеных приложений</string>
+    <string name="wallpaper_intra_close_title">Анимация закрытия меню запущеных приложений</string>
+    <string name="task_open_behind_title">Анимация фонового открытия приложения</string>
+    <string name="animation_duration_title">Продолжительность анимации</string>
+    <string name="title_animation_no_override">Предотвращение переопределения анимации</string>
+    <string name="summary_animation_no_override">Предотвращать переопределение анимации для приложений</string>
+    <string name="animation_duration_default">По умолчанию</string>
+    
+    <!-- ListView animation -->
+    <string name="listview_animation_title">Анимация списков</string>
+    <string name="listview_off">По умолчанию</string>
+    <string name="listview_wave_left">Волна (слева)</string>
+    <string name="listview_wave_right">Волна (справа)</string>
+    <string name="listview_alpha">Проявление</string>
+    <string name="listview_scale">Увеличение</string>
+    <string name="listview_stack_top">Стек (сверху)</string>
+    <string name="listview_stack_bottom">Стек (снизу)</string>
+    <string name="listview_unfold">Развернуть</string>
+    <string name="listview_fold">Свернуть</string>
+    <string name="listview_translate_left">Сдвиг (слева)</string>
+    <string name="listview_translate_right">Сдвиг (справа)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Эффекты анимации списков</string>
+    <string name="listview_accelerate_interpolator">Усилить</string>
+    <string name="listview_decelerate_interpolator">Ослабить</string>
+    <string name="listview_accelerate_decelerate_interpolator">Усилить и ослабить</string>
+    <string name="listview_anticipate_interpolator">Ускорить</string>
+    <string name="listview_overshoot_interpolator">Проскочить</string>
+    <string name="listview_anticipate_overshoot_interpolator">Ускорить и проскочить</string>
+    <string name="listview_bounce_interpolator">Отскакивать</string>
+    
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
+    <string name="toast_none_animation">Нет</string>
+    <string name="toast_default_animation">По умолчанию</string>
+    <string name="toast_fade_animation">Затухание</string>
+    <string name="toast_SlideRight_animation">Сдвиг справа</string>
+    <string name="toast_SlideLeft_animation">Сдвиг слева</string>
+    <string name="toast_Xylon_animation">Анимация Xylon</string>
+    <string name="toast_Toko_animation">Анимация Toko</string>
+    <string name="toast_Tn_animation">Анимация Tn</string>
+    <string name="toast_Honami_animation">Анимация Honami</string>
+    <string name="toast_FastFade_animation">Быстрое затухание</string>
+    <string name="toast_GrowFade_animation">Растущее затухание</string>
+    <string name="toast_GrowFadeCenter_animation">Растущее затухание из центра</string>
+    <string name="toast_GrowFadeBottom_animation">Растущее затухание снизу</string>
+    <string name="toast_Translucent_animation">Полупрозрачная</string>
+    <string name="toast_SlideLeftRight_animation">Скольжение слева направо</string>
+    <string name="toast_SlideRightLeft_animation">Скольжение справа налево</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Перезаписывать значение</string>
+    <string name="doze_overwrite_value_summary">Разрешить перезаписывать стандартные значения пользовательскими</string>
+
+    <string name="doze_list_mode_title">Режим бездействия</string>
+    <string name="doze_list_mode_summary">Настройка \"Режима бездействия\"</string>
+
+    <string name="doze_pulse_title">Настройки пульсации</string>
+    <string name="doze_pulse_duration_in_title">Появление</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Время отображения</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Затухание</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Пульсировать при уведомлениях</string>
+    <string name="doze_pulse_on_notifications_summary">Пульсация дисплея при непросмотренных уведомлениях</string>
+
+    <string name="doze_shake_title">Настройки встряхивания</string>
+    <string name="doze_shake_mode_title">Режим встряхивания</string>
+    <string name="doze_shake_mode_summary">Использовать датчик движения для активации дисплея</string>
+    <string name="doze_shake_mode_test_summary">Хотите протестировать датчик движения?</string>
+    <string name="doze_shake_mode_test_result">Применить текущее значение?</string>
+    <string name="doze_shake_test">Встряхните ваше устройство</string>
+    <string name="doze_shake_it">Встряхивание обнаружено!</string>
+
+    <string name="doze_shake_acc_threshold_title">Сила встряхивания</string>
+    <string name="doze_shake_acc_threshold_summary">Настроить силу встряхивания для активации дисплея</string>
+
+    <string name="doze_time_mode_title">Показывать время и дату</string>
+    <string name="doze_time_mode_summary">Показывать время и дату, даже когда нет уведомлений</string>
+
+    <string name="twohundred_ms">200 мс</string>
+    <string name="fivehundred_ms">500 мс</string>
+    <string name="one_second">1 с</string>
+    <string name="one_second_default">1 с (по умолчанию)</string>
+    <string name="onehalf_second">1.5 с</string>
+    <string name="two_second">2 с</string>
+    <string name="twohalf_second">2.5 с</string>
+    <string name="three_second">3 с</string>
+    <string name="three_second_default">3 с (по умолчанию)</string>
+    <string name="threehalf_second">3.5 с</string>
+    <string name="four_second">4 с</string>
+    <string name="fourhalf_second">4.5 с</string>
+    <string name="five_second">5 с</string>
+
+    <string name="veryeasy_shake">Очень слабо</string>
+    <string name="easy_shake">Слабо</string>
+    <string name="medium_shake">По умолчанию</string>
+    <string name="hard_shake">Сильно</string>
+    <string name="veryhard_shake">Очень сильно</string>
+    <string name="strong_shake">Мощно</string>
+
+    <string name="fully_mode">Полный режим</string>
+    <string name="pocket_shake_mode">Режим \"В кармане\" и встряхивание</string>
+    <string name="pocket_pulse_mode">Режим \"В кармане\" и пульсация</string>
+    <string name="pocket_only_mode">Режим \"В кармане\"</string>
+    <string name="shake_pulse_mode">Встряхивание и пульсация</string>
+    <string name="pulse_only_mode">Пульсация (по умолчанию)</string>
 </resources>
