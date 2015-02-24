@@ -27,8 +27,6 @@
     <string name="max_cpu_freq_file" translatable="false">/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq</string>
     <string name="min_cpu_freq_file" translatable="false">/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq</string>
 
-    <bool name="config_default_advanced_mode_enabled">false</bool>
-
     <!-- This is use to determine whether to hide the performance settings-->
     <bool name="config_hidePerformanceSettings" translatable="false">false</bool>
 </resources>
