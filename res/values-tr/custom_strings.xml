@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2014-2015 The Euphoria-OS Project
+     Copyright 2013, The ChameleonOS Open Source Project
+     Copyright (C) 2012-2014 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom settings  -->
+    <string name="custom_settings_title">Kullanıcı Arayüzü</string>
+
+    <!-- Updater -->
+    <string name="updater_title">Güncellemeler</string>
+    <string name="updater_summary">Güncelleştirmeleri denetleyin</string>
+
+    <!-- Button settings  -->
+    <string name="button_settings_title">Tuşlar</string>
+
+    <!-- About phone screen,  Mod Version -->
+    <string name="mod_version">Euphoria versiyonu</string>
+    <string name="mod_version_default">Bilinmeyen</string>
+    <!-- About phone screen, Build date of ROM -->
+    <string name="build_date">İnşa tarihi</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">İŞLEMCİ</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Bellek</string>
+    <!-- About phone screen, status item label -->
+
+    <!-- Advanced category -->
+    <string name="advanced_options_title">Gelişmiş</string>
+
+    <!-- General category -->
+    <string name="general_options_title">Genel</string>
+
+    <!--Wakeup when plugged/unplugged -->
+    <string name="wakeup_when_plugged_unplugged_title">Şarja takınca uyandır</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Bir güç kaynağına bağlanırken ya da bağlantısını keserken ekranı aç</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Örnek</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">Uygulama sonlandırmayı geçiktirme</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">İşlemci bilgisini göster</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Mevcut işlemci bilgisini gösteren ekran paylaşımı</string>
+
+    <!--Status bar -->
+    <string name="status_bar_category">Durum çubuğu</string>
+
+    <!--Status bar carrier -->
+    <string name="show_carrier_title">Operatör etiketi</string>
+    <string name="show_carrier_disabled">Devre dışı</string>
+    <string name="show_carrier_keyguard">Tuş kilitliyken</string>
+    <string name="show_carrier_statusbar">Durum çubuğunda</string>
+    <string name="show_carrier_enabled">Etkin</string>
+
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">Etkinlik göstergeleri</string>
+    <string name="show_activity_indicators_summary">Sinyal çubuğunda göstergeleri gösterir</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Saat</string>
+    <string name="status_bar_date_title">Tarih</string>
+    <string name="status_bar_date_none">Gizli (varsayılan)</string>
+    <string name="status_bar_date_small">Küçük</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Tarih biçimi</string>
+    <string name="status_bar_date_style">Tarih stili</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Küçük harf</string>
+    <string name="status_bar_date_style_uppercase">Büyük harf</string>
+    <string name="status_bar_date_format_custom">Özel java formatı</string>
+    <string name="status_bar_date_string_edittext_title">Tarih formatı bu biçimde olmalı. AA/gg/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Dize girin</string>
+
+    <!-- Weather in status bar header -->
+    <string name="status_bar_show_weather_title_eos">Hava Durumu</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title_eos">Bildirim sayısı</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Bildirim şeridi</string>
+    <string name="status_bar_ticker_summary">Durum çubuğunda bildirim metni animasyonu</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Ağ trafiği</string>
+    <string name="show_network_traffic_state">Durum çubuğu trafik monitörü</string>
+    <string name="show_network_traffic_unit">Gösterge ünitesi</string>
+    <string name="show_network_traffic_frequency">Güncelleme aralığı</string>
+    <string name="show_network_traffic_disable">Etkin değil</string>
+    <string name="show_network_traffic_up">Giden</string>
+    <string name="show_network_traffic_down">Gelen</string>
+    <string name="show_network_traffic_all">Giden ve gelen</string>
+    <string name="show_network_traffic_bit">Saniye başına bit</string>
+    <string name="show_network_traffic_byte">Saniye başına bayt</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Otomatik gizle</string>
+    <string name="network_traffic_autohide_summary">Hiçbir etkinlik olmadığında trafik monitörünü gizle</string>
+    <string name="network_traffic_autohide_threshold">Hareketsizlik değeri</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Bildirim şeridi</string>
+    <string name="status_bar_ticker_summary">Durum çubuğunda bildirim metni animasyonu</string>
+
+    <!--Power menu -->
+    <string name="power_category">Güç düğmesi</string>
+    <string name="lockscreen_enable_power_menu_title">Kilit ekranında etkin</string>
+    <string name="actions_category">Eylemler</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Dokunuşla kontrol</string>
+    <string name="touch_control_settings_summary">Uyandırmak için çift dokunun ve daha fazlası için gelişmiş uyandırma seçeneklerini yönetin</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_category">Hızlı ayarlar</string>
+    <string name="qs_battery_saver_tile">Pil tasarrufu</string>
+    <string name="qs_brightness_tile">Parlaklık</string>
+    <string name="qs_expanded_desktop_tile">Genişletilmiş masaüstü</string>
+    <string name="qs_notifications_tile">Bildirimler</string>
+    <string name="qs_screen_off_tile">Ekranı kapat</string>
+    <string name="qs_screenshot_tile">Ekran Görüntüsü</string>
+    <string name="qs_sync_tile">Senkronizasyon</string>
+
+    <string name="qs_main_tiles_summary_off_eos">Her satırda üç ya da dört kare</string>
+
+    <!-- Quick Settings block on keyguard -->
+    <string name="block_on_secure_keyguard_title">Kilit ekranında devre dışı bırak</string>
+    <string name="block_on_secure_keyguard_summary">Güvenli Kilit ekranında hızlı ayarları devre dışı bırakın</string>
+
+    <!-- Quick Settings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Dokununca titre</string>
+    <string name="quick_settings_vibrate_summary">Karelere dokunulduğunda titrer</string>
+
+    <!-- Quick Settings collapse panel -->
+    <string name="quick_settings_collapse_title">Paneli otomatik kapat</string>
+    <string name="quick_settings_collapse_summary">Geçiş sırasında hızlı ayarları panelini kapatır</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title_eos">Parlaklık ayarı</string>
+    <string name="qs_brightness_slider_summary">Hızlı ayarları panelindeki parlaklık ayarını göster</string>
+
+    <!-- Quick Settings 4 columns -->
+    <string name="qs_four_columns_title">Satır başına dört kare göster</string>
+
+    <!-- SuperSU header name -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Hesaplanamayan istatistikler</string>
+    <string name="show_unac_and_overcounted_stats_summary">Hesaplanamayan ve aşırı sayılan kullanım için pil istatistiklerini göster</string>
+
+    <!-- Keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Kilit ekranında göster</string>
+    <string name="app_notification_show_on_keyguard_summary">Kilit ekranında bu uygulamadan gelen bildirimleri göster</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Kilit ekranında kalıcı bildirimleri devre dışı bırakın</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Kilit ekranında bu uygulamadan gelen kalıcı bildirimleri asla gösterme</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Bildirimler</string>
+    <string name="less_notification_sounds_title">Daha az sıklıkta bildirim sesleri</string>
+    <string name="less_notification_sounds_summary">Uygulamanın bildirim seslerini sınırlayın belirlenen süre başına bir kez bildirim sesi</string>
+    <string name="less_notification_sounds_default">Standart Davranış</string>
+    <string name="less_notification_sounds_3s">3 saniye</string>
+    <string name="less_notification_sounds_5s">5 saniye</string>
+    <string name="less_notification_sounds_10s">10 saniye</string>
+    <string name="less_notification_sounds_15s">15 saniye</string>
+    <string name="less_notification_sounds_30s">30 saniye</string>
+    <string name="less_notification_sounds_45s">45 saniye</string>
+    <string name="less_notification_sounds_1m">1 dakika</string>
+    <string name="less_notification_sounds_2m">2 dakika</string>
+    <string name="less_notification_sounds_5m">5 dakika</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Uyarı rengi</string>
+    <string name="battery_saver_color_summary">Pil tasarrufu devreye girdiğinde turuncu durumu ve gezinti çubuklarını etkinleştirin</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Saat widget'i</string>
+    <string name="lock_clock_summary">\'cLock\' widget ayarlarını görüntüleme ve değiştirme</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Son kullanılanlar paneli</string>
+    <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+    <string name="show_clear_all_recents_button_summary">Tümünü temizle tuşunu göster</string>
+    <string name="recents_clear_all_location_title">Tümünü temizle konumu</string>
+    <string name="recents_clear_all_location_top_right">Sağ üstte</string>
+    <string name="recents_clear_all_location_top_left">Sol üstte</string>
+    <string name="recents_clear_all_location_top_center">Üst ortada</string>
+    <string name="recents_clear_all_location_bottom_right">Sağ altta</string>
+    <string name="recents_clear_all_location_bottom_left">Sol altta</string>
+    <string name="recents_clear_all_location_bottom_center">Alt ortada</string>
+    <string name="recents_clear_all_dismiss_all_title">Tüm görevleri temizle</string>
+    <string name="recents_clear_all_dismiss_all_summary">Tümünü temizler en son kullanılan dahil</string>
+    <string name="recents_searchbar_title">Arama çubuğu</string>
+    <string name="recents_searchbar_summary">Son kullanılanlar panelinin üstünde arama çubuğunu göster</string>
+
+    <!-- Full screen keyboard -->
+    <string name="fullscreen_keyboard_title">Tam Ekran klavye</string>
+    <string name="fullscreen_keyboard_summary">Yatay ekranda klavyeyi tam ekran göster</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_category">Gezinti çubuğu</string>
+    <string name="navbar_enable_bar">Etkin</string>
+    <string name="navigation_bar_left_title">Solak modu</string>
+    <string name="navigation_bar_left_summary">Yatay modda gezinti çubuğunu sola yerleştirir</string>
+    <string name="navbar_dimen_title">Boyutlar</string>
+    <string name="navbar_dimensions_reset_message">Varsayılan tüm boyutların girişleri sıfırlansın mı?</string>
+    <string name="navigation_bar_height_title">Gezinti çubuğu yüksekliği</string>
+    <string name="navigation_bar_height_landscape_title">Yatay modda gezinti çubuğu yüksekliği</string>
+    <string name="navigation_bar_width_title">Gezinti çubuğu genişliği</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (varsayılan)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (varsayılan)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (kapalı)</string>
+
+    <!-- Wifi connection notifications -->
+    <string name="wifi_notify_changed_networks">Wi\u2011Fi bağlantı bildirimi</string>
+    <string name="notify_changed_networks_default">Kapalı (varsayılan)</string>
+    <string name="notify_changed_networks_toast">Toast</string>
+    <string name="notify_changed_networks_notification">Bildirim</string>
+    <string name="notify_changed_networks_notification_sound">Ses ile Bildirim</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads up bildirimleri</string>
+    <string name="summary_heads_up_enabled">Açılır Pencere bildirimleri etkin</string>
+    <string name="summary_heads_up_disabled">Açılır Pencere bildirimleri devre dışı</string>
+    <string name="show_headsup_button_title">Hızlı erişim tuşu</string>
+    <string name="show_headsup_button_summary">Durum çubuğu başlığında bir hızlı erişim tuşu göster</string>
+    <string name="add_heads_up_package">Uygulama ekle</string>
+    <string name="add_heads_up_dnd_summary">Bu uygulamalarda bildirim pencereleri gösterme</string>
+    <string name="add_heads_up_blacklist_summary">Bu uygulamalardan bildirim pencerelerini gösterme</string>
+    <string name="heads_up_dnd_title">Rahatsız Etme</string>
+    <string name="heads_up_blacklist_title">Kara liste</string>
+    <string name="heads_up_disabled_notice">Ekranınızda uygulamaların etkileşimli bildirimler göstermesi için, Heads up'ı etkinleştirin.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Zaman aşımı</string>
+    <string name="heads_up_time_out_summary"> <xliff:g id="number">%d</xliff:g> saniye hiçbir bildirim görüntülenmeyecek</string>
+    <string name="heads_up_time_out_never_summary">Bu süre zamanında bildirimler görüntülenmeyecektir</string>
+    <string name="heads_up_time_out_2sec">2 ssaniye</string>
+    <string name="heads_up_time_out_4sec">4 saniye</string>
+    <string name="heads_up_time_out_6sec">6 saniye</string>
+    <string name="heads_up_time_out_8sec">8 saniye</string>
+    <string name="heads_up_time_out_10sec">10 saniye</string>
+    <string name="heads_up_time_out_never">Asla</string>
+
+    <!-- Superuser indicator-->
+    <string name="su_indicator">Superuser göstergesi</string>
+    <string name="su_indicator_summary">Yetklili Kullanıcı isteği kabul ya da red edildiğinde görüntülenecek</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Ekran kaydedici</string>
+    <string name="screen_recorder_summary">Ekran kaydedici ayarları</string>
+    <string name="screen_recorder_video_dimensions_title">Video boyutu</string>
+    <string name="screen_recorder_video_bitrate_title">Bit Hızı</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+
+    <string name="power_menu_screenrecord_title">Ekran kaydedici</string>
+    <string name="screen_recorder_record_audio_title">Harici ses</string>
+    <string name="screen_recorder_record_audio_summary">Mikrofonla ses kaydetme</string>
+    <string name="screen_recorder_power_menu_summary">Güç menüsüne Ekran Kaydedici seçeneğini ekle</string>
+
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">Bildirimler</string>
+    <string name="privacy_guard_notifiation_summary">Gizlilik koruması aktif ise bir bildirim göster</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">LCD yoğunluğu</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Cihaz varsayılan</string>
+    <string name="lcd_density_unsupported">Desteklenmiyor</string>
+    <string name="restarting_ui">Yeniden Başlat</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Gezinti halkalarını etkinleştirin</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="animation_title">Animasyonlar</string>  
+    <string name="system_animation_title">Sistem</string>
+    <string name="activity_open_title">Etkinlik açma</string>
+    <string name="activity_close_title">Etkinlik kapatma</string>
+    <string name="task_open_title">Görev açma</string>
+    <string name="task_close_title">Görev kapatma</string>
+    <string name="task_move_to_front_title">Önüne geç</string>
+    <string name="task_move_to_back_title">Arkasına geç</string>
+    <string name="wallpaper_open_title">Duvar kağıdı aç</string>
+    <string name="wallpaper_close_title">Duvar kağıdı kapat</string>
+    <string name="wallpaper_intra_open_title">Duvar Kağıdı arası açık</string>
+    <string name="wallpaper_intra_close_title">Duvar Kağıdı arası kapalı</string>
+    <string name="task_open_behind_title">Görev arkasında açılır</string>
+    <string name="animation_duration_title">Animasyon süresi</string>
+    <string name="title_animation_no_override">Uygulamaların geçersiz kılmalarını engelleyin</string>
+    <string name="summary_animation_no_override">Uygulamalardan gelen geçeriz geçişleri önler</string>
+    <string name="animation_duration_default">Varsayılan</string>
+
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Toast</string>
+    <string name="toast_none_animation">Hiçbiri</string>
+    <string name="toast_default_animation">Varsayılan</string>
+    <string name="toast_fade_animation">Karart</string>
+    <string name="toast_SlideRight_animation">Sağa kaydır</string>
+    <string name="toast_SlideLeft_animation">Sola kaydır/string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Hızlı karart</string>
+    <string name="toast_GrowFade_animation">Yayılan karartma</string>
+    <string name="toast_GrowFadeCenter_animation">Yayılan karartma üstte</string>
+    <string name="toast_GrowFadeBottom_animation">Yayılan karartma altta</string>
+    <string name="toast_Translucent_animation">Yarı saydam</string>
+    <string name="toast_SlideLeftRight_animation">Soldan sağa kaydır</string>
+    <string name="toast_SlideRightLeft_animation">Sağdan sola kaydır</string>
+
+    <!-- ListView animation -->
+    <string name="listview_animation_title">Liste Görünümü</string>
+    <string name="listview_off">Varsayılan</string>
+    <string name="listview_wave_left">Dalga (sol)</string>
+    <string name="listview_wave_right">Dalga (sağ)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Ölçek</string>
+    <string name="listview_stack_top">Yığın (üst)</string>
+    <string name="listview_stack_bottom">Yığın (alt)</string>
+    <string name="listview_unfold">Ters kat</string>
+    <string name="listview_fold">Kat</string>
+    <string name="listview_translate_left">Çevir (sol)</string>
+    <string name="listview_translate_right">Çevir (sağ)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Liste Görünümü efekti</string>
+    <string name="listview_accelerate_interpolator">Hızlandırma</string>
+    <string name="listview_decelerate_interpolator">Yavaşlatma</string>
+    <string name="listview_accelerate_decelerate_interpolator">Hızlandır ve yavaşlat</string>
+    <string name="listview_anticipate_interpolator">Beklet</string>
+    <string name="listview_overshoot_interpolator">ilerlet</string>
+    <string name="listview_anticipate_overshoot_interpolator">Beklet ve ilerlet</string>
+    <string name="listview_bounce_interpolator">Sıçrat</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Üzerine Yazma değeri</string>
+    <string name="doze_overwrite_value_summary">Kullanıcı yapılandırma ile varsayılan değerin üzerine izin ver</string>
+
+    <string name="doze_list_mode_title">Uyutma modu</string>
+    <string name="doze_list_mode_summary">Uyutma modunu ayarlama seçenekleri</string>
+
+    <string name="doze_pulse_title">Zaman ayarları</string>
+    <string name="doze_pulse_duration_in_title">Karartma içeri</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Görünme süresi</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Karartma dışarı</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Bildirim ışığı açık</string>
+    <string name="doze_pulse_on_notifications_summary">Sadece bekleyen bildirimleri tetiklemeyi etkinleştirir</string>
+
+    <string name="doze_shake_title">Sallama ayarları</string>
+    <string name="doze_shake_mode_title">Sallama modu</string>
+    <string name="doze_shake_mode_summary">Etkinleştirmeyi tetiklemek için sallama sensörü değerini kullanın</string>
+    <string name="doze_shake_mode_test_summary">Sallama sensörünü test etmeyi istiyor musunuz?</string>
+    <string name="doze_shake_mode_test_result">Geçerli değeri uygulansın mı?</string>
+    <string name="doze_shake_test">Şimdi cihazınızı sallayın</string>
+    <string name="doze_shake_it">Sallama algılandı!</string>
+
+    <string name="doze_shake_acc_threshold_title">Sallama değeri</string>
+    <string name="doze_shake_acc_threshold_summary">Etkinleştirmeyi tetiklemek için gerekli sallama gücünü yapılandırın</string>
+
+    <string name="doze_time_mode_title">Saat &amp; tarihi göster</string>
+    <string name="doze_time_mode_summary">Hiçbir bildirim olmadığında zamanı göstermeye zorla</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (varsayılan)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (varsayılan)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="veryeasy_shake">Çok kolay</string>
+    <string name="easy_shake">Kolay</string>
+    <string name="medium_shake">Varsayılan</string>
+    <string name="hard_shake">Zor</string>
+    <string name="veryhard_shake">En zor</string>
+    <string name="strong_shake">Güçlü</string>
+
+    <string name="fully_mode">Tam mod</string>
+    <string name="pocket_shake_mode">Cepte ve sallama</string>
+    <string name="pocket_pulse_mode">Cepte and yanma</string>
+    <string name="pocket_only_mode">Cep</string>
+    <string name="shake_pulse_mode">Sallama ve yanma</string>
+    <string name="pulse_only_mode">Yanma (varsayılan)</string>
+</resources>
