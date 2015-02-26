@@ -352,7 +352,7 @@
     <string name="toast_default_animation">Varsayılan</string>
     <string name="toast_fade_animation">Karart</string>
     <string name="toast_SlideRight_animation">Sağa kaydır</string>
-    <string name="toast_SlideLeft_animation">Sola kaydır/string>
+    <string name="toast_SlideLeft_animation">Sola kaydır</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
