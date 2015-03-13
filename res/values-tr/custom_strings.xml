@@ -20,8 +20,8 @@
     <string name="custom_settings_title">Kullanıcı Arayüzü</string>
 
     <!-- Updater -->
-    <string name="updater_title">Güncellemeler</string>
-    <string name="updater_summary">Güncelleştirmeleri denetleyin</string>
+    <string name="updater_title">Sistem Güncellemeleri</string>
+    <string name="updater_summary">Güncellemeleri denetleyin</string>
 
     <!-- Button settings  -->
     <string name="button_settings_title">Tuşlar</string>
@@ -33,7 +33,7 @@
     <string name="build_date">İnşa tarihi</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
-    <string name="cpu_info">İŞLEMCİ</string>
+    <string name="cpu_info">İşlemci</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Bellek</string>
     <!-- About phone screen, status item label -->
@@ -154,11 +154,11 @@
 
     <!-- Quick Settings collapse panel -->
     <string name="quick_settings_collapse_title">Paneli otomatik kapat</string>
-    <string name="quick_settings_collapse_summary">Geçiş sırasında hızlı ayarları panelini kapatır</string>
+    <string name="quick_settings_collapse_summary">Geçiş sırasında hızlı ayarlar panelini kapatır</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title_eos">Parlaklık ayarı</string>
-    <string name="qs_brightness_slider_summary">Hızlı ayarları panelindeki parlaklık ayarını göster</string>
+    <string name="qs_brightness_slider_summary">Hızlı ayarlar panelindeki parlaklık ayarını göster</string>
 
     <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Satır başına dört kare göster</string>
@@ -196,7 +196,7 @@
     <string name="battery_saver_color_summary">Pil tasarrufu devreye girdiğinde turuncu durumu ve gezinti çubuklarını etkinleştirin</string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Saat widget\'i</string>
+    <string name="lock_clock_title">Saat widget'i</string>
     <string name="lock_clock_summary">\'cLock\' widget ayarlarını görüntüleme ve değiştirme</string>
 
     <!-- Recents panel -->
@@ -258,13 +258,13 @@
     <string name="add_heads_up_blacklist_summary">Bu uygulamalardan bildirim pencerelerini gösterme</string>
     <string name="heads_up_dnd_title">Rahatsız Etme</string>
     <string name="heads_up_blacklist_title">Kara liste</string>
-    <string name="heads_up_disabled_notice">Ekranınızda uygulamaların etkileşimli bildirimler göstermesi için, Heads up\'ı etkinleştirin.</string>
+    <string name="heads_up_disabled_notice">Ekranınızda uygulamaların etkileşimli bildirimler göstermesi için, Heads up'ı etkinleştirin.</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Zaman aşımı</string>
     <string name="heads_up_time_out_summary"> <xliff:g id="number">%d</xliff:g> saniye hiçbir bildirim görüntülenmeyecek</string>
     <string name="heads_up_time_out_never_summary">Bu süre zamanında bildirimler görüntülenmeyecektir</string>
-    <string name="heads_up_time_out_2sec">2 ssaniye</string>
+    <string name="heads_up_time_out_2sec">2 saniye</string>
     <string name="heads_up_time_out_4sec">4 saniye</string>
     <string name="heads_up_time_out_6sec">6 saniye</string>
     <string name="heads_up_time_out_8sec">8 saniye</string>
@@ -317,7 +317,7 @@
 
     <!-- Privacy guard notification -->
     <string name="privacy_guard_notification_title">Bildirimler</string>
-    <string name="privacy_guard_notifiation_summary">Gizlilik koruması aktif ise bir bildirim göster</string>
+    <string name="privacy_guard_notifiation_summary">Gizlilik koruması aktif olduğunda bir bildirim göster</string>
 
     <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">LCD yoğunluğu</string>
@@ -397,7 +397,7 @@
     <string name="doze_overwrite_value_title">Değerleri değiştir</string>
     <string name="doze_overwrite_value_summary">Kullanıcı yapılandırması ile varsayılan değerlerin değiştirilmesine izin verir</string>
     
-	<string name="doze_list_mode_title">Hafi uyku modu</string>
+	<string name="doze_list_mode_title">Hafif uyku modu</string>
     <string name="doze_list_mode_summary">Hafif uyku modunu yapılandırma seçenekleri</string>
 	
 	<string name="doze_pulse_title">Zaman ayarları</string>
@@ -417,7 +417,7 @@
     <string name="doze_shake_mode_title">Sallama modu</string>
     <string name="doze_shake_mode_summary">Etkinleştirmeyi tetiklemek için sallama sensörü değerini kullanın</string>
     <string name="doze_shake_mode_test_summary">Sallama sensörünü test etmeyi istiyor musunuz?</string>
-    <string name="doze_shake_mode_test_result">Geçerli değeri uygulansın mı?</string>
+    <string name="doze_shake_mode_test_result">Geçerli değer uygulansın mı?</string>
     <string name="doze_shake_test">Şimdi cihazınızı sallayın</string>
     <string name="doze_shake_it">Sallama algılandı!</string>
 
@@ -449,8 +449,8 @@
     <string name="strong_shake">Güçlü</string>
 
     <string name="fully_mode">Tam mod</string>
-    <string name="pocket_shake_mode">Cepte ve sallama</string>
-    <string name="pocket_pulse_mode">Cepte and yanma</string>
+    <string name="pocket_shake_mode">Cep ve sallama</string>
+    <string name="pocket_pulse_mode">Cep ve yanma</string>
     <string name="pocket_only_mode">Cep</string>
     <string name="shake_pulse_mode">Sallama ve yanma</string>
     <string name="pulse_only_mode">Yanma (varsayılan)</string>
@@ -466,4 +466,8 @@
     <string name="volume_default_media">Medya</string>
     <string name="volume_default_title">Ses varsayılan</string>
     <string name="volume_default_summary">Hangi sesin varsayılan olacağını seçin</string>
+
+	<!-- Advanced mode summary -->
+    <string name="advanced_mode_summary">Gelişmiş ayarları etkinleştirin</string>
+
 </resources>
