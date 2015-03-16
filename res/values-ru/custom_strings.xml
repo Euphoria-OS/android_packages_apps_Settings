@@ -123,6 +123,7 @@
 
     <!-- Quick Settings tiles -->
     <string name="quick_settings_category">Панель быстрых настроек</string>
+    <string name="qs_ambient_display_tile">Активный экран</string>
     <string name="qs_battery_saver_tile">Энергосбережение</string>
     <string name="qs_brightness_tile">Яркость</string>
     <string name="qs_expanded_desktop_tile">Расширенный экран</string>
@@ -150,6 +151,18 @@
 
     <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Отображать по четыре плитки в ряду</string>
+    
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки при %1$s уведомлениях</string>
+    <string name="smart_pulldown_off">Выкл</string>
+    <string name="smart_pulldown_dismissable">Без удаляемых</string>
+    <string name="smart_pulldown_persistent">Без постоянных</string>
+    <string name="smart_pulldown_all">Без удаляемых и постоянных</string>
+    
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Раширенные вид уведомлений(Всегда)</string>
+    <string name="notification_force_expand_summary">Всегда использовать расширенный вид уведомлений для всех приложений, поддерживающих это</string>
 
     <!-- SuperSU header name -->
     <string name="supersu_title">SuperSU</string>
@@ -180,8 +193,9 @@
     <string name="battery_saver_color_summary">Цвет панели навигации и строки состояния в режиме \"Энергосбережения\"</string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Виджет часов</string>
-    <string name="lock_clock_summary">Настройки отображения виджета \'cLock\'</string>
+    <string name="weather_options_title">Погода</string>
+    <string name="lock_clock_title">Виджет часов и погоды</string>
+    <string name="lock_clock_summary">Посмотреть или изменить настройки отображения виджета \'cLock\'</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Недавние приложения</string>
@@ -217,11 +231,16 @@
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_52_dp">52 dp</string>
     <string name="navigation_bar_size_48_dp_default">48 dp (по умолчанию)</string>
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (выкл)</string>
+    
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Двойное нажатие для сна</string>
+    <string name="double_tap_sleep_nav_bar_summary">Дважды коснитесь панели навигации, чтобы перевести устройство в спящий режим</string>
 
     <!-- Heads Up -->
     <string name="category_heads_up">Всплывающие уведомления</string>
@@ -364,6 +383,8 @@
     <string name="toast_SlideRightLeft_animation">Скольжение справа налево</string>
 
     <!-- Doze pulse (ambient display) options -->
+    <string name="summary_doze_enabled">Включено</string>
+    <string name="summary_doze_disabled">Отключено</string>
     <string name="doze_overwrite_value_title">Перезаписывать значение</string>
     <string name="doze_overwrite_value_summary">Разрешить перезаписывать стандартные значения пользовательскими</string>
 
@@ -424,4 +445,17 @@
     <string name="pocket_only_mode">Режим \"В кармане\"</string>
     <string name="shake_pulse_mode">Встряхивание и пульсация</string>
     <string name="pulse_only_mode">Пульсация (по умолчанию)</string>
+    
+    <!-- Long press on lock screen lock icon to sleep -->
+    <string name="longpress_lock_icon_to_sleep_title">Удержание иконки блокировки для сна</string>
+    <string name="longpress_lock_icon_to_sleep_summary">Это функция не будет работать при одновременно включенных Smart Lock и \"Предотвращение случайных нажатий\"</string>
+    
+    <!-- Volume button default -->
+    <string name="volume_default_none">Не изменять</string>
+    <string name="volume_default_ringer">Звонка</string>
+    <string name="volume_default_notification">Уведомления</string>
+    <string name="volume_default_media">Мультимедиа</string>
+    <string name="volume_default_title">По умолчанию</string>
+    <string name="volume_default_summary">Выберите, громкость чего изменяется по умолчанию</string>
+
 </resources>
