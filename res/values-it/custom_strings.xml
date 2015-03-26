@@ -137,7 +137,7 @@
     <string name="qs_screenshot_tile">Schermata</string>
     <string name="qs_sync_tile">Sincronizzazione</string>
 
-    <string name="qs_main_tiles_summary_off_eos">Thr</string>
+    <string name="qs_main_tiles_summary_off_eos">Tre o quattro quick settings su ogni riga</string>
 
     <!-- Quick Settings block on keyguard -->
     <string name="block_on_secure_keyguard_title">Disabilita nella schermata di blocco</string>
@@ -153,7 +153,7 @@
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title_eos">Regolatore luminosità</string>
-    <string name="qs_brightness_slider_summary">Mostra un regolatore per la luminosità nel pannello deiquick settings</string>
+    <string name="qs_brightness_slider_summary">Mostra un regolatore per la luminosità nel pannello dei quick settings</string>
 
     <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Mostra quattro quick settings per fila</string>
@@ -354,7 +354,7 @@
     <string name="listview_animation_title">Animazione lista</string>
     <string name="listview_off">Predefinita</string>
     <string name="listview_wave_left">Onda (a sinistra)</string>
-    <string name="listview_wave_right">Onda (a destra</string>
+    <string name="listview_wave_right">Onda (a destra)</string>
     <string name="listview_alpha">Alpha</string>
     <string name="listview_scale">Scala</string>
     <string name="listview_stack_top">Pila (alto)</string>
