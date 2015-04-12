@@ -157,6 +157,17 @@
 
     <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Mostra quattro quick settings per fila</string>
+    
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">Quick settings intelligenti</string>
+    <string name="smart_pulldown_summary">Apri i quick settings quando non ci sono notifiche %1$s presenti</string>
+    <string name="smart_pulldown_dismissable">Rimovibili</string>
+    <string name="smart_pulldown_persistent">Non rimovibili</string>
+    <string name="smart_pulldown_all">Rimovibili o non rimovibili</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forza notifiche espanse</string>
+    <string name="notification_force_expand_summary">Forza notifiche espanse per tutte le apps che lo supportano<string>
 
     <!-- SuperSU header name -->
     <string name="supersu_title">SuperSU</string>
@@ -229,6 +240,10 @@
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (spenta)</string>
+    
+    <!-- Double Tap Navbar to Sleep -->
+     <string name="double_tap_sleep_nav_bar_title">Doppio tocco per sospendere</string>
+     <string name="double_tap_sleep_nav_bar_summary">Doppio tocco sulla barra di navigazione per spegnere il display</string>
 
     <!-- Heads Up -->
     <string name="category_heads_up">Notifiche Heads up</string>
@@ -375,6 +390,10 @@
     <string name="listview_bounce_interpolator">Rimbalza</string>
 
     <!-- Doze pulse (ambient display) options -->
+    
+    <string name="summary_doze_enabled">Attivato</string>
+    <string name="summary_doze_disabled">Disattivato</string>
+    
     <string name="doze_overwrite_value_title">Sovrascrivi valori</string>
     <string name="doze_overwrite_value_summary">Pemette di sovrascrivere i valori predefiniti con quelli configurati dall\'utente</string>
 
@@ -435,4 +454,16 @@
     <string name="pocket_only_mode">Tasca</string>
     <string name="shake_pulse_mode">Movimento e pulsamento</string>
     <string name="pulse_only_mode">Pulsamento (predefinito)</string>
+    
+    <!-- Long press on lock screen lock icon to sleep -->
+    <string name="longpress_lock_icon_to_sleep_title">Pressione lunga sulla icona di blocco per sospendere</string>
+    <string name="longpress_lock_icon_to_sleep_summary">Questa opzione non funzionerà se smart lock e le impostazioni di esplorazione al tocco sono attive</string>
+    
+    <!-- Volume button default -->
+    <string name="volume_default_none">Nessuno</string>
+    <string name="volume_default_ringer">Suoneria</string>
+    <string name="volume_default_notification">Notifiche</string>
+    <string name="volume_default_media">Contenuti multimediali</string>
+    <string name="volume_default_title">Volume di default</string>
+    <string name="volume_default_summary">Scegli quale volume viene cambiato di default</string>
 </resources>
