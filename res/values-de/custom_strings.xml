@@ -116,6 +116,7 @@
     <!--Power menu -->
     <string name="power_category">Ein/Aus-Taste</string>
     <string name="lockscreen_enable_power_menu_title">Ein/Aus-Menü bei Bildschirmsperre</string>
+    <string name="actions_category">Aktionen</string>
     
     <!-- Touch control -->
     <string name="touch_control_settings_title">Gestensteuerung</string>
@@ -134,8 +135,7 @@
 
     <string name="qs_main_tiles_summary_off_eos">Zeigt drei oder vier Kacheln pro Reihe</string>
 
-    <!-- Quick settings -->
-    <string name="quick_settings_category">Schnelleinstellungen</string>
+    <!-- Quick settings block on keyguard-->
     <string name="block_on_secure_keyguard_title">Auf dem Sperrbildschirm deaktivieren</string>
     <string name="block_on_secure_keyguard_summary">Auf sicherem Sperrbildschirm deaktivieren</string>
     
@@ -196,6 +196,7 @@
     <string name="battery_saver_color_summary">Aktiviert die orangefarbene Status- und Navigationsleiste wenn der Energiesparmodus aktiviert ist</string>
 
     <!--- Lock clock -->
+    <string name="weather_options_title">Wetter</string>
     <string name="lock_clock_title">cLock-Widget</string>
     <string name="lock_clock_summary">Optionen des cLock-Widgets ändern oder anzeigen</string>
 
@@ -233,6 +234,7 @@
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_52_dp">52 dp</string>
     <string name="navigation_bar_size_48_dp_default">48 dp (Standard)</string>
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
@@ -463,4 +465,7 @@
     <string name="volume_default_title">Standardlautstärke</string>
     <string name="volume_default_summary">Wähle welche Lautstärke standardmäßig geändert werden soll</string>
 
+    <!-- Vibrate options -->
+    <string name="vibrate_when_ringing_title_eos">Bei Anrufen</string>
+    <string name="vibrate_on_touch_title_eos">Bei Berührung</string>
 </resources>
