@@ -27,7 +27,7 @@
     <string name="button_settings_title">Tuşlar</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version_eos">Euphoria versiyonu</string>
+    <string name="mod_version">Euphoria versiyonu</string>
     <string name="mod_version_default">Bilinmeyen</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">İnşa tarihi</string>
@@ -46,7 +46,7 @@
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Şarja takınca uyandır</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Bir güç kaynağına bağlanırken ya da bağlantısını keserken ekranı aç</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Bir güç kaynağına bağlanırken yada bağlantısını keserken ekranı aç</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
     multiple font sizes in a limited amount of space. -->
@@ -116,7 +116,7 @@
 
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Bildirim şeridi</string>
-    <string name="status_bar_ticker_summary">Durum çubuğunda bildirim metni animasyonu</string>
+    <string name="status_bar_ticker_summary">Durum çubuğunda bildirim metni animasyonu göster, bu seçeneği kullanmak tema değiştirildiğinde SystemUI çökmelerine neden olabilir bunu kullanmak kendi sorumluluğunuzdadı</string>
 
     <!--Power menu -->
     <string name="power_category">Güç düğmesi</string>
@@ -159,7 +159,19 @@
     <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Satır başına dört kare göster</string>
 
-    <!-- SuperSU header name -->
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">Akıllı aşağı çekme</string>
+    <string name="smart_pulldown_summary">Mevcut %1$s bildirimler olduğunda hızlı ayarlarını açar</string>
+    <string name="smart_pulldown_off">Kapalı</string>
+    <string name="smart_pulldown_dismissable">Kapatılabilir bildirim yoksa</string>
+    <string name="smart_pulldown_persistent">Kalıcı bildirim yoksa</string>
+    <string name="smart_pulldown_all">Kapatılabilir yada kalıcı yoksa</string>
+	
+	<!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Bildirimi genişletmeye zorla</string>
+    <string name="notification_force_expand_summary">Bunu destekleyen tüm uygulamalar üzerinde bildirimleri genişletilmesine zorlar</string>
+	
+	<!-- SuperSU header name -->
     <string name="supersu_title">SuperSU</string>
 
     <!-- Keyguard notifications -->
@@ -185,17 +197,18 @@
 
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Uyarı rengi</string>
-    <string name="battery_saver_color_summary">Pil tasarrufu devreye girdiğinde turuncu durumu ve gezinti çubuklarını etkinleştirin</string>
+    <string name="battery_saver_color_summary">Pil tasarrufu devreye girdiğinde turuncu durum ve gezinti çubuklarını etkinleştirin</string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Saat widget\'i</string>
-    <string name="lock_clock_summary">\'cLock\' widget ayarlarını görüntüleme ve değiştirme</string>
+    <string name="weather_options_title">Hava Durumu</string>
+    <string name="lock_clock_title">Saat ve Hava durumu widget'i</string>
+    <string name="lock_clock_summary">Saat ve Hava durumu widgetini nasıl değiştireceğinizi görüntüleyin</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Son kullanılanlar paneli</string>
     <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
     <string name="show_clear_all_recents_button_summary">Tümünü temizle tuşunu göster</string>
-    <string name="recents_clear_all_location_title">Tümünü temizle konumu</string>
+    <string name="recents_clear_all_location_title">Tümünü temizle tuşu konumu</string>
     <string name="recents_clear_all_location_top_right">Sağ üstte</string>
     <string name="recents_clear_all_location_top_left">Sol üstte</string>
     <string name="recents_clear_all_location_top_center">Üst ortada</string>
@@ -208,8 +221,8 @@
     <string name="recents_searchbar_summary">Son kullanılanlar panelinin üstünde arama çubuğunu göster</string>
 
     <!-- Full screen keyboard -->
-    <string name="fullscreen_keyboard_title">Tam Ekran klavye</string>
-    <string name="fullscreen_keyboard_summary">Yatay ekranda klavyeyi tam ekran göster</string>
+    <string name="fullscreen_keyboard_title">Tam ekran klavye</string>
+    <string name="fullscreen_keyboard_summary">Yatay ekranda klavyeyi tam ekran gösterir</string>
 
     <!-- Navigation bar -->
     <string name="navigation_bar_category">Gezinti çubuğu</string>
@@ -232,15 +245,19 @@
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (kapalı)</string>
 
-    <!-- Heads Up -->
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Uyku için çift dokun</string>
+    <string name="double_tap_sleep_nav_bar_summary">Cihazı uyutmak için gezinti çubuğuna çift dokunun</string>
+	
+	<!-- Heads Up -->
     <string name="category_heads_up">Heads up bildirimleri</string>
     <string name="summary_heads_up_enabled">Açılır Pencere bildirimleri etkin</string>
     <string name="summary_heads_up_disabled">Açılır Pencere bildirimleri devre dışı</string>
     <string name="show_headsup_button_title">Hızlı erişim tuşu</string>
-    <string name="show_headsup_button_summary">Durum çubuğu başlığında bir hızlı erişim tuşu göster</string>
+    <string name="show_headsup_button_summary">Durum çubuğu başlığında hızlı erişim tuşu göster</string>
     <string name="add_heads_up_package">Uygulama ekle</string>
-    <string name="add_heads_up_dnd_summary">Bu uygulamalarda bildirim pencereleri gösterme</string>
-    <string name="add_heads_up_blacklist_summary">Bu uygulamalardan bildirim pencerelerini gösterme</string>
+    <string name="add_heads_up_dnd_summary">Uygulamalarda bildirim pencereleri gösterme</string>
+    <string name="add_heads_up_blacklist_summary">Bu uygulamalarda bildirim pencerelerini gösterme</string>
     <string name="heads_up_dnd_title">Rahatsız Etme</string>
     <string name="heads_up_blacklist_title">Kara liste</string>
     <string name="heads_up_disabled_notice">Ekranınızda uygulamaların etkileşimli bildirimler göstermesi için, Heads up\'ı etkinleştirin.</string>
@@ -307,7 +324,7 @@
     <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">LCD yoğunluğu</string>
     <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">Cihaz varsayılan</string>
+    <string name="lcd_density_default">Cihaz varsayılanı</string>
     <string name="lcd_density_unsupported">Desteklenmiyor</string>
     <string name="restarting_ui">Yeniden Başlat</string>
 
@@ -452,4 +469,7 @@
     <string name="volume_default_title">Ses varsayılan</string>
     <string name="volume_default_summary">Hangi sesin varsayılan olacağını seçin</string>
 
+    <!-- Vibrate options -->
+    <string name="vibrate_when_ringing_title_eos">Aramalar için</string>
+    <string name="vibrate_on_touch_title_eos">Dokunma için</string>
 </resources>
