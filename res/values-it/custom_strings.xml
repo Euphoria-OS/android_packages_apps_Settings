@@ -116,8 +116,8 @@
 
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Testo delle notifiche</string>
-    <string name="status_bar_ticker_summary">Animazione che mostra il testo delle notifiche nella status bar</string>
-
+    <string name="status_bar_ticker_summary">Animazione che mostra il testo delle notifiche nella barra di stato</string>
+    
     <!--Power menu -->
     <string name="power_category">Pulsante di spegnimento</string>
     <string name="lockscreen_enable_power_menu_title">Mostra il menu di spegnimento nel blocco schermo</string>
@@ -125,8 +125,7 @@
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Controllo touch</string>
-    <string name="touch_control_settings_summary">Gestisci opzioni avanzate di accensione come il doppio tap per accendere e altro</string>
-
+    <string name="touch_control_settings_summary">Gestisci opzioni avanzate di accensione come il doppio tocco per accendere e altro</string>
     <!-- Quick settings -->
     <string name="quick_settings_category">Quick settings</string>
     <string name="block_on_secure_keyguard_title">Disabilita nel blocco schermo</string>
@@ -466,4 +465,8 @@
     <string name="volume_default_media">Contenuti multimediali</string>
     <string name="volume_default_title">Volume di default</string>
     <string name="volume_default_summary">Scegli quale volume viene cambiato di default</string>
+    
+     <!-- Vibrate options -->
+ <string name="vibrate_when_ringing_title_eos">Per le chiamate</string>
+ <string name="vibrate_on_touch_title_eos">Alla pressione</string>
 </resources>
