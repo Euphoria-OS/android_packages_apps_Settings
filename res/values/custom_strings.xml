@@ -205,7 +205,8 @@
     <string name="lock_clock_summary">View or change how the clock and weather widget will display</string>
 
     <!-- Recents panel -->
-    <string name="recents_panel_category">Recents panel</string>
+    <string name="recent_panel_title">Recents panel</string>
+    <string name="aosp_recents_panel">AOSP recents panel</string>
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
     <string name="recents_clear_all_location_title">Clear all location</string>
@@ -219,6 +220,23 @@
     <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
     <string name="recents_searchbar_title">Search bar</string>
     <string name="recents_searchbar_summary">Show Google search bar in the recents screen</string>
+
+    <!-- Slim recents panel -->
+    <string name="slim_recents_panel">Slim recents panel</string>
+    <string name="use_slim_recents_title">Enable</string>
+    <string name="show_running_tasks_title">Only show running apps</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_show_topmost_title">Show topmost task</string>
+    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
 
     <!-- Full screen keyboard -->
     <string name="fullscreen_keyboard_title">Fullscreen keyboard</string>

@@ -217,6 +217,15 @@
                 settings:advanced="true"
                 />
 
+        <!-- Recents panel options -->
+        <dashboard-tile
+                android:id="@+id/recent_panel_settings"
+                android:title="@string/recent_panel_title"
+                android:fragment="com.android.settings.euphoria.RecentPanel"
+                android:icon="@drawable/ic_settings_more"
+                settings:advanced="true"
+                />
+
         <!-- Application Settings -->
         <dashboard-tile
                 android:id="@+id/application_settings"

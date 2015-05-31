@@ -69,7 +69,7 @@
                         android:key="doze_brightness"
                         android:title="@string/doze_brightness_title"
                         android:max="100"
-                        settings:min="0"
+                        settings:minimum="0"
                         settings:unitsLeft=""
                         settings:unitsRight=""
                         android:persistent="false"
