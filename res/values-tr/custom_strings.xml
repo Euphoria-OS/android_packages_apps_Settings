@@ -321,13 +321,6 @@
     <string name="privacy_guard_notification_title">Bildirimler</string>
     <string name="privacy_guard_notifiation_summary">Gizlilik koruması aktif olduğunda bir bildirim göster</string>
 
-    <!-- Display settings screen, setting options for LCD density -->
-    <string name="lcd_density">LCD yoğunluğu</string>
-    <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">Cihaz varsayılanı</string>
-    <string name="lcd_density_unsupported">Desteklenmiyor</string>
-    <string name="restarting_ui">Yeniden Başlat</string>
-
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Gezinti halkalarını etkinleştirin</string>
 
@@ -428,6 +421,12 @@
 
     <string name="doze_time_mode_title">Saat &amp; tarihi göster</string>
     <string name="doze_time_mode_summary">Hiçbir bildirim olmadığında zamanı göstermeye zorla</string>
+    
+    <string name="doze_brightness_category_title">Parlaklık</string>
+    <string name="doze_brightness_title">Parlaklık seviyesi</string>
+
+    <string name="doze_auto_brightness_title">Otomatik parlalık</string>
+    <string name="doze_auto_brightness_summary">Ekranın parlaklığını çevresindeki ortam ışığını dikkate alarak ayarlar</string>
 
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
@@ -461,15 +460,25 @@
     <string name="longpress_lock_icon_to_sleep_title">Uyku için kilit simgesine uzun basın</string>
     <string name="longpress_lock_icon_to_sleep_summary">Akıllı kilit ve erişilebilirlik dokunma arama etkinse bu seçenek çalışmayacaktır</string>
 
-    <!-- Volume button default -->
-    <string name="volume_default_none">Hiçbiri</string>
-    <string name="volume_default_ringer">Zil sesi</string>
-    <string name="volume_default_notification">Bildirim</string>
-    <string name="volume_default_media">Medya</string>
-    <string name="volume_default_title">Ses varsayılan</string>
-    <string name="volume_default_summary">Hangi sesin varsayılan olacağını seçin</string>
-
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Uyutmak için her hangi bir yere iki kez dokunun</string>
+    <string name="double_tap_sleep_anywhere_summary">Kilit ekranında herhangi bir yere iki kez dokunarak cihazı uyku moduna alabilirsiniz</string>
+    
     <!-- Vibrate options -->
     <string name="vibrate_when_ringing_title_eos">Aramalar için</string>
     <string name="vibrate_on_touch_title_eos">Dokunma için</string>
+
+    <!-- Disable torch when screen goes off -->
+    <string name="disable_torch_screen_off_title">Ekran kapandığında el fenerini devre dışı bırak</string>
+    <string name="disable_torch_screen_off_delay_title">Geciktirme süresi</string>
+    <string name="torch_screen_off_one_second">1 saniye</string>
+    <string name="torch_screen_off_ten_second">10 saniye (default)</string>
+    <string name="torch_screen_off_thirty_second">30 saniye</string>
+    <string name="torch_screen_off_one_minute">1 dakika</string>
+    <string name="torch_screen_off_five_minutes">5 dakika</string>
+    <string name="torch_screen_off_ten_minutes">10 dakika</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Görev Yöneticisi</string>
+    <string name="enable_task_manager_summary">Genişletilmiş durum çubuğunda görev yöneticisi tuşunu gösterir</string>
 </resources>
