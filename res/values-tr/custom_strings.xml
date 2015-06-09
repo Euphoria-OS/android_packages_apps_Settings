@@ -321,13 +321,6 @@
     <string name="privacy_guard_notification_title">Bildirimler</string>
     <string name="privacy_guard_notifiation_summary">Gizlilik koruması aktif olduğunda bir bildirim göster</string>
 
-    <!-- Display settings screen, setting options for LCD density -->
-    <string name="lcd_density">LCD yoğunluğu</string>
-    <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">Cihaz varsayılanı</string>
-    <string name="lcd_density_unsupported">Desteklenmiyor</string>
-    <string name="restarting_ui">Yeniden Başlat</string>
-
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Gezinti halkalarını etkinleştirin</string>
 
@@ -429,6 +422,12 @@
     <string name="doze_time_mode_title">Saat &amp; tarihi göster</string>
     <string name="doze_time_mode_summary">Hiçbir bildirim olmadığında zamanı göstermeye zorla</string>
 
+    <string name="doze_brightness_category_title">Parlaklık</string>
+    <string name="doze_brightness_title">Parlaklık seviyesi</string>
+
+    <string name="doze_auto_brightness_title">Otomatik paraklık</string>
+    <string name="doze_auto_brightness_summary">Ekranın parlaklığını çevresindeki ortamın ışığını dikkate alarak otomatik ayarlar</string>
+   
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
     <string name="one_second">1 s</string>
