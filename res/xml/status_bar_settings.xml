@@ -126,6 +126,12 @@
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
 
+        <Preference
+            android:key="breathing_notifications"
+            android:fragment="com.android.settings.euphoria.BreathingNotifications"
+            android:layout="@layout/preference_breathe"
+            android:title="@string/breathing_notifications_title" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
