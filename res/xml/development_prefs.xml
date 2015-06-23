@@ -84,6 +84,11 @@
         android:entries="@array/root_access_entries"
         android:entryValues="@array/root_access_values" />
 
+        <SwitchPreference
+            android:key="selinux"
+            android:title="@string/selinux_title"
+            android:defaultValue="false" />
+
     <PreferenceCategory android:key="debug_debugging_category"
             android:title="@string/debug_debugging_category">
 
