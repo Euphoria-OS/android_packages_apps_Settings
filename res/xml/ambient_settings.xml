@@ -68,8 +68,8 @@
                     <com.android.settings.euphoria.SeekBarPreference
                         android:key="doze_brightness"
                         android:title="@string/doze_brightness_title"
-                        android:max="100"
-                        settings:minimum="0"
+                        android:max="50"
+                        settings:minimum="1"
                         settings:unitsLeft=""
                         settings:unitsRight=""
                         android:persistent="false"
