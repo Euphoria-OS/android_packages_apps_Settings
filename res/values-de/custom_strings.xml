@@ -210,7 +210,7 @@
     <string name="recents_clear_all_location_top_center">Oben zentriert</string>
     <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
     <string name="recents_clear_all_location_bottom_left">Unten links</string>
-    <string name="recents_clear_all_location_bottom_center">unten zentriert</string>
+    <string name="recents_clear_all_location_bottom_center">Unten zentriert</string>
     <string name="recents_searchbar_title">Suchleiste</string>
     <string name="recents_clear_all_dismiss_all_title">Alle Anwendungen beenden</string>
     <string name="recents_clear_all_dismiss_all_summary">Zuletzt verwendete Anwendung ebenfalls beenden</string>
@@ -250,7 +250,7 @@
     <string name="summary_heads_up_enabled">Pop-Up Benachrichtigungen sind aktiviert</string>
     <string name="summary_heads_up_disabled">Popp-Up Benachrichtigungen sind deaktiviert</string>
     <string name="show_headsup_button_title">Schnellzugriff</string>
-    <string name="show_headsup_button_summary">Zeigt eine Schnellzugriffstaste im Benachrichtigungsheader an</string>
+    <string name="show_headsup_button_summary">Zeigt eine Verknüpfung in der erweiterten Statusleiste an</string>
     <string name="add_heads_up_package">Anwendung hinzufügen</string>
     <string name="add_heads_up_dnd_summary">In diesen Anwendungen werden keine Heads-Up Benachrichtigungen angezeigt</string>
     <string name="add_heads_up_blacklist_summary">Von diesen Anwendungen werden keine Heads-Up Benachrichtigungen angezeigt</string>
@@ -424,6 +424,12 @@
 
     <string name="doze_time_mode_title">Zeige Uhrzeit &amp; Datum</string>
     <string name="doze_time_mode_summary">Erzwingt das Anzeigen der Zeit, wenn keine Benachrichtigungen vorhanden sind</string>
+    
+    <string name="doze_brightness_category_title">Helligkeit</string>
+    <string name="doze_brightness_title">Helligkeitsstufe</string>
+
+    <string name="doze_auto_brightness_title">Automatische Helligkeit</string>
+    <string name="doze_auto_brightness_summary">Passt die Helligkeit an die Lichtverhältnisse der Umgebung an</string>
 
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
@@ -454,8 +460,8 @@
     <string name="pulse_only_mode">Pulsieren (Standard)</string>
 
     <!-- Long press on lock screen lock icon to sleep -->
-    <string name="longpress_lock_icon_to_sleep_title">Sperrsymbol gedrückt halten um das Display auszuschalten</string>
-    <string name="longpress_lock_icon_to_sleep_summary">Diese Einstellung funktioniert nicht, wenn Smart Lock und Bedienungshilfenverknüfung gleichzeitig aktiviert ist</string>
+    <string name="longpress_lock_icon_to_sleep_title">Sperrsymbol halten um das Display auszuschalten</string>
+    <string name="longpress_lock_icon_to_sleep_summary">Funktioniert nicht, wenn SmartLock und Bedienungshilfen gleichzeitig aktiv sind</string>
 
     <!-- Volume button default -->
     <string name="volume_default_none">Keine</string>
@@ -468,4 +474,22 @@
     <!-- Vibrate options -->
     <string name="vibrate_when_ringing_title_eos">Bei Anrufen</string>
     <string name="vibrate_on_touch_title_eos">Bei Berührung</string>
+    
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Standby durch doppeltes Tippen</string>
+    <string name="double_tap_sleep_anywhere_summary">Doppelt auf den Sperrbildschirm tippen, um das Display auszuschalten</string> 
+    
+    <!-- Disable torch when screen goes off -->
+    <string name="disable_torch_screen_off_title">Taschenlampe bei Display-Standby deaktivieren</string>
+    <string name="disable_torch_screen_off_delay_title">Verzögerung</string>
+    <string name="torch_screen_off_one_second">1 Sekunde</string>
+    <string name="torch_screen_off_ten_second">10 Sekunden (Standard)</string>
+    <string name="torch_screen_off_thirty_second">30 Sekunden</string>
+    <string name="torch_screen_off_one_minute">1 Minute</string>
+    <string name="torch_screen_off_five_minutes">5 Minuten</string>
+    <string name="torch_screen_off_ten_minutes">10 Minuten</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Task-Manager</string>
+    <string name="enable_task_manager_summary">Zeigt eine Verknüpfung in der erweiterten Statusleiste an</string>    
 </resources>
