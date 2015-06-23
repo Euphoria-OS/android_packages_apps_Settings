@@ -371,8 +371,10 @@
     <string name="privacy_guard_notification_title">Notification</string>
     <string name="privacy_guard_notifiation_summary">Show a notification if privacy guard is active</string>
 
-    <!-- Navring targets (enable/disable) -->
-    <string name="navigation_ring_enable_title">Enable navigation rings</string>
+    <!-- Navring targets -->
+    <string name="navigation_ring_category">Navigation rings</string>
+    <string name="navigation_ring_enable_title">Enable</string>
+    <string name="navigation_ring_title_eos">Targets and layout</string>
 
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animations</string>  
