@@ -17,6 +17,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <PreferenceScreen
+		android:key="Euphoria_logo"
+		android:layout="@layout/logo_row" />
+
         <!-- Updater -->
         <PreferenceScreen
                 android:key="update_settings"
