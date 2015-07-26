@@ -68,9 +68,24 @@
             android:summary="@string/status_bar_show_weather_summary"
             android:defaultValue="false" />
 
+        <ListPreference
+            android:key="status_bar_temperature"
+            android:title="@string/status_bar_temperature_title"
+            android:dialogTitle="@string/status_bar_temperature_title"
+            android:entries="@array/status_bar_temperature_entries"
+            android:entryValues="@array/status_bar_temperature_values" />
+
+        <ListPreference
+            android:key="status_bar_temperature_style"
+            android:title="@string/status_bar_temperature_location_title"
+            android:dialogTitle="@string/status_bar_temperature_location_title"
+            android:entries="@array/status_bar_temperature_location_entries"
+            android:entryValues="@array/status_bar_temperature_location_values" />
+
         <PreferenceScreen
             android:key="lock_clock"
-            android:title="@string/lock_clock_title">
+            android:title="@string/lock_clock_title"
+            android:summary="@string/lock_clock_summary">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.cyanogenmod.lockclock"
                 android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
@@ -112,13 +127,6 @@
             android:dialogTitle="@string/show_carrier_title"
             android:entries="@array/carrier_label_entries"
             android:entryValues="@array/carrier_label_values" />
-
-        <ListPreference
-            android:key="status_bar_temperature_style"
-            android:title="@string/status_bar_temperature_title"
-            android:dialogTitle="@string/status_bar_temperature_title"
-            android:entries="@array/status_bar_temperature_entries"
-            android:entryValues="@array/status_bar_temperature_values" />
 
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="status_bar_notif_count"

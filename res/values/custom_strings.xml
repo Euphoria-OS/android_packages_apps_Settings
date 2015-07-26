@@ -201,8 +201,8 @@
 
     <!--- Lock clock -->
     <string name="weather_options_title">Weather</string>
-    <string name="lock_clock_title">Clock and weather widget</string>
-    <string name="lock_clock_summary">View or change how the clock and weather widget will display</string>
+    <string name="lock_clock_title">Settings</string>
+    <string name="lock_clock_summary">View or change how the weather will be displayed</string>
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_targets_message_eos">Shortcuts</string>
@@ -541,9 +541,13 @@
     <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
 
     <!-- Status bar temperature -->
-    <string name="status_bar_temperature_title">Temperature style</string>
+    <string name="status_bar_temperature_title">Status bar temperature</string>
     <string name="status_bar_temperature_hidden">Hidden</string>
-    <string name="status_bar_temperature_show_scale">Scale showing</string>
-    <string name="status_bar_temperature_hide_scale">Scale hidden</string>
+    <string name="status_bar_temperature_show_scale">Show with scale</string>
+    <string name="status_bar_temperature_hide_scale">Show without scale</string>
+    <string name="status_bar_temperature_location_title">Placement</string>
+    <string name="status_bar_temperature_location_summary">Select where the weather temperature is shown on the statusbar</string>
+    <string name="status_bar_temperature_location_right">Show on right</string>
+    <string name="status_bar_temperature_location_left">Show on left</string>
 
 </resources>
