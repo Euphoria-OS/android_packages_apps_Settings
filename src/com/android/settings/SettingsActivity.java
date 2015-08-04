@@ -1478,6 +1478,6 @@ public class SettingsActivity extends Activity
     public static boolean showAdvancedPreferences(Context context) {
         return android.provider.Settings.Secure.getInt(
                 context.getContentResolver(),
-                android.provider.Settings.Secure.ADVANCED_MODE, 1) == 1;
+                android.provider.Settings.Secure.ADVANCED_MODE, 0) == 1;
     }
 }

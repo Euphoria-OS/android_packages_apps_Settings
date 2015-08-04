@@ -138,6 +138,7 @@
                 android:fragment="com.android.settings.ButtonSettings"
                 android:title="@string/button_settings_title"
                 android:icon="@drawable/ic_settings_buttons"
+                settings:advanced="true"
                 />
 
         <!-- Battery -->
@@ -197,6 +198,7 @@
                 android:fragment="com.android.settings.profiles.ProfilesSettings"
                 android:title="@string/profiles_settings_title"
                 android:icon="@drawable/ic_settings_profiles"
+                settings:advanced="true"
                 />
 
         <!-- Status bar -->

@@ -68,7 +68,9 @@
         <!-- Double tap to wake -->
         <SwitchPreference
                 android:key="double_tap_wake_gesture"
-                android:title="@string/double_tap_to_wake_title" />
+                android:title="@string/double_tap_to_wake_title"
+                android:summary="@string/double_tap_to_wake_summary"
+                settings:advanced="true"/>
 
         <!-- Double tap to sleep -->
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
@@ -178,17 +180,33 @@
             android:key="lights"
             android:title="@string/category_lights">
 
-        <!-- Battery light -->
-        <PreferenceScreen
-                android:key="battery_light"
-                android:title="@string/battery_light_title"
-                android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
+        <!-- Notification lights -->
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                android:key="notification_light_pulse"
+                android:title="@string/notification_light_title"
+                android:defaultValue="true"
+                settings:advanced="false" />
 
         <!-- Notification lights -->
         <PreferenceScreen
                 android:key="notification_light"
                 android:title="@string/notification_light_title"
-                android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
+                android:fragment="com.android.settings.notificationlight.NotificationLightSettings"
+                settings:advanced="true" />
+
+        <!-- Battery light -->
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                android:key="battery_light_enabled"
+                android:title="@string/battery_light_title"
+                android:defaultValue="true"
+                settings:advanced="false"/>
+
+        <!-- Battery light -->
+        <PreferenceScreen
+                android:key="battery_light"
+                android:title="@string/battery_light_title"
+                android:fragment="com.android.settings.notificationlight.BatteryLightSettings"
+                settings:advanced="true" />
 
     </PreferenceCategory>
 

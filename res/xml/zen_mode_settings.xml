@@ -17,7 +17,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-                  android:key="zen_mode_settings"
     android:title="@string/zen_mode_settings_title" >
 
     <!-- When calls and notifications arrive -->
@@ -32,7 +31,8 @@
         android:summary="@string/interruptions_ignore_while_media_summary"
         android:persistent="false"
         android:switchTextOff=""
-        android:switchTextOn="" />
+        android:switchTextOn=""
+        settings:advanced="true" />
 
     <!-- None to Silent mode -->
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
@@ -46,7 +46,6 @@
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
         android:key="allow_lights"
         android:title="@string/allow_lights_title"
-        android:order="101"
         android:defaultValue="true"
         settings:advanced="true" />
 

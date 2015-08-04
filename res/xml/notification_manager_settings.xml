@@ -14,7 +14,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- When device is locked -->
     <com.android.settings.notification.DropDownPreference
@@ -41,16 +43,25 @@
             android:persistent="false"
             android:fragment="com.android.settings.notification.NotificationAccessSettings" />
 
-    <!-- Heads up notifications -->
+    <!-- Heads up // Advanced -->
     <Preference
             android:key="heads_up_enabled"
             android:fragment="com.android.settings.headsup.HeadsUpSettings"
-            android:title="@string/category_heads_up" />
+            android:title="@string/category_heads_up"
+            settings:advanced="true"/>
+
+    <!-- Heads up -->
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="heads_up_user_enabled"
+            android:title="@string/category_heads_up"
+            android:defaultValue="true"
+            settings:advanced="false"/>
 
     <!-- Filter notifications -->
     <PreferenceScreen
+            android:key="block_notifications"
             android:title="@string/block_notifications_title"
-            android:summary="@string/block_notifications_summary"
-            android:fragment="com.android.settings.cyanogenmod.SpamList" />
+            android:fragment="com.android.settings.cyanogenmod.SpamList"
+            settings:advanced="true"/>
 
 </PreferenceScreen>

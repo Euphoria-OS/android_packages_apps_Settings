@@ -16,7 +16,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/other_sound_settings"
-        android:key="other_sound_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Dial pad tones -->
@@ -67,7 +66,8 @@
             android:summary="@string/less_notification_sounds_summary"
             android:entries="@array/less_notification_sounds_entries"
             android:entryValues="@array/less_notification_sounds_values"
-            android:persistent="false" />
+            android:persistent="false"
+            settings:advanced="true" />
 
     <!-- Dock speaker plays -->
     <com.android.settings.notification.DropDownPreference
@@ -83,7 +83,8 @@
 
     <PreferenceCategory
             android:title="@string/power_notifications_category_title"
-            android:key="power_notifications_category">
+            android:key="power_notifications_category"
+            settings:advanced="true">
 
         <SwitchPreference
                 android:key="power_notifications"

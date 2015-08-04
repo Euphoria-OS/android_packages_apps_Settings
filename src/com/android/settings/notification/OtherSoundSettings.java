@@ -213,47 +213,49 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
 
         mContext = getActivity();
 
+        final PreferenceCategory powerNotifPrefs = (PreferenceCategory)
+                    findPreference(KEY_CATEGORY_POWER_NOTIFICATIONS);
+
         mAnnoyingNotifications = (ListPreference) findPreference(KEY_LESS_NOTIFICATION_SOUNDS);
         int notificationThreshold = Settings.System.getInt(getContentResolver(),
                 Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
         updateAnnoyingNotificationValues();
 
         // power state change notification sounds
-        mPowerSounds = (SwitchPreference) findPreference(KEY_POWER_NOTIFICATIONS);
-        mPowerSounds.setChecked(Global.getInt(getContentResolver(),
-                Global.POWER_NOTIFICATIONS_ENABLED, 0) != 0);
-        mPowerSoundsVibrate = (SwitchPreference) findPreference(KEY_POWER_NOTIFICATIONS_VIBRATE);
-        mPowerSoundsVibrate.setChecked(Global.getInt(getContentResolver(),
-                Global.POWER_NOTIFICATIONS_VIBRATE, 0) != 0);
+        if (powerNotifPrefs != null) {
+            mPowerSounds = (SwitchPreference) findPreference(KEY_POWER_NOTIFICATIONS);
+            mPowerSounds.setChecked(Global.getInt(getContentResolver(),
+                    Global.POWER_NOTIFICATIONS_ENABLED, 0) != 0);
+            mPowerSoundsVibrate = (SwitchPreference) findPreference(KEY_POWER_NOTIFICATIONS_VIBRATE);
+            mPowerSoundsVibrate.setChecked(Global.getInt(getContentResolver(),
+                    Global.POWER_NOTIFICATIONS_VIBRATE, 0) != 0);
+            mPowerSoundsRingtone = findPreference(KEY_POWER_NOTIFICATIONS_RINGTONE);
+            String currentPowerRingtonePath =
+                    Global.getString(getContentResolver(), Global.POWER_NOTIFICATIONS_RINGTONE);
 
-        mPowerSoundsRingtone = findPreference(KEY_POWER_NOTIFICATIONS_RINGTONE);
-        String currentPowerRingtonePath =
-                Global.getString(getContentResolver(), Global.POWER_NOTIFICATIONS_RINGTONE);
-
-        // set to default notification if we don't yet have one
-        if (currentPowerRingtonePath == null) {
+            // set to default notification if we don't yet have one
+            if (currentPowerRingtonePath == null) {
                 currentPowerRingtonePath = System.DEFAULT_NOTIFICATION_URI.toString();
                 Global.putString(getContentResolver(),
                         Global.POWER_NOTIFICATIONS_RINGTONE, currentPowerRingtonePath);
-        }
-        // is it silent ?
-        if (currentPowerRingtonePath.equals(POWER_NOTIFICATIONS_SILENT_URI)) {
-            mPowerSoundsRingtone.setSummary(
-                    getString(R.string.power_notifications_ringtone_silent));
-        } else {
-            final Ringtone ringtone =
-                    RingtoneManager.getRingtone(getActivity(), Uri.parse(currentPowerRingtonePath));
-            if (ringtone != null) {
-                mPowerSoundsRingtone.setSummary(ringtone.getTitle(getActivity()));
             }
-        }
+            // is it silent ?
+            if (currentPowerRingtonePath.equals(POWER_NOTIFICATIONS_SILENT_URI)) {
+                mPowerSoundsRingtone.setSummary(
+                        getString(R.string.power_notifications_ringtone_silent));
+            } else {
+                final Ringtone ringtone =
+                        RingtoneManager.getRingtone(getActivity(), Uri.parse(currentPowerRingtonePath));
+                if (ringtone != null) {
+                    mPowerSoundsRingtone.setSummary(ringtone.getTitle(getActivity()));
+                }
+            }
 
-        // remove power notifications vibrate if not supported
-        final PreferenceCategory powerNotifPrefs = (PreferenceCategory)
-                    findPreference(KEY_CATEGORY_POWER_NOTIFICATIONS);
-        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        if (vibrator == null || !vibrator.hasVibrator()) {
-            powerNotifPrefs.removePreference(mPowerSoundsVibrate);
+            // remove power notifications vibrate if not supported
+            Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            if (vibrator == null || !vibrator.hasVibrator()) {
+                powerNotifPrefs.removePreference(mPowerSoundsVibrate);
+            }
         }
 
         for (SettingPref pref : PREFS) {
@@ -262,14 +264,16 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     }
 
     private void updateAnnoyingNotificationValues() {
-        int notificationThreshold = Settings.System.getInt(getContentResolver(),
-                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
-        if (mAnnoyingNotifications == null) {
-            mAnnoyingNotifications.setSummary(getString(R.string.less_notification_sounds_summary));
-        } else {
-            mAnnoyingNotifications.setValue(Integer.toString(notificationThreshold));
-            mAnnoyingNotifications.setSummary(mAnnoyingNotifications.getEntry());
-            mAnnoyingNotifications.setOnPreferenceChangeListener(this);
+        if (mAnnoyingNotifications != null) {
+            int notificationThreshold = Settings.System.getInt(getContentResolver(),
+                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
+            if (mAnnoyingNotifications == null) {
+                mAnnoyingNotifications.setSummary(getString(R.string.less_notification_sounds_summary));
+            } else {
+                mAnnoyingNotifications.setValue(Integer.toString(notificationThreshold));
+                mAnnoyingNotifications.setSummary(mAnnoyingNotifications.getEntry());
+                mAnnoyingNotifications.setOnPreferenceChangeListener(this);
+            }
         }
     }
 

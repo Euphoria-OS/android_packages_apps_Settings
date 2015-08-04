@@ -76,7 +76,7 @@ public class SettingPref {
             }
         }
         update(context);
-        if (mTwoState != null) {
+        if (mTwoState != null && p != null) {
             p.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference preference, Object newValue) {
